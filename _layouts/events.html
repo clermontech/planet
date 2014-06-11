@@ -29,7 +29,7 @@ layout: layout
                     </div>
 
                     <div class="event-description text-justify" itemprop="description">
-                        {{ event.description }}
+                        {{ event.description|markdownify }}
                     </div>
 
                     {% if event.location %}
