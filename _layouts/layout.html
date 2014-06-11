@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+    <title>{{page.title}} - {{ site.title }}</title>
+
+    <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.meta.default_author }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.meta.default_description }}{% endif %}">
+
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon-iphone.png">
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon-ipad.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon-iphone4.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon-ipad3.png" sizes="144x144">
+
+    <link rel="stylesheet" href="/css/foundation.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/" title="Home">Home</a>
+                </li>
+            </ul>
+        </nav>
+
+        <hgroup class="row">
+            <div class="large-12 columns">
+                <a href="/">
+                    <img src="/images/clermontech_logo.png" alt="Logo Clermontech" />
+                    <h1>Planet Clermon<span class="alt">t'ech</span></h1>
+                </a>
+                <h2>{{ site.headline }}</h2>
+            </div>
+        </hgroup>
+
+        <hr />
+    </header>
+
+    <section id="content" class="row">
+        {{ content }}
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="small-12 columns">
+                <p class="text-justify">{{ site.footer }}</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google.analytics }}', 'clermontech.org');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>

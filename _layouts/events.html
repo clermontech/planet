@@ -1,0 +1,67 @@
+---
+layout: layout
+---
+
+{{content}}
+
+<section class="talks small-12 columns">
+{% for event in site.posts %}
+    <div class="event row" itemscope itemtype="http://schema.org/Event">
+        <div class="small-3 columns event-date-wrapper">
+            <time class="event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}">
+                <h3>{{ event.event_date|date_to_string }}</h3>
+            </time>
+        </div>
+
+        <div class="small-9 columns">
+            <div class="row">
+                <div class="small-12 columns">
+                    {% if event.event_url %}<a href="{{ event.event_url }}" itemprop="url">{% endif %}
+                    <h3 class="event-name" itemprop="name">{{ event.title }}</h3>
+                    {% if event.event_url %}</a>{% endif %}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="small-12 columns">
+                    <div class="event-date-small">
+                        {{ event.event_date|date: '%d/%m/%y <strong>%R</strong>' }}
+                    </div>
+
+                    <div class="event-description text-justify" itemprop="description">
+                        {{ event.description }}
+                    </div>
+
+                    {% if event.location %}
+                    <div class="event-location" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+                        <i class="fa fa-map-marker event-meta-icon"></i>
+                        <span itemprop="streetAddress">{{ event.location.street_address }}</span>
+                        <span itemprop="postalCode">{{ event.location.postal_code }}</span>
+                        <span itemprop="addressLocality">{{ event.location.city }}</span>
+                    </div>
+                    {% endif %}
+
+                    {% if event.event_url %}
+                    <div class="event-url">
+                        <i class="fa fa-external-link event-meta-icon"></i>
+                        <a href="{{ event.event_url }}">{{ event.event_url }}</a>
+                    </div>
+                    {% endif %}
+
+                    <div class="event-tags">
+                        {% if event.location or event.tags.size > 0 %}
+                        <i class="fa fa-tags event-meta-icon"></i>
+                        {% endif %}
+                        {% if event.location %}
+                        <span class="event-tags-item button radius">{{ event.location.city|upcase }}</span>
+                        {% endif %}
+                        {% for tag in event.tags %}
+                        <span class="event-tags-item button radius success">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</section>
