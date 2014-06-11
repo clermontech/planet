@@ -1,3 +1,7 @@
+# Jekyll config
+markdown: redcarpet
+
+# Website config
 title:      "Planet Clermont'ech"
 headline:   "Tout ce qui touche à l'IT dans la région Auvergne !"
 footer:     "Planet Clermont'ech est regroupe l'ensemble des acteurs du monde IT auvergnat à travers un agenda ouvert."
