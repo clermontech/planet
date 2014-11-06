@@ -7,10 +7,7 @@
   src: url("../fonts/neutraface-condensed-medium.otf"); }
 body {
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  background-image: -moz-linear-gradient(#fafcff, #a5aaad);
-  background-image: -webkit-linear-gradient(#fafcff, #a5aaad);
-  background-image: -o-linear-gradient(#fafcff, #a5aaad);
-  background-image: linear-gradient(#fafcff, #a5aaad);
+  background-color: white;
   background-attachment: fixed; }
 
 nav {
@@ -26,16 +23,27 @@ li {
   float: left;
   font-size: 1.2em; }
 
+header {
+  margin-top: 20px;
+  background-color: black;
+  -webkit-box-shadow: black 2px 2px 10px;
+  -moz-box-shadow: black 2px 2px 10px;
+  box-shadow: black 2px 2px 10px; }
+
 hgroup {
   margin-top: 15px; }
 
+hr {
+  border-color: black; }
+
 h2, h1, li, h3, h4, h5, h6 {
-  font-family: "Neutraface", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
+  font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif; }
 
 h2, h1, li {
   font-weight: bold; }
 
 h2, h1, li {
+  color: white;
   text-align: left; }
 
 h1, li {
@@ -44,13 +52,13 @@ h1, li {
 /* footer */
 footer {
   width: 100%;
-  -webkit-box-shadow: #05292c 2px 2px 10px;
-  -moz-box-shadow: #05292c 2px 2px 10px;
-  box-shadow: #05292c 2px 2px 10px;
-  background: #05292c;
+  -webkit-box-shadow: black 2px 2px 10px;
+  -moz-box-shadow: black 2px 2px 10px;
+  box-shadow: black 2px 2px 10px;
+  background: black;
   padding-top: 30px;
   padding-bottom: 10px;
-  color: #e6e6e6;
+  color: white;
   margin-bottom: 30px;
   margin-top: 10px; }
 
@@ -107,6 +115,12 @@ footer {
     display: none; }
 
   footer {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  header {
+    margin-top: 0; }
+
+  hr {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
