@@ -5,36 +5,22 @@
   font-family: "Neutraface";
   font-weight: bold;
   src: url("../fonts/neutraface-condensed-medium.otf"); }
+hgroup {
+  display: none; }
+
 body {
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  background-color: white;
-  background-attachment: fixed; }
-
-nav {
-  margin-right: 15%; }
-
-ul {
-  float: right; }
-
-li {
-  list-style-type: none;
-  margin: 7px 10px 0px 10px;
-  float: left;
-  font-size: 1.2em; }
-  li a {
-    color: #2394d3; }
-
-a:hover {
-  color: #a2dcf2; }
+  background-color: white; }
 
 header {
   background-color: #000;
   -webkit-box-shadow: #000 2px 2px 10px;
   -moz-box-shadow: #000 2px 2px 10px;
-  box-shadow: #000 2px 2px 10px; }
+  box-shadow: #000 2px 2px 10px;
+  margin: 0; }
 
 hr {
-  border-color: #000; }
+  display: none; }
 
 h2, h1, li, h3, h4, h5, h6 {
   font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif; }
@@ -48,6 +34,17 @@ h2, h1, li {
 
 h1, li {
   text-transform: uppercase; }
+
+li {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em; }
+  li a {
+    color: #2394d3; }
+
+a:hover {
+  color: #a2dcf2; }
 
 /* footer */
 footer {
@@ -91,31 +88,36 @@ footer {
 
 @media only screen and (min-width: 40.063em) {
   .event-date-wrapper {
-    display: block; } }
-@media only screen and (max-width: 800px) {
-  img {
-    display: none; }
+    display: block; }
 
   li {
-    font-size: 1em; } }
-@media only screen and (max-width: 640px) {
-  li {
-    float: none;
-    text-align: center;
-    width: 100%;
-    font-size: 1.2em; }
+    float: left;
+    width: auto;
+    margin: 7px 10px 0px 10px;
+    font-size: 1em; }
 
   ul {
-    float: none;
+    float: right;
     margin: 0; }
 
   nav {
-    margin: 0 0 10px 0; }
+    margin-right: 12%; }
 
-  hgroup {
+  img {
     display: none; }
 
+  hgroup {
+    display: block;
+    margin: 0; } }
+@media only screen and (min-width: 800px) {
   hr {
-    display: none; } }
+    display: block;
+    border-color: #000; }
+
+  img {
+    display: block; }
+
+  li {
+    font-size: 1.2em; } }
 
 /*# sourceMappingURL=main.css.map */
