@@ -1,9 +1,7 @@
 
 $font_1 :'Neutraface';
-$color_fonds : black;
+$color_fonds : #000;
 $color_text : white;
-
-
 
 @font-face {
     font-family: $font_1; 
@@ -43,8 +41,12 @@ li{
     float: left;
     font-size: 1.2em;
     a{
-        color: #5d7db2;
+        color: #2394d3;
+        
     }
+}
+a:hover{
+    color: #a2dcf2;
 }
 
 header{
@@ -140,22 +142,24 @@ footer {
         display: none;
     }
     li{
-        font-size: 0.95em;
-    }
-}
+        font-size: 1em;
+    }  
+}   
 
 @media only screen and (max-width: 640px){
     li{
         float: none;
         text-align: center;
+        width: 100%;
         font-size: 1.2em;
     }
     ul{
         float: none;
+        margin: 0;
     }
     
     nav{
-        margin: 0;
+        margin: 0 0 10px 0;
     }
     
     hgroup{
