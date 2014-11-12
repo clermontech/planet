@@ -1,0 +1,170 @@
+
+$font_1 :'Neutraface';
+$color_fonds : #000;
+$color_text : white;
+
+@font-face {
+    font-family: $font_1; 
+    src: url('../fonts/neutraface-condensed-light.otf');
+}
+
+@font-face {
+    font-family: $font_1;
+    font-weight: bold;
+    src: url('../fonts/neutraface-condensed-medium.otf');
+}
+
+@mixin box-shadow($color, $v_offset, $h_offset, $blur){
+    -webkit-box-shadow: $color $v_offset $h_offset $blur;
+    -moz-box-shadow: $color $v_offset $h_offset $blur;
+    box-shadow: $color $v_offset $h_offset $blur;
+}
+
+hgroup{
+    display: none;
+}
+
+body {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    background-color: $color_text;
+}
+
+header{
+    background-color: $color_fonds;
+    @include box-shadow($color_fonds, 2px, 2px, 10px);
+    margin: 0;
+}
+
+hr{
+    display: none;
+}
+
+%h_mother{
+    font-family: $font_1, "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
+}
+
+%h_main{
+    @extend %h_mother;
+    font-weight: bold;
+}
+
+h2{
+    @extend %h_main;
+    color: $color_text;
+    text-align: left;
+    
+}
+h1,li{
+    @extend h2;
+    text-transform: uppercase;
+}
+
+li{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    a{
+        color: #2394d3;
+        
+    }
+}
+a:hover{
+    color: #a2dcf2;
+}
+
+
+h3, h4, h5, h6 {
+    @extend %h_mother;
+}
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    @include box-shadow($color_fonds, 2px, 2px, 10px);
+    background: $color_fonds;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: $color_text;
+    margin-top: 10px;
+}
+
+/* events */
+.event {
+    border-bottom: 1px solid #000;
+}
+
+.event-date-wrapper {
+    display: none;
+}
+
+.event-date {
+    text-align: center;
+}
+
+.event-date-small {
+    margin-bottom: 6px;
+}
+
+.event-location,
+.event-url,
+.event-tags {
+    margin-top: 6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.event-meta-icon {
+    width: 18px;
+}
+
+.event-tags-item {
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    font-size: 0.6rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .event-date-wrapper {
+        display: block;
+    }
+    li{
+        float: left;
+        width: auto;
+        margin: 7px 10px 0px 10px;
+        font-size: 1em;
+    }
+    ul{
+      float: right;
+      margin : 0;
+    }
+    nav{
+        margin-right: 12%;
+    }
+    
+    img{
+        display: none;
+    }
+    
+    hgroup{
+        display: block;
+        margin: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 800px ){
+    hr{
+        display: block;
+        border-color: $color_fonds;
+    }
+    img{
+        display: block;
+    }
+    li{
+        font-size: 1.2em;
+    }
+}
+
