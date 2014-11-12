@@ -14,10 +14,11 @@ $color_text : white;
     src: url('../fonts/neutraface-condensed-medium.otf');
 }
 
-@mixin box-shadow($color, $v_offset, $h_offset, $blur){
-    -webkit-box-shadow: $color $v_offset $h_offset $blur;
-    -moz-box-shadow: $color $v_offset $h_offset $blur;
-    box-shadow: $color $v_offset $h_offset $blur;
+@mixin box-shadow($h_offset, $v_offset, $blur, $spread, $color){
+    -webkit-box-shadow: $h_offset $v_offset $blur $spread $color;
+    -moz-box-shadow: $h_offset $v_offset $blur $spread $color;
+    -o-box-shadow: $h_offset $v_offset $blur $spread $color;
+    box-shadow: $h_offset $v_offset $blur $spread $color;
 }
 
 hgroup{
@@ -31,7 +32,7 @@ body {
 
 header{
     background-color: $color_fonds;
-    @include box-shadow($color_fonds, 2px, 2px, 10px);
+    @include box-shadow(0px, 2px, 10px, 0px, $color_fonds);
     margin: 0;
 }
 
@@ -83,7 +84,7 @@ h3, h4, h5, h6 {
 /* footer */
 footer {
     width: 100%;
-    @include box-shadow($color_fonds, 2px, 2px, 10px);
+    @include box-shadow(0px, -2px, 10px, 0px, $color_fonds);
     background: $color_fonds;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -134,7 +135,7 @@ footer {
         float: left;
         width: auto;
         margin: 7px 10px 0px 10px;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     ul{
       float: right;
