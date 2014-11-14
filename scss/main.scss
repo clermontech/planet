@@ -65,8 +65,9 @@ h1, strong{
     text-transform: uppercase;
 }
     
-nav{
+.top-bar{
     @include box-shadow(0px, 2px, 10px, 0px, $color_fonds);
+    height: 61px;
 }
 
 .top-bar-section{
@@ -107,6 +108,11 @@ h3, h4, h5, h6 {
         font-size: 1.2em;
         margin-left: 5px;
     }
+}
+
+.logo-small{
+    margin-left: 5px;
+    height: 62px;
 }
 
 
@@ -158,9 +164,7 @@ footer {
 }
 
 @media only screen and (min-width: 40.063em) {
-    .event-date-wrapper {
-        display: block;
-    }
+
     .top-bar{
         background-color: $color_fonds;
         .toggle-topbar.menu-icon{
@@ -171,9 +175,6 @@ footer {
         li{
             &:not(.has-form){
                 a{
-                    &:not(.button){
-                        
-                    }
                     font-size: 1.2em;
                 }
             }
@@ -183,27 +184,23 @@ footer {
     .logo-small{
         display: none;
     }
-    /*.top-bar{
-        &:not(.expanded){
-            .title-area{
-                strong{
-                    display: block;
-                    text-align: left;
-                    color: red;
-                    margin-top: 7px;
-                }
-            }
-        }
-    }*/
+
     .title-area{
         strong{
             display: block;
             text-align: left;
             color: $color_text;
-            line-height: 48px;
+            line-height: 64px;
         }
     }
 }
+
+@media only screen and (min-width: 800px){
+    .event-date-wrapper {
+        display: block;
+    }    
+}
+
 
 @media only screen and (min-width: 64.063em ){
     hr{

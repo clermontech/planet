@@ -39,11 +39,12 @@ h2, h1, strong {
 h1, strong {
   text-transform: uppercase; }
 
-nav {
+.top-bar {
   -webkit-box-shadow: 0px 2px 10px 0px #000;
   -moz-box-shadow: 0px 2px 10px 0px #000;
   -o-box-shadow: 0px 2px 10px 0px #000;
-  box-shadow: 0px 2px 10px 0px #000; }
+  box-shadow: 0px 2px 10px 0px #000;
+  height: 61px; }
 
 .top-bar-section li:not(.has-form) a {
   font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
@@ -64,6 +65,10 @@ li {
   font-weight: bold;
   font-size: 1.2em;
   margin-left: 5px; }
+
+.logo-small {
+  margin-left: 5px;
+  height: 62px; }
 
 /* footer */
 footer {
@@ -107,9 +112,6 @@ footer {
   font-size: 0.6rem; }
 
 @media only screen and (min-width: 40.063em) {
-  .event-date-wrapper {
-    display: block; }
-
   .top-bar {
     background-color: #000; }
 
@@ -119,23 +121,14 @@ footer {
   .logo-small {
     display: none; }
 
-  /*.top-bar{
-      &:not(.expanded){
-          .title-area{
-              strong{
-                  display: block;
-                  text-align: left;
-                  color: red;
-                  margin-top: 7px;
-              }
-          }
-      }
-  }*/
   .title-area strong {
     display: block;
     text-align: left;
     color: white;
-    line-height: 48px; } }
+    line-height: 64px; } }
+@media only screen and (min-width: 800px) {
+  .event-date-wrapper {
+    display: block; } }
 @media only screen and (min-width: 64.063em) {
   hr {
     display: block;
