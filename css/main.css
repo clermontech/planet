@@ -44,7 +44,16 @@ h1, strong {
   -moz-box-shadow: 0px 2px 10px 0px #000;
   -o-box-shadow: 0px 2px 10px 0px #000;
   box-shadow: 0px 2px 10px 0px #000;
-  height: 61px; }
+  height: 61px;
+  background-color: #000; }
+  .top-bar .toggle-topbar.menu-icon {
+    margin: 0;
+    top: 0%; }
+    .top-bar .toggle-topbar.menu-icon a {
+      height: 60px; }
+
+.top-bar.expanded {
+  background-color: #000; }
 
 .top-bar-section li:not(.has-form) a {
   font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
@@ -61,14 +70,17 @@ li {
   background-color: #000; }
 
 .title-area strong {
-  display: none;
+  display: block;
   font-weight: bold;
   font-size: 1.2em;
-  margin-left: 5px; }
+  margin-left: 10px;
+  line-height: 64px;
+  float: left; }
 
 .logo-small {
   margin-left: 5px;
-  height: 62px; }
+  height: 60px;
+  float: left; }
 
 /* footer */
 footer {
@@ -112,24 +124,20 @@ footer {
   font-size: 0.6rem; }
 
 @media only screen and (min-width: 40.063em) {
-  .top-bar {
-    background-color: #000; }
-
   .top-bar-section li:not(.has-form) a {
     font-size: 1.2em; }
 
-  .logo-small {
-    display: none; }
-
   .title-area strong {
-    display: block;
     text-align: left;
     color: white;
-    line-height: 64px; } }
+    font-size: 1.5em; } }
 @media only screen and (min-width: 800px) {
   .event-date-wrapper {
     display: block; } }
 @media only screen and (min-width: 64.063em) {
+  .logo-small {
+    display: none; }
+
   hr {
     display: block;
     border-color: #000; }

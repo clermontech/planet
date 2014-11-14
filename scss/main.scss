@@ -68,7 +68,20 @@ h1, strong{
 .top-bar{
     @include box-shadow(0px, 2px, 10px, 0px, $color_fonds);
     height: 61px;
+    background-color: $color_fonds;
+    .toggle-topbar.menu-icon{
+        margin: 0;
+        top: 0%;
+        a{
+            height: 60px;
+        }
+    }
 }
+
+.top-bar.expanded{
+    background-color: $color_fonds;
+}
+
 
 .top-bar-section{
         li{
@@ -103,16 +116,19 @@ h3, h4, h5, h6 {
 }
 .title-area{
     strong{
-        display: none;
+        display: block;
         font-weight: bold;
         font-size: 1.2em;
-        margin-left: 5px;
+        margin-left: 10px;
+        line-height: 64px;
+        float: left;
     }
 }
 
 .logo-small{
     margin-left: 5px;
-    height: 62px;
+    height: 60px;
+    float: left;
 }
 
 
@@ -165,11 +181,7 @@ footer {
 
 @media only screen and (min-width: 40.063em) {
 
-    .top-bar{
-        background-color: $color_fonds;
-        .toggle-topbar.menu-icon{
-        }
-    }
+    
 
     .top-bar-section{
         li{
@@ -181,16 +193,11 @@ footer {
         }
     }
     
-    .logo-small{
-        display: none;
-    }
-
     .title-area{
         strong{
-            display: block;
             text-align: left;
             color: $color_text;
-            line-height: 64px;
+            font-size: 1.5em;
         }
     }
 }
@@ -203,6 +210,11 @@ footer {
 
 
 @media only screen and (min-width: 64.063em ){
+    
+    .logo-small{
+        display: none;
+    }
+    
     hr{
         display: block;
         border-color: $color_fonds;
