@@ -42,9 +42,9 @@ layout: layout
                     {% if event.location %}
                     <div class="event-location" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
                         <i class="fa fa-map-marker event-meta-icon"></i>
-                        <span itemprop="streetAddress">{{ event.location.street_address }}</span>
+                        <a href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank"><span itemprop="streetAddress">{{ event.location.street_address }}</span>
                         <span itemprop="postalCode">{{ event.location.postal_code }}</span>
-                        <span itemprop="addressLocality">{{ event.location.city }}</span>
+                        <span itemprop="addressLocality">{{ event.location.city }}</span></a>
                     </div>
                     {% endif %}
 
