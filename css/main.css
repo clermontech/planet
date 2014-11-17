@@ -91,8 +91,8 @@ footer {
   border-bottom: 1px solid #000; }
 
 .event-name {
-  font-size: 2em;
-  font-weight: bold; }
+  font-family: "Palatino";
+  font-size: 2em; }
 
 .event-date-wrapper {
   display: none;
@@ -137,7 +137,8 @@ time {
   text-align: center; }
 
 .event-date-small {
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  font-size: 1.7em; }
 
 .event-location,
 .event-url,
@@ -182,6 +183,12 @@ time {
 @media only screen and (min-width: 40.063em) {
   .top-bar-section li:not(.has-form) a {
     font-size: 1.2em; }
+
+  .event-date-wrapper {
+    display: block; }
+
+  .event-date-small {
+    font-size: 1em; }
 
   .title-area strong {
     text-align: left;

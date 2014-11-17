@@ -149,9 +149,9 @@ footer {
     border-bottom: 1px solid #000;
 }
 
-.event-name{
+.event-name {
+    font-family: "Palatino";
     font-size: 2em;
-    font-weight: bold;
 }
 
 .event-date-wrapper {
@@ -208,6 +208,7 @@ time{
 
 .event-date-small {
     margin-bottom: 6px;
+    font-size: 1.7em;
 }
 
 .event-location,
@@ -262,9 +263,6 @@ time{
 
 
 @media only screen and (min-width: 40.063em) {
-
-    
-
     .top-bar-section{
         li{
             &:not(.has-form){
@@ -272,7 +270,15 @@ time{
                     font-size: 1.2em;
                 }
             }
-        }
+	}
+    }
+
+    .event-date-wrapper {
+        display: block;
+    }
+
+    .event-date-small {
+        font-size:1em;
     }
     
     .title-area{
