@@ -17,7 +17,8 @@ body {
 
 header {
   background-color: #000;
-  margin: 0; }
+  margin: 0;
+  z-index: 999; }
 
 hr {
   display: none; }
@@ -36,26 +37,28 @@ h1, .title-area strong {
   text-transform: uppercase; }
 
 .top-bar {
-  height: 61px;
+  height: 41px;
   background-color: #000; }
   .top-bar .toggle-topbar.menu-icon {
     margin: 0;
     top: 0%; }
     .top-bar .toggle-topbar.menu-icon a {
-      height: 60px; }
+      height: 40px; }
 
 .top-bar.expanded {
   background-color: #000; }
 
-.top-bar-section li:not(.has-form) a {
-  font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.0em; }
-  .top-bar-section li:not(.has-form) a:not(.button) {
-    background-color: #000; }
-    .top-bar-section li:not(.has-form) a:not(.button):hover {
-      background-color: #30303f; }
+.top-bar-section {
+  z-index: 999; }
+  .top-bar-section li:not(.has-form) a {
+    font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.0em; }
+    .top-bar-section li:not(.has-form) a:not(.button) {
+      background-color: #000; }
+      .top-bar-section li:not(.has-form) a:not(.button):hover {
+        background-color: #30303f; }
 
 li {
   text-align: center;
@@ -66,12 +69,12 @@ li {
   font-weight: bold;
   font-size: 1.2em;
   margin-left: 10px;
-  line-height: 64px;
+  line-height: 40px;
   float: left; }
 
 .logo-small {
   margin-left: 5px;
-  height: 60px;
+  height: 40px;
   float: left; }
 
 /* footer */
@@ -167,16 +170,20 @@ time {
   hgroup {
     display: block;
     margin: 0; }
+    hgroup div {
+      margin-top: -28px; }
 
   .top-bar-section {
     margin-right: 12%; }
     .top-bar-section li:not(.has-form) a {
-      color: #2394d3; }
+      text-decoration: underline;
+      color: white; }
       .top-bar-section li:not(.has-form) a:not(.button) {
         background-color: #000; }
         .top-bar-section li:not(.has-form) a:not(.button):hover {
+          text-decoration: none;
           background-color: #000;
-          color: #a2dcf2; }
+          color: white; }
 
   .title-area strong {
     display: none; } }

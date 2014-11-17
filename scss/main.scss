@@ -37,6 +37,7 @@ body {
 header{
     background-color: $color_fonds;
     margin: 0;
+    z-index: 999;
 }
 
 hr{
@@ -65,13 +66,13 @@ h1{
 }
     
 .top-bar{
-    height: 61px;
+    height: 41px;
     background-color: $color_fonds;
     .toggle-topbar.menu-icon{
         margin: 0;
         top: 0%;
         a{
-            height: 60px;
+            height: 40px;
         }
     }
 }
@@ -100,6 +101,7 @@ h1{
                 }
             }
         }
+        z-index: 999;
     }
 
 li{
@@ -119,14 +121,14 @@ h3, h4, h5, h6 {
         font-weight: bold;
         font-size: 1.2em;
         margin-left: 10px;
-        line-height: 64px;
+        line-height: 40px;
         float: left;
     }
 }
 
 .logo-small{
     margin-left: 5px;
-    height: 60px;
+    height: 40px;
     float: left;
 }
 
@@ -258,6 +260,9 @@ time{
     hgroup{
         display: block;
         margin: 0;
+        div{
+            margin-top: -28px;
+        }
     }
     
     .top-bar-section{
@@ -267,11 +272,13 @@ time{
                     &:not(.button){
                         background-color: $color_fonds;
                         &:hover{
+                            text-decoration: none;
                             background-color: $color_fonds;
-                            color: #a2dcf2;  
+                            color: $color_text;  
                         }
                     }
-                    color: #2394d3;
+                    text-decoration: underline;
+                    color: $color_text;
                 }
             }
         }
