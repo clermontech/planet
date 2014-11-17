@@ -156,11 +156,50 @@ footer {
 
 .event-date-wrapper {
     display: none;
-    margin-top: 50px;
+    padding-top: 3em;
 }
 
 .event-date {
+  text-align: center;
+  font-family: $font_1;
+  font-size: 1em;
+  display: block;
+  position: relative;
+  width: 6em;
+  height: 7em;
+  background-color: $color_text;
+  border: 1px solid $color_fonds;
+  border-radius: 0.6em;
+  overflow: hidden;
+  
+  em {
+    position: absolute;
+    top: 0;
+    font-size: 2em;
+    padding: 0.1em 0;
+    color: $color_text;
+    background-color: $color_fonds;
+    border: 1px $color_fonds;
+    border-bottom: 1px;
+  }
+    
+  span {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    padding-top: 1em;
+    background-color: $color_text;
+    color : $color_fonds;
+  }
+  
+  * {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
     text-align: center;
+  }
+
 }
 
 time{

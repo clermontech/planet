@@ -96,10 +96,42 @@ footer {
 
 .event-date-wrapper {
   display: none;
-  margin-top: 50px; }
+  padding-top: 3em; }
 
 .event-date {
-  text-align: center; }
+  text-align: center;
+  font-family: "Neutraface";
+  font-size: 1em;
+  display: block;
+  position: relative;
+  width: 6em;
+  height: 7em;
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 0.6em;
+  overflow: hidden; }
+  .event-date em {
+    position: absolute;
+    top: 0;
+    font-size: 2em;
+    padding: 0.1em 0;
+    color: white;
+    background-color: #000;
+    border: 1px #000;
+    border-bottom: 1px; }
+  .event-date span {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    padding-top: 1em;
+    background-color: white;
+    color: #000; }
+  .event-date * {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center; }
 
 time {
   text-align: center; }
