@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Neutraface";
+  font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
   src: url("../fonts/neutraface-condensed-light.otf"); }
 @font-face {
-  font-family: "Neutraface";
+  font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
   font-weight: bold;
   src: url("../fonts/neutraface-condensed-medium.otf"); }
 img {
@@ -12,7 +12,7 @@ hgroup {
   display: none; }
 
 body {
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: '"Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
   background-color: white; }
 
 header {
@@ -24,7 +24,7 @@ hr {
   display: none; }
 
 h2, h1, .title-area strong, h3, h4, h5, h6 {
-  font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif; }
+  font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif'; }
 
 h2, h1, .title-area strong {
   font-weight: bold; }
@@ -51,7 +51,7 @@ h1, .title-area strong {
 .top-bar-section {
   z-index: 999; }
   .top-bar-section li:not(.has-form) a {
-    font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
+    font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.0em; }
@@ -91,21 +91,54 @@ footer {
   border-bottom: 1px solid #000; }
 
 .event-name {
-  font-size: 2em;
-  font-weight: bold; }
+  font-family: '"Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+  font-size: 2em; }
 
 .event-date-wrapper {
   display: none;
-  margin-top: 50px; }
+  padding-top: 3em; }
 
 .event-date {
-  text-align: center; }
+  text-align: center;
+  font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
+  font-size: 1em;
+  display: block;
+  position: relative;
+  width: 6em;
+  height: 7em;
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 0.6em;
+  overflow: hidden; }
+  .event-date em {
+    position: absolute;
+    top: 0;
+    font-size: 2em;
+    padding: 0.1em 0;
+    color: white;
+    background-color: #000;
+    border: 1px #000;
+    border-bottom: 1px; }
+  .event-date span {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    padding-top: 1em;
+    background-color: white;
+    color: #000; }
+  .event-date * {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center; }
 
 time {
   text-align: center; }
 
 .event-date-small {
-  margin-bottom: 6px; }
+  margin-bottom: 6px;
+  font-size: 1.7em; }
 
 .event-location,
 .event-url,
@@ -150,6 +183,9 @@ time {
 @media only screen and (min-width: 40.063em) {
   .top-bar-section li:not(.has-form) a {
     font-size: 1.2em; }
+
+  .event-date-small {
+    font-size: 1em; }
 
   .title-area strong {
     text-align: left;

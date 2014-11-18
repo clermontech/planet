@@ -1,15 +1,17 @@
 
-$font_1 :'Neutraface';
-$color_fonds : #000;
-$color_text : white;
+$title_font :'"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
+$default_font :'"Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+$text_color : #000;
+$background_color : white;
+$color_link_hover : #30303f;
 
 @font-face {
-    font-family: $font_1; 
+    font-family: $title_font; 
     src: url('../fonts/neutraface-condensed-light.otf');
 }
 
 @font-face {
-    font-family: $font_1;
+    font-family:$title_font;
     font-weight: bold;
     src: url('../fonts/neutraface-condensed-medium.otf');
 }
@@ -30,12 +32,12 @@ hgroup{
 }
 
 body {
-    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    background-color: $color_text;
+    font-family: $default_font;
+    background-color: $background_color;
 }
 
 header{
-    background-color: $color_fonds;
+    background-color: $text_color;
     margin: 0;
     z-index: 999;
 }
@@ -45,7 +47,7 @@ hr{
 }
 
 %h_mother{
-    font-family: $font_1, "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
+    font-family: $title_font;
 }
 
 %h_main{
@@ -55,7 +57,7 @@ hr{
 
 h2{
     @extend %h_main;
-    color: $color_text;
+    color: $background_color;
     text-align: left;
     
 }
@@ -67,7 +69,7 @@ h1{
     
 .top-bar{
     height: 41px;
-    background-color: $color_fonds;
+    background-color: $text_color;
     .toggle-topbar.menu-icon{
         margin: 0;
         top: 0%;
@@ -78,7 +80,7 @@ h1{
 }
 
 .top-bar.expanded{
-    background-color: $color_fonds;
+    background-color: $text_color;
 }
 
 
@@ -88,13 +90,13 @@ h1{
                 a{
                     &:not(.button){
                         
-                        background-color: $color_fonds;
+                        background-color: $text_color;
                         
                         &:hover{
-                            background-color: #30303f;  
+                            background-color: $color_link_hover;  
                         }
                     }
-                    font-family: $font_1, "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
+                    font-family: $title_font;
                     text-transform: uppercase;
                     font-weight: bold;
                     font-size: 1.0em;
@@ -106,7 +108,7 @@ h1{
 
 li{
     text-align: center;
-    background-color: $color_fonds;
+    background-color: $text_color;
 }
 
 
@@ -137,10 +139,10 @@ h3, h4, h5, h6 {
 /* footer */
 footer {
     width: 100%;
-    background: $color_fonds;
+    background: $text_color;
     padding-top: 30px;
     padding-bottom: 10px;
-    color: $color_text;
+    color: $background_color;
     margin-top: 10px;
 }
 
@@ -149,18 +151,57 @@ footer {
     border-bottom: 1px solid #000;
 }
 
-.event-name{
+.event-name {
+    font-family: $default_font;
     font-size: 2em;
-    font-weight: bold;
 }
 
 .event-date-wrapper {
     display: none;
-    margin-top: 50px;
+    padding-top: 3em;
 }
 
 .event-date {
+  text-align: center;
+  font-family: $title_font;
+  font-size: 1em;
+  display: block;
+  position: relative;
+  width: 6em;
+  height: 7em;
+  background-color: $background_color;
+  border: 1px solid $text_color;
+  border-radius: 0.6em;
+  overflow: hidden;
+  
+  em {
+    position: absolute;
+    top: 0;
+    font-size: 2em;
+    padding: 0.1em 0;
+    color: $background_color;
+    background-color: $text_color;
+    border: 1px $text_color;
+    border-bottom: 1px;
+  }
+    
+  span {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    padding-top: 1em;
+    background-color: $background_color;
+    color : $text_color;
+  }
+  
+  * {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
     text-align: center;
+  }
+
 }
 
 time{
@@ -169,6 +210,7 @@ time{
 
 .event-date-small {
     margin-bottom: 6px;
+    font-size: 1.7em;
 }
 
 .event-location,
@@ -187,7 +229,7 @@ time{
 .event-location{
     a{
         text-decoration: underline;
-        color: $color_fonds;
+        color: $text_color;
         &:hover{
            text-decoration: none;
         }   
@@ -202,18 +244,18 @@ time{
 
 .event-month{
     background-color: red;
-    border: 1px solid $color_fonds;
+    border: 1px solid $text_color;
     width: 75px;
-    color: $color_text;
+    color: $background_color;
     text-align: center;
     font-weight: bold;
     display: inline-block;
     border-radius: 0px 0px 5px 5px;
     font-size: 1.3em;
     .event-day{
-        background-color: $color_text;
-        color: $color_fonds;
-        border-top: 1px solid $color_fonds;
+        background-color: $background_color;
+        color: $text_color;
+        border-top: 1px solid $text_color;
         height: 60px;
         font-size: 1.7em;
         font-weight: normal;
@@ -223,9 +265,6 @@ time{
 
 
 @media only screen and (min-width: 40.063em) {
-
-    
-
     .top-bar-section{
         li{
             &:not(.has-form){
@@ -233,13 +272,19 @@ time{
                     font-size: 1.2em;
                 }
             }
-        }
+	}
+    }
+
+   
+
+    .event-date-small {
+        font-size:1em;
     }
     
     .title-area{
         strong{
             text-align: left;
-            color: $color_text;
+            color: $background_color;
             font-size: 1.5em;
         }
     }
@@ -260,7 +305,7 @@ time{
     
     hr{
         display: block;
-        border-color: $color_fonds;
+        border-color: $text_color;
     }
  
     .logo-small .logo-medium{
@@ -280,15 +325,15 @@ time{
             &:not(.has-form){
                 a{
                     &:not(.button){
-                        background-color: $color_fonds;
+                        background-color: $text_color;
                         &:hover{
                             text-decoration: none;
-                            background-color: $color_fonds;
-                            color: $color_text;  
+                            background-color: $text_color;
+                            color: $background_color;  
                         }
                     }
                     text-decoration: underline;
-                    color: $color_text;
+                    color: $background_color;
                 }
             }
         }
