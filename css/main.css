@@ -184,9 +184,6 @@ time {
   .top-bar-section li:not(.has-form) a {
     font-size: 1.2em; }
 
-  .event-date-wrapper {
-    display: block; }
-
   .event-date-small {
     font-size: 1em; }
 
