@@ -8,7 +8,7 @@ layout: layout
 {% for event in site.posts %}
     <div class="event row" itemscope itemtype="http://schema.org/Event">
         <div class="small-2 columns event-date-wrapper">
-            <time class="event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}">
+            <time class="event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}" content="{{ event.event_date|date_to_xmlschema }}">
                 <em>{{ event.event_date|date:"%b" }}</em>
                 <span>{{ event.event_date|date:"%-d" }}</span>
             </time>
@@ -34,16 +34,18 @@ layout: layout
                     </div>
 
                     {% if event.location %}
-                    <div class="event-location" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+                    <div class="event-location"  itemprop="location" itemscope itemtype="http://schema.org/Place">
                         <i class="fa fa-map-marker event-meta-icon"></i>
-                        <a href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank"><span itemprop="streetAddress">{{ event.location.street_address }}</span>
-                        <span itemprop="postalCode">{{ event.location.postal_code }}</span>
-                        <span itemprop="addressLocality">{{ event.location.city }}</span></a>
+                        <a itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank">
+                            <span itemprop="streetAddress">{{ event.location.street_address }}</span>
+                            <span itemprop="postalCode">{{ event.location.postal_code }}</span>
+                            <span itemprop="addressLocality">{{ event.location.city }}</span>
+                        </a>
                     </div>
                     {% endif %}
 
                     {% if event.event_url %}
-                    <div class="event-url">
+                    <div class="event-url" itemprop="url">
                         <i class="fa fa-external-link event-meta-icon"></i>
                         <a href="{{ event.event_url }}" target="_blank">{{ event.event_url }}</a>
                     </div>
