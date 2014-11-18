@@ -18,7 +18,7 @@ Ce fichier doit contenir la configuration suivante :
 # Event title (optional)
 title: "APIHour #6"
 
-# When it is? (required)
+# When is it? (required)
 event_date: "2013-12-17 19:00:00"
 
 # Tell us more about your event! (optional, but... heavily recommended)
@@ -30,8 +30,9 @@ description:
 # URL of your event, on your own website (optional)
 event_url: http://clermontech.org/api-hours/api-hour-6.html
 
-# Where it is? (option, but then again, heavily recommended)
+# Where is it? (optional, but then again, heavily recommended)
 location:
+    name: Le Celtill
     street_address: 11 rue Niel
     postal_code: 63100
     city: Clermont-Ferrand
