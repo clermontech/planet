@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Neutraface";
+  font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
   src: url("../fonts/neutraface-condensed-light.otf"); }
 @font-face {
-  font-family: "Neutraface";
+  font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
   font-weight: bold;
   src: url("../fonts/neutraface-condensed-medium.otf"); }
 img {
@@ -12,7 +12,7 @@ hgroup {
   display: none; }
 
 body {
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-family: '"Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
   background-color: white; }
 
 header {
@@ -24,7 +24,7 @@ hr {
   display: none; }
 
 h2, h1, .title-area strong, h3, h4, h5, h6 {
-  font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif; }
+  font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif'; }
 
 h2, h1, .title-area strong {
   font-weight: bold; }
@@ -51,7 +51,7 @@ h1, .title-area strong {
 .top-bar-section {
   z-index: 999; }
   .top-bar-section li:not(.has-form) a {
-    font-family: "Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
+    font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.0em; }
@@ -91,7 +91,7 @@ footer {
   border-bottom: 1px solid #000; }
 
 .event-name {
-  font-family: "Palatino";
+  font-family: '"Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
   font-size: 2em; }
 
 .event-date-wrapper {
@@ -100,7 +100,7 @@ footer {
 
 .event-date {
   text-align: center;
-  font-family: "Neutraface";
+  font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
   font-size: 1em;
   display: block;
   position: relative;

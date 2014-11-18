@@ -1,7 +1,9 @@
 
-$font_1 :'Neutraface';
+$font_1 :'"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
+$font_2 :'"Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
 $color_fonds : #000;
 $color_text : white;
+$link_hover : #30303f;
 
 @font-face {
     font-family: $font_1; 
@@ -30,7 +32,7 @@ hgroup{
 }
 
 body {
-    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family: $font_2;
     background-color: $color_text;
 }
 
@@ -45,7 +47,7 @@ hr{
 }
 
 %h_mother{
-    font-family: $font_1, "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
+    font-family: $font_1;
 }
 
 %h_main{
@@ -91,10 +93,10 @@ h1{
                         background-color: $color_fonds;
                         
                         &:hover{
-                            background-color: #30303f;  
+                            background-color: $link_hover;  
                         }
                     }
-                    font-family: $font_1, "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
+                    font-family: $font_1;
                     text-transform: uppercase;
                     font-weight: bold;
                     font-size: 1.0em;
@@ -150,7 +152,7 @@ footer {
 }
 
 .event-name {
-    font-family: "Palatino";
+    font-family: $font_2;
     font-size: 2em;
 }
 
