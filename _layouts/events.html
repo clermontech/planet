@@ -34,6 +34,9 @@ layout: layout
                     {% if event.location %}
                     <div class="event-location" itemprop="location" itemscope itemtype="http://schema.org/Place">
                         <i class="fa fa-map-marker event-meta-icon"></i>
+                        {% if event.location.name %}
+                        <span itemprop="name">{{ event.location.name }}</span>
+                        {% endif %}
                         <a itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank">
                             <span itemprop="streetAddress">{{ event.location.street_address }}</span>
                             <span itemprop="postalCode">{{ event.location.postal_code }}</span>
