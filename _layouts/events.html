@@ -9,11 +9,18 @@ layout: layout
     <div class="event row" itemscope itemtype="http://schema.org/Event">
         <div class="small-3 columns event-date-wrapper">
             <time class="event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}">
-                <h3>{{ event.event_date|date_to_string }}</h3>
+                <div class="">
+                    <div class="event-month">
+                        {{ event.event_date|date : "%b"}}
+                        <div class="event-day">
+                            {{ event.event_date|date : "%-d"}}
+                        </div>
+                    </div> 
+                </div>
             </time>
         </div>
 
-        <div class="small-9 columns">
+        <div class="small-12 medium-9 columns">
             <div class="row">
                 <div class="small-12 columns">
                     {% if event.event_url %}<a href="{{ event.event_url }}" itemprop="url">{% endif %}
@@ -35,16 +42,16 @@ layout: layout
                     {% if event.location %}
                     <div class="event-location" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
                         <i class="fa fa-map-marker event-meta-icon"></i>
-                        <span itemprop="streetAddress">{{ event.location.street_address }}</span>
+                        <a href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank"><span itemprop="streetAddress">{{ event.location.street_address }}</span>
                         <span itemprop="postalCode">{{ event.location.postal_code }}</span>
-                        <span itemprop="addressLocality">{{ event.location.city }}</span>
+                        <span itemprop="addressLocality">{{ event.location.city }}</span></a>
                     </div>
                     {% endif %}
 
                     {% if event.event_url %}
                     <div class="event-url">
                         <i class="fa fa-external-link event-meta-icon"></i>
-                        <a href="{{ event.event_url }}">{{ event.event_url }}</a>
+                        <a href="{{ event.event_url }}" target="_blank">{{ event.event_url }}</a>
                     </div>
                     {% endif %}
 

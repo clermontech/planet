@@ -14,10 +14,15 @@ $color_text : white;
     src: url('../fonts/neutraface-condensed-medium.otf');
 }
 
-@mixin box-shadow($color, $v_offset, $h_offset, $blur){
-    -webkit-box-shadow: $color $v_offset $h_offset $blur;
-    -moz-box-shadow: $color $v_offset $h_offset $blur;
-    box-shadow: $color $v_offset $h_offset $blur;
+@mixin box-shadow($h_offset, $v_offset, $blur, $spread, $color){
+    -webkit-box-shadow: $h_offset $v_offset $blur $spread $color;
+    -moz-box-shadow: $h_offset $v_offset $blur $spread $color;
+    -o-box-shadow: $h_offset $v_offset $blur $spread $color;
+    box-shadow: $h_offset $v_offset $blur $spread $color;
+}
+
+img{
+    display: block;
 }
 
 hgroup{
@@ -31,8 +36,8 @@ body {
 
 header{
     background-color: $color_fonds;
-    @include box-shadow($color_fonds, 2px, 2px, 10px);
     margin: 0;
+    z-index: 999;
 }
 
 hr{
@@ -54,28 +59,77 @@ h2{
     text-align: left;
     
 }
-h1,li{
+
+h1{
     @extend h2;
     text-transform: uppercase;
 }
-
-li{
-    list-style-type: none;
-    width: 100%;
-    text-align: center;
-    font-size: 1.2em;
-    a{
-        color: #2394d3;
-        
+    
+.top-bar{
+    height: 41px;
+    background-color: $color_fonds;
+    .toggle-topbar.menu-icon{
+        margin: 0;
+        top: 0%;
+        a{
+            height: 40px;
+        }
     }
 }
-a:hover{
-    color: #a2dcf2;
+
+.top-bar.expanded{
+    background-color: $color_fonds;
 }
+
+
+.top-bar-section{
+        li{
+            &:not(.has-form){
+                a{
+                    &:not(.button){
+                        
+                        background-color: $color_fonds;
+                        
+                        &:hover{
+                            background-color: #30303f;  
+                        }
+                    }
+                    font-family: $font_1, "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1.0em;
+                }
+            }
+        }
+        z-index: 999;
+    }
+
+li{
+    text-align: center;
+    background-color: $color_fonds;
+}
+
 
 
 h3, h4, h5, h6 {
     @extend %h_mother;
+}
+.title-area{
+    strong{
+        @extend h1;
+        display: block;
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-left: 10px;
+        line-height: 40px;
+        float: left;
+    }
+}
+
+.logo-small{
+    margin-left: 5px;
+    height: 40px;
+    float: left;
 }
 
 
@@ -83,7 +137,6 @@ h3, h4, h5, h6 {
 /* footer */
 footer {
     width: 100%;
-    @include box-shadow($color_fonds, 2px, 2px, 10px);
     background: $color_fonds;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -96,11 +149,21 @@ footer {
     border-bottom: 1px solid #000;
 }
 
+.event-name{
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .event-date-wrapper {
     display: none;
+    margin-top: 50px;
 }
 
 .event-date {
+    text-align: center;
+}
+
+time{
     text-align: center;
 }
 
@@ -121,50 +184,120 @@ footer {
     width: 18px;
 }
 
+.event-location{
+    a{
+        text-decoration: underline;
+        color: $color_fonds;
+        &:hover{
+           text-decoration: none;
+        }   
+    }
+    
+}
+
 .event-tags-item {
     padding: 0.2rem 0.3rem 0.2rem 0.3rem;
     font-size: 0.6rem;
 }
 
+.event-month{
+    background-color: red;
+    border: 1px solid $color_fonds;
+    width: 75px;
+    color: $color_text;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 1.3em;
+    .event-day{
+        background-color: $color_text;
+        color: $color_fonds;
+        border-top: 1px solid $color_fonds;
+        height: 60px;
+        font-size: 1.7em;
+        font-weight: normal;
+        border-radius: 0px 0px 5px 5px;
+   }
+}
+
+
 @media only screen and (min-width: 40.063em) {
-    .event-date-wrapper {
-        display: block;
-    }
-    li{
-        float: left;
-        width: auto;
-        margin: 7px 10px 0px 10px;
-        font-size: 1em;
-    }
-    ul{
-      float: right;
-      margin : 0;
-    }
-    nav{
-        margin-right: 12%;
+
+    
+
+    .top-bar-section{
+        li{
+            &:not(.has-form){
+                a{
+                    font-size: 1.2em;
+                }
+            }
+        }
     }
     
-    img{
+    .title-area{
+        strong{
+            text-align: left;
+            color: $color_text;
+            font-size: 1.5em;
+        }
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .event-date-wrapper {
+        display: block;
+    }    
+}
+
+
+@media only screen and (min-width: 64.063em ){
+    
+    .logo-small{
+        display: none;
+    }
+    
+    hr{
+        display: block;
+        border-color: $color_fonds;
+    }
+ 
+    .logo-small .logo-medium{
         display: none;
     }
     
     hgroup{
         display: block;
         margin: 0;
+        div{
+            margin-top: -28px;
+        }
     }
     
+    .top-bar-section{
+        li{
+            &:not(.has-form){
+                a{
+                    &:not(.button){
+                        background-color: $color_fonds;
+                        &:hover{
+                            text-decoration: none;
+                            background-color: $color_fonds;
+                            color: $color_text;  
+                        }
+                    }
+                    text-decoration: underline;
+                    color: $color_text;
+                }
+            }
+        }
+        margin-right: 12%;
+    }
+    
+    .title-area{
+        strong{
+            display: none;
+        }
+    }
 }
-
-@media only screen and (min-width: 800px ){
-    hr{
-        display: block;
-        border-color: $color_fonds;
-    }
-    img{
-        display: block;
-    }
-    li{
-        font-size: 1.2em;
-    }
-}
-

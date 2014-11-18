@@ -19,40 +19,39 @@
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr.min.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="" title="Home">Home</a>
-                </li>
-		<li>
-		    <a title="Notre manifesto" href="http://clermontech.org/">Manifesto</a>
-		</li>
-		<li>
-		    <a title="Les évènement API Hours !" href="http://clermontech.org/api-hours/">API Hours</a>
-		</li>
-		<li>
-		    <a title="Les ateliers thématiques" href="http://clermontech.org/workshops/">Workshops</a>
-		</li>
-		<li>
-		    <a title="Tous les talks" href="http://clermontech.org/talks/">Talks</a>
-		</li>
-		<li>
-		    <a title="A propos de Clermont'ech" href="http://clermontech.org/association.html">Association</a>
-		</li>
-		<li>
-		    <a title="La boutique de Clermont'ech" href="http://clermontech.spreadshirt.fr/">Boutique</a>
-		</li>
+    <nav class="top-bar" data-topbar="">
+        <ul class="title-area">
+            <li>
+                <a href="">
+                    <img class="logo-small" src="images/clermontech_logo_80px.png" alt="logo clermontech small"/>
+                    <strong>Planet</strong>
+                </a>
+            </li>
+            <li class="toggle-topbar menu-icon">
+                <a href="#">
+                    <span></span>
+                </a>
+            </li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li><a href="" title="Home">Home</a></li>
+                <li><a title="Notre manifesto" href="http://clermontech.org/">Manifesto</a></li>
             </ul>
-        </nav>
+        </section>
+    </nav>
+    
+    <header>
+        
 
         <hgroup class="row">
             <div class="large-12 columns">
                 <a class="large-12" href="">
-                    <img class="small-3 columns" src="images/clermontech_logo.png" alt="Logo Clermontech" />
-                    <h1 class="small-12 medium-9">Planet Clermon<span class="alt">t'ech</span></h1>
+                    <img class="logo-medium small-3 columns" src="images/clermontech_logo.png" alt="Logo Clermontech" />
+                    <h1 class="small-12 medium-9">Planet</h1>
                 </a>
                 <h2 class="large-12">{{ site.headline }}</h2>
             </div>
@@ -73,6 +72,12 @@
         </div>
     </footer>
 
+    
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
