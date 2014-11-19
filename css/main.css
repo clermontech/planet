@@ -97,13 +97,14 @@ footer {
 
 .event-date-wrapper {
   display: none;
-  padding-top: 3em; }
+  padding-top: 3em;
+  text-align: center; }
 
 .event-date {
   text-align: center;
   font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
   font-size: 1em;
-  display: block;
+  display: inline-block;
   position: relative;
   width: 6em;
   height: 7em;
