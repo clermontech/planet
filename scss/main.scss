@@ -227,17 +227,6 @@ time{
     width: 18px;
 }
 
-.event-location{
-    a{
-        text-decoration: underline;
-        color: $text_color;
-        &:hover{
-           text-decoration: none;
-        }   
-    }
-    
-}
-
 .event-tags-item {
     padding: 0.2rem 0.3rem 0.2rem 0.3rem;
     font-size: 0.6rem;

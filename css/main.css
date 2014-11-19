@@ -152,12 +152,6 @@ time {
 .event-meta-icon {
   width: 18px; }
 
-.event-location a {
-  text-decoration: underline;
-  color: #000; }
-  .event-location a:hover {
-    text-decoration: none; }
-
 .event-tags-item {
   padding: 0.2rem 0.3rem 0.2rem 0.3rem;
   font-size: 0.6rem; }
