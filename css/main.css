@@ -6,7 +6,7 @@
   font-weight: bold;
   src: url("../fonts/neutraface-condensed-medium.otf"); }
 img {
-  display: block; }
+  display: inline-block; }
 
 hgroup {
   display: none; }
@@ -67,14 +67,15 @@ li {
 .title-area strong {
   display: block;
   font-weight: bold;
-  font-size: 1.2em;
   margin-left: 10px;
   line-height: 40px;
-  float: left; }
+  float: left;
+  font-size: 1.5em; }
 
 .logo-small {
+  margin: 5px 0px;
   margin-left: 5px;
-  height: 40px;
+  height: 30px;
   float: left; }
 
 /* footer */
@@ -184,13 +185,16 @@ time {
   .top-bar-section li:not(.has-form) a {
     font-size: 1.2em; }
 
+  .logo-small {
+    margin: 0px 0px 0px 5px;
+    height: 40px; }
+
   .event-date-small {
     font-size: 1em; }
 
   .title-area strong {
     text-align: left;
-    color: white;
-    font-size: 1.5em; } }
+    color: white; } }
 @media only screen and (min-width: 800px) {
   .event-date-wrapper {
     display: block; } }
