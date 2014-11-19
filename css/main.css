@@ -151,6 +151,10 @@ time {
   overflow: hidden;
   white-space: nowrap; }
 
+.event-location i,
+.event-add-google-calendar i {
+  padding-left: 2px; }
+
 .event-meta-icon {
   width: 18px; }
 
