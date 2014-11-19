@@ -84,7 +84,8 @@ footer {
   background: #000;
   padding-top: 30px;
   padding-bottom: 10px;
-  color: white; }
+  color: white;
+  margin-top: 20px; }
   footer p {
     text-align: justify;
     font-size: 0.9em; }
