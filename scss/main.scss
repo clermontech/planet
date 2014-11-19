@@ -66,9 +66,9 @@ h1{
     @extend h2;
     text-transform: uppercase;
 }
-    
+
 .top-bar{
-    height: 41px;
+    height: 40px;
     background-color: $text_color;
     .toggle-topbar.menu-icon{
         margin: 0;
@@ -82,7 +82,6 @@ h1{
 .top-bar.expanded{
     background-color: $text_color;
 }
-
 
 .top-bar-section{
         li{
@@ -111,11 +110,10 @@ li{
     background-color: $text_color;
 }
 
-
-
 h3, h4, h5, h6 {
     @extend %h_mother;
 }
+
 .title-area{
     strong{
         @extend h1;
@@ -128,14 +126,12 @@ h3, h4, h5, h6 {
     }
 }
 
-.logo-small{
-    margin: 5px 0px;
-    margin-left: 5px;
-    height: 30px;
-    float: left;
+.logo-small {
+margin: 8px 0px;
+margin-left: 10px;
+height: 25px;
+float: left;
 }
-
-
 
 /* footer */
 footer {
