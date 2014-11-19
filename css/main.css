@@ -84,13 +84,9 @@ footer {
   background: #000;
   padding-top: 30px;
   padding-bottom: 10px;
-  color: white;
-  margin-top: 10px; }
+  color: white; }
 
 /* events */
-.event {
-  border-bottom: 1px solid #000; }
-
 .event-name {
   font-family: '"Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
   font-size: 2em; }
@@ -188,6 +184,7 @@ time {
     font-size: 1em; }
 
   .title-area strong {
+    font-size: 2.4em;
     text-align: left;
     color: white; } }
 @media only screen and (min-width: 800px) {
