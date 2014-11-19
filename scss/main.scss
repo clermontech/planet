@@ -24,7 +24,7 @@ $color_link_hover : #30303f;
 }
 
 img{
-    display: block;
+    display: inline-block;
 }
 
 hgroup{
@@ -121,16 +121,17 @@ h3, h4, h5, h6 {
         @extend h1;
         display: block;
         font-weight: bold;
-        font-size: 1.2em;
         margin-left: 10px;
         line-height: 40px;
         float: left;
+        font-size: 1.5em;
     }
 }
 
 .logo-small{
+    margin: 5px 0px;
     margin-left: 5px;
-    height: 40px;
+    height: 30px;
     float: left;
 }
 
@@ -275,7 +276,10 @@ time{
 	}
     }
 
-   
+   .logo-small{
+        margin: 0px 0px 0px 5px;
+        height: 40px;
+    }
 
     .event-date-small {
         font-size:1em;
@@ -285,7 +289,6 @@ time{
         strong{
             text-align: left;
             color: $background_color;
-            font-size: 1.5em;
         }
     }
 }
