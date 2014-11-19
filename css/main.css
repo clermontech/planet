@@ -184,6 +184,7 @@ time {
     font-size: 1em; }
 
   .title-area strong {
+    font-size: 2.4em;
     text-align: left;
     color: white; } }
 @media only screen and (min-width: 800px) {
