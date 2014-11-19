@@ -60,13 +60,13 @@ layout: layout
                         <i class="fa fa-tags event-meta-icon"></i>
                         {% endif %}
                         {% if event.location %}
-                        <span class="event-tags-item button radius">{{ event.location.city|upcase }}</span>
+                        <span class="event-tags-item event-tags-city button radius">{{ event.location.city }}</span>
                         {% endif %}
                         {% for tag in event.tags %}
                         <span class="event-tags-item button radius success">{{ tag }}</span>
                         {% endfor %}
                     </div>
-                    
+
                     {% capture url_google_calendar  %}
                         https://www.google.com/calendar/render?action=TEMPLATE{% if event.title %}&text={{ event.title | replace:'#','%23' }}{% endif %}&dates={{ event.event_date|date: '%Y%m%dT%H%M00'}}/{{ event.event_date|date: '%Y%m%dT%H%M00'}}{% if event.description %}&details={{ event.description | markdownify | strip_html | replace: '+','%2b'}}{% endif %}{% if event.location %}&location={{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}{% endif %}&sf=true
                     {% endcapture %}
