@@ -10,3 +10,5 @@ meta:
     default_description:    ""
 google:
     analytics:              "UA-41697057-2"
+insert:
+    google-calendar:        "Ajouter à mon agenda Google"

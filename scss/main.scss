@@ -213,7 +213,8 @@ time{
 
 .event-location,
 .event-url,
-.event-tags {
+.event-tags,
+.event-add-google-calendar{
     margin-top: 6px;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -227,6 +228,7 @@ time{
 .event-tags-item {
     padding: 0.2rem 0.3rem 0.2rem 0.3rem;
     font-size: 0.6rem;
+    margin: 0;
 }
 
 .event-month{
