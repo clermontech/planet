@@ -140,6 +140,11 @@ footer {
     padding-top: 30px;
     padding-bottom: 10px;
     color: $background_color;
+
+    p {
+        text-align: justify;
+        font-size: 0.9em;
+    }
 }
 
 /* events */

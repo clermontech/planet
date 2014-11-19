@@ -85,6 +85,9 @@ footer {
   padding-top: 30px;
   padding-bottom: 10px;
   color: white; }
+  footer p {
+    text-align: justify;
+    font-size: 0.9em; }
 
 /* events */
 .event-name {

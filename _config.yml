@@ -4,10 +4,17 @@ markdown: redcarpet
 # Website config
 title:      "Planet"
 headline:   "Tout ce qui touche à l'IT dans la région Auvergne !"
-footer:     "Planet Clermont'ech regroupe l'ensemble des acteurs du monde IT auvergnat à travers un agenda ouvert."
+footer:
+    Planet Clermont'ech regroupe l'ensemble des acteurs du monde IT auvergnat à
+    travers un agenda ouvert et accessible, présentant les événements régionaux.
+    Vous souhaitez publier votre événement ? Vous pouvez passer par
+    [GitHub](https://github.com/clermontech/planet#clermontech-planet) ou
+    envoyer un email à [planet@clermontech.org](mailto:planet@clermontech.org).
+
 meta:
     default_author:         "Clermont'ech"
     default_description:    ""
+
 google:
     analytics:              "UA-41697057-2"
 insert:

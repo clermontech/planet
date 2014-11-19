@@ -67,7 +67,7 @@
     <footer>
         <div class="row">
             <div class="small-12 columns">
-                <p class="text-justify">{{ site.footer }}</p>
+                {{ site.footer|markdownify }}
             </div>
         </div>
     </footer>
