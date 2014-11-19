@@ -37,7 +37,7 @@ h1, .title-area strong {
   text-transform: uppercase; }
 
 .top-bar {
-  height: 41px;
+  height: 40px;
   background-color: #000; }
   .top-bar .toggle-topbar.menu-icon {
     margin: 0;
@@ -73,9 +73,9 @@ li {
   font-size: 1.5em; }
 
 .logo-small {
-  margin: 5px 0px;
-  margin-left: 5px;
-  height: 30px;
+  margin: 8px 0px;
+  margin-left: 10px;
+  height: 25px;
   float: left; }
 
 /* footer */
