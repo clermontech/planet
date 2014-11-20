@@ -1,5 +1,6 @@
 # Jekyll config
 markdown: redcarpet
+exclude:  [ vendor ]
 
 # Website config
 title:      "Planet"
