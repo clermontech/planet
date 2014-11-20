@@ -219,7 +219,7 @@ time{
 .event-location,
 .event-url,
 .event-tags,
-.event-add-google-calendar{
+.event-add-calendar{
     margin-top: 6px;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -227,7 +227,7 @@ time{
 }
 
 .event-location,
-.event-add-google-calendar {
+.event-add-calendar {
     & i {
         padding-left: 2px;
     }

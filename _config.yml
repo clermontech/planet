@@ -19,3 +19,4 @@ google:
     analytics:              "UA-41697057-2"
 insert:
     google-calendar:        "Ajouter à mon agenda Google"
+    icalendar:              "Ajouter à mon agenda (.ics)"
