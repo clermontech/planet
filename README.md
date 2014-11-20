@@ -2,7 +2,7 @@ Clermont'ech Planet
 ===================
 
 [![Build
-Status](https://travis-ci.org/clermontech/planet?branch=gh-pages)](https://travis-ci.org/clermontech/planet)
+Status](https://travis-ci.org/clermontech/planet.svg?branch=gh-pages)](https://travis-ci.org/clermontech/planet)
 
 
 Clermont'ech Planet aggregates all IT-related events all around Auvergne!
