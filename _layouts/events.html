@@ -83,14 +83,14 @@ BEGIN:VEVENT\r\n
 UID={{ event.id|remove_first:'/'|replace:'/','-' }}\r\n
 DTSTART:{{ event.event_date|date: '%Y%m%dT%H%M00' }}\r\n
 {% if event.title %}
-SUMMARY:{{ event.title }}\r\n{% endif %}
+SUMMARY:{{ event.title|escape }}\r\n{% endif %}
 {% if event.location %}
-LOCATION:{{ event.location.name }} {{ event.location.street_address }} {{ event.location.postal_code }} {{ event.location.city }}\r\n
+LOCATION:{{ event.location.name|escape }} {{ event.location.street_address|escape }} {{ event.location.postal_code }} {{ event.location.city|escape }}\r\n
 {% endif %}
 {% if event.description %}
 DESCRIPTION:{{ event.description|markdownify|replace:'<br>':'\\\n'|strip_html|replace:',','\\,'|escape }}\r\n
 {% endif %}
-CATEGORIES:{{ event.tags|join:',' }}\r\n
+CATEGORIES:{{ event.tags|join:','|escape }}\r\n
 END:VEVENT\r\n
 END:VCALENDAR{% endcapture %}
 
