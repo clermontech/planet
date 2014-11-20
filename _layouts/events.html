@@ -67,9 +67,7 @@ layout: layout
                         {% endfor %}
                     </div>
 
-                    {% capture url_google_calendar  %}
-                        https://www.google.com/calendar/render?action=TEMPLATE{% if event.title %}&text={{ event.title | replace:'#','%23' }}{% endif %}&dates={{ event.event_date|date: '%Y%m%dT%H%M00'}}/{{ event.event_date|date: '%Y%m%dT%H%M00'}}{% if event.description %}&details={{ event.description | markdownify | strip_html | replace: '+','%2b'}}{% endif %}{% if event.location %}&location={{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}{% endif %}&sf=true
-                    {% endcapture %}
+                    {% capture url_google_calendar  %}https://www.google.com/calendar/render?action=TEMPLATE{% if event.title %}&text={{ event.title | replace:'#','%23' }}{% endif %}&dates={{ event.event_date|date: '%Y%m%dT%H%M00'}}/{{ event.event_date|date: '%Y%m%dT%H%M00'}}{% if event.description %}&details={{ event.description | markdownify | strip_html | replace: '+','%2b'}}{% endif %}{% if event.location %}&location={{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}{% endif %}&sf=true{% endcapture %}
 
                     <div class="event-add-calendar">
                         <i class="fa fa-google event-meta-icon"></i>
@@ -77,13 +75,23 @@ layout: layout
                             <span>{{ site.insert.google-calendar}}</span>
                         </a>
                     </div>
-                    {% capture url_icalendar %}
-                        data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:1.0%0D%0ABEGIN:VEVENT%0D%0ADTSTART:{{ event.event_date|date: '%Y%m%dT%H%M00' }}%0D%0ADTEND:{{ event.event_date|date: '%Y%m%dT%H%M00' }}{% if event.title %}%0D%0ASUMMARY:{{ event.title | replace:'#','%23' }}{% endif %}{% if event.location %}%0D%0ALOCATION:{{ event.location.street_address }} {{ event.location.postal_code }} {{ event.location.city }}{% endif %}{% if event.description %}%0D%0ADESCRIPTION:{{ event.description | markdownify | strip_html | replace: '+','%2b'}}{% endif %}%0D%0APRIORITY:3%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR
-                    {% endcapture %}
+
+                    {% capture url_icalendar %}BEGIN:VCALENDAR\r\n
+PRODID=planet.clermontech.org\r\n
+VERSION:2.0\r\n
+BEGIN:VEVENT\r\n
+DTSTART:{{ event.event_date|date: '%Y%m%dT%H%M00' }}\r\n
+DTEND:{{ event.event_date|date: '%Y%m%dT%H%M00' }}{% if event.title %}\r\n
+SUMMARY:{{ event.title|escape }}{% endif %}{% if event.location %}\r\n
+LOCATION:{{ event.location.street_address|escape }} {{ event.location.postal_code|escape }} {{ event.location.city|escape }}{% endif %}{% if event.description %}\r\n
+DESCRIPTION:{{ event.description|markdownify|strip_html|replace:',','\\,'|escape }}{% endif %}\r\n
+END:VEVENT\r\n
+END:VCALENDAR{% endcapture %}
+
                     <div class="event-add-calendar">
                         <i class="fa fa-calendar event-meta-icon"></i>
-                        <a target="_blank" href="{{ url_icalendar }}">
-                            <span>{{ site.insert.icalendar}}</span> 
+                        <a target="_blank" href="javascript:window.open('data:text/calendar;charset=utf8,' + encodeURIComponent('{{ url_icalendar }}'));">
+                            <span>{{ site.insert.icalendar}}</span>
                         </a>
                     </div>
                 </div>
