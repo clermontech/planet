@@ -17,11 +17,12 @@ body {
 
 header {
   background-color: #000;
-  margin: 0;
+  margin-bottom: 10px;
   z-index: 999; }
 
 hr {
-  display: none; }
+  display: block;
+  border-color: #000; }
 
 h2, h1, .title-area strong, h3, h4, h5, h6 {
   font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif'; }
@@ -186,6 +187,9 @@ time {
     border-radius: 0px 0px 5px 5px; }
 
 @media only screen and (min-width: 40.063em) {
+  header {
+    margin-bottom: 20px; }
+
   .top-bar-section li:not(.has-form) a {
     font-size: 1.2em; }
 
@@ -206,10 +210,6 @@ time {
 @media only screen and (min-width: 64.063em) {
   .logo-small {
     display: none; }
-
-  hr {
-    display: block;
-    border-color: #000; }
 
   .logo-small .logo-medium {
     display: none; }
