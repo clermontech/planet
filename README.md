@@ -49,3 +49,14 @@ organizer:
     twitter: clermontech
 ---
 ```
+
+
+Installation
+------------
+
+We use [Bundler](http://bundler.io/) to manage dependencies:
+
+    $ bundle install
+    $ bundle exec jekyll serve
+
+Browse [`http://localhost:4000`](http://localhost:4000).
