@@ -88,7 +88,7 @@ SUMMARY:{{ event.title }}\r\n{% endif %}
 LOCATION:{{ event.location.name }} {{ event.location.street_address }} {{ event.location.postal_code }} {{ event.location.city }}\r\n
 {% endif %}
 {% if event.description %}
-DESCRIPTION:{{ event.description|markdownify|replace:'<br>':'\\\n'|strip_html|replace:',','\\,' }}\r\n
+DESCRIPTION:{{ event.description|markdownify|replace:'<br>':'\\\n'|strip_html|replace:',','\\,'|escape }}\r\n
 {% endif %}
 CATEGORIES:{{ event.tags|join:',' }}\r\n
 END:VEVENT\r\n
