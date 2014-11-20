@@ -81,16 +81,20 @@ PRODID=planet.clermontech.org\r\n
 VERSION:2.0\r\n
 BEGIN:VEVENT\r\n
 DTSTART:{{ event.event_date|date: '%Y%m%dT%H%M00' }}\r\n
-DTEND:{{ event.event_date|date: '%Y%m%dT%H%M00' }}{% if event.title %}\r\n
-SUMMARY:{{ event.title|escape }}{% endif %}{% if event.location %}\r\n
-LOCATION:{{ event.location.street_address|escape }} {{ event.location.postal_code|escape }} {{ event.location.city|escape }}{% endif %}{% if event.description %}\r\n
-DESCRIPTION:{{ event.description|markdownify|strip_html|replace:',','\\,'|escape }}{% endif %}\r\n
+{% if event.title %}
+SUMMARY:{{ event.title|escape }}\r\n{% endif %}
+{% if event.location %}
+LOCATION:{{ event.location.street_address|escape }} {{ event.location.postal_code|escape }} {{ event.location.city|escape }}\r\n
+{% endif %}
+{% if event.description %}
+DESCRIPTION:{{ event.description|markdownify|replace:'<br>':'\\\n'|strip_html|replace:',','\\,'|escape }}\r\n
+{% endif %}
 END:VEVENT\r\n
 END:VCALENDAR{% endcapture %}
 
                     <div class="event-add-calendar">
                         <i class="fa fa-calendar event-meta-icon"></i>
-                        <a target="_blank" href="javascript:window.open('data:text/calendar;charset=utf8,' + encodeURIComponent('{{ url_icalendar }}'));">
+                        <a target="_blank" href="javascript:window.open('data:text/calendar;charset=utf8,' + encodeURIComponent('{{ url_icalendar|strip_newlines }}'));">
                             <span>{{ site.insert.icalendar}}</span>
                         </a>
                     </div>
