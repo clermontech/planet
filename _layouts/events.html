@@ -77,7 +77,7 @@ layout: layout
                     </div>
 
                     {% capture url_icalendar %}BEGIN:VCALENDAR\r\n
-PRODID=planet.clermontech.org\r\n
+PRODID:planet.clermontech.org\r\n
 VERSION:2.0\r\n
 BEGIN:VEVENT\r\n
 UID={{ event.id|remove_first:'/'|replace:'/','-' }}\r\n
