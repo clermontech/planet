@@ -80,7 +80,7 @@ layout: layout
 PRODID:planet.clermontech.org\r\n
 VERSION:2.0\r\n
 BEGIN:VEVENT\r\n
-UID={{ event.id|remove_first:'/'|replace:'/','-' }}\r\n
+UID:{{ event.id|remove_first:'/'|replace:'/','-' }}\r\n
 DTSTART:{{ event.event_date|date: '%Y%m%dT%H%M00' }}\r\n
 {% if event.title %}
 SUMMARY:{{ event.title }}\r\n{% endif %}
