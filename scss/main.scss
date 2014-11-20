@@ -4,6 +4,7 @@ $default_font :'"Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqu
 $text_color : #000;
 $background_color : white;
 $color_link_hover : #30303f;
+$calendar_background_color : #A11D1D;
 
 @font-face {
     font-family: $title_font; 
@@ -182,7 +183,7 @@ footer {
     font-size: 2em;
     padding: 0.1em 0;
     color: $background_color;
-    background-color: $text_color;
+    background-color: $calendar_background_color;
     border: 1px $text_color;
     border-bottom: 1px;
   }
