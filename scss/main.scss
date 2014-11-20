@@ -38,12 +38,14 @@ body {
 
 header{
     background-color: $text_color;
-    margin: 0;
+    margin-bottom: 10px;
     z-index: 999;
 }
 
+
 hr{
-    display: none;
+    display: block;
+    border-color: $text_color;
 }
 
 %h_mother{
@@ -267,6 +269,10 @@ time{
 
 
 @media only screen and (min-width: 40.063em) {
+    header{
+    margin-bottom: 20px;
+    }
+    
     .top-bar-section{
         li{
             &:not(.has-form){
@@ -308,11 +314,6 @@ time{
         display: none;
     }
     
-    hr{
-        display: block;
-        border-color: $text_color;
-    }
- 
     .logo-small .logo-medium{
         display: none;
     }
