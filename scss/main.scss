@@ -334,12 +334,10 @@ time{
                     &:not(.button){
                         background-color: $text_color;
                         &:hover{
-                            text-decoration: none;
-                            background-color: $text_color;
+                            background-color: $color_link_hover;
                             color: $background_color;  
                         }
                     }
-                    text-decoration: underline;
                     color: $background_color;
                 }
             }

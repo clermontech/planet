@@ -223,13 +223,11 @@ time {
   .top-bar-section {
     margin-right: 12%; }
     .top-bar-section li:not(.has-form) a {
-      text-decoration: underline;
       color: white; }
       .top-bar-section li:not(.has-form) a:not(.button) {
         background-color: #000; }
         .top-bar-section li:not(.has-form) a:not(.button):hover {
-          text-decoration: none;
-          background-color: #000;
+          background-color: #30303f;
           color: white; }
 
   .title-area strong {
