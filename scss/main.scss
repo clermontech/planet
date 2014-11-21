@@ -51,9 +51,10 @@ hr{
 
 .header-icon-rss{
     color: $background_color;
-    right: 12%;
-    position: absolute;
-    top: 190px;
+    float: right;
+    margin-right: 12%;
+    margin-top: -25px;
+    padding-right: 16px;
     display: none;
 }
 
