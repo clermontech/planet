@@ -198,7 +198,9 @@ time {
     display: block;
     margin: 0; }
     hgroup div {
-      margin-top: -28px; }
+      margin-top: -40px; }
+    hgroup h1, hgroup .title-area strong, .title-area hgroup strong {
+      margin-top: 42px; }
 
   .top-bar-section {
     margin-right: 12%; }
