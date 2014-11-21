@@ -248,6 +248,26 @@ time{
     text-transform: uppercase;
 }
 
+.fa.fa-external-link.event-meta-icon,
+.fa.fa-tags.event-meta-icon,
+.fa.fa-google.event-meta-icon
+{
+    float: left;
+}
+
+.fa.fa-google.event-meta-icon{
+    padding: 5px 20px 0px 3px;
+}
+
+.fa.fa-tags.event-meta-icon{
+    padding: 6px 21px 0px 0px;
+}
+
+.fa.fa-external-link.event-meta-icon
+{
+    padding: 5px 23px 0px 0px;
+}
+
 @media only screen and (min-width: 40.063em) {
     header{
     margin-bottom: 20px;
