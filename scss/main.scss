@@ -45,9 +45,16 @@ header{
     z-index: 999;
 }
 
-
 hr{
     display: block;
+}
+
+.header-icon-rss{
+    color: $background_color;
+    right: 13%;
+    position: absolute;
+    top: 190px;
+    display: none;
 }
 
 %h_mother{
@@ -316,6 +323,10 @@ time{
     
     .logo-small .logo-medium{
         display: none;
+    }
+    
+    .header-icon-rss{
+        display: inline-block;
     }
     
     hgroup{
