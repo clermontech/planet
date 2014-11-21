@@ -5,6 +5,8 @@ $text_color : #000;
 $background_color : white;
 $color_link_hover : #30303f;
 $calendar_background_color : #A11D1D;
+$header_background_color: rgba(21,21,23,1);
+$footer_background_color: #212124;
 
 @font-face {
     font-family: $title_font; 
@@ -38,7 +40,7 @@ body {
 }
 
 header{
-    background-color: $text_color;
+    background-color: $header_background_color;
     margin-bottom: 10px;
     z-index: 999;
 }
@@ -46,7 +48,6 @@ header{
 
 hr{
     display: block;
-    border-color: $text_color;
 }
 
 %h_mother{
@@ -72,7 +73,7 @@ h1{
 
 .top-bar{
     height: 40px;
-    background-color: $text_color;
+    background-color: $header_background_color;
     .toggle-topbar.menu-icon{
         margin: 0;
         top: 0%;
@@ -83,7 +84,7 @@ h1{
 }
 
 .top-bar.expanded{
-    background-color: $text_color;
+    background-color: $header_background_color;
 }
 
 .top-bar-section{
@@ -92,7 +93,7 @@ h1{
                 a{
                     &:not(.button){
                         
-                        background-color: $text_color;
+                        background-color: $header_background_color;
                         
                         &:hover{
                             background-color: $color_link_hover;  
@@ -110,7 +111,7 @@ h1{
 
 li{
     text-align: center;
-    background-color: $text_color;
+    background-color: $header_background_color;
 }
 
 h3, h4, h5, h6 {
@@ -139,7 +140,7 @@ float: left;
 /* footer */
 footer {
     width: 100%;
-    background: $text_color;
+    background: $footer_background_color;
     padding-top: 30px;
     padding-bottom: 10px;
     color: $background_color;
@@ -332,7 +333,7 @@ time{
             &:not(.has-form){
                 a{
                     &:not(.button){
-                        background-color: $text_color;
+                        background-color: $header_background_color;
                         &:hover{
                             background-color: $color_link_hover;
                             color: $background_color;  

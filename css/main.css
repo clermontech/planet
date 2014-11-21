@@ -16,13 +16,12 @@ body {
   background-color: white; }
 
 header {
-  background-color: #000;
+  background-color: #151517;
   margin-bottom: 10px;
   z-index: 999; }
 
 hr {
-  display: block;
-  border-color: #000; }
+  display: block; }
 
 h2, h1, .title-area strong, h3, h4, h5, h6 {
   font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif'; }
@@ -39,7 +38,7 @@ h1, .title-area strong {
 
 .top-bar {
   height: 40px;
-  background-color: #000; }
+  background-color: #151517; }
   .top-bar .toggle-topbar.menu-icon {
     margin: 0;
     top: 0%; }
@@ -47,7 +46,7 @@ h1, .title-area strong {
       height: 40px; }
 
 .top-bar.expanded {
-  background-color: #000; }
+  background-color: #151517; }
 
 .top-bar-section {
   z-index: 999; }
@@ -57,13 +56,13 @@ h1, .title-area strong {
     font-weight: bold;
     font-size: 1.0em; }
     .top-bar-section li:not(.has-form) a:not(.button) {
-      background-color: #000; }
+      background-color: #151517; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #30303f; }
 
 li {
   text-align: center;
-  background-color: #000; }
+  background-color: #151517; }
 
 .title-area strong {
   display: block;
@@ -82,7 +81,7 @@ li {
 /* footer */
 footer {
   width: 100%;
-  background: #000;
+  background: #212124;
   padding-top: 30px;
   padding-bottom: 10px;
   color: white;
@@ -225,7 +224,7 @@ time {
     .top-bar-section li:not(.has-form) a {
       color: white; }
       .top-bar-section li:not(.has-form) a:not(.button) {
-        background-color: #000; }
+        background-color: #151517; }
         .top-bar-section li:not(.has-form) a:not(.button):hover {
           background-color: #30303f;
           color: white; }
