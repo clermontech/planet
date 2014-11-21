@@ -4,14 +4,14 @@ layout: layout
 
 {{content}}
 
-<section class="talks small-12 columns">
+<section class="vcalendar talks small-12 columns">
 {% for event in site.posts %}
 
     {% if forloop.first == false %}<hr>{% endif %}
 
-    <div class="event row" itemscope itemtype="http://schema.org/Event">
+    <div class="vevent event row" itemscope itemtype="http://schema.org/Event">
         <div class="small-2 columns event-date-wrapper">
-            <time class="event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}" content="{{ event.event_date|date_to_xmlschema }}">
+            <time class="dtstart event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}" content="{{ event.event_date|date_to_xmlschema }}">
                 <em>{{ event.event_date|date:"%b" }}</em>
                 <span>{{ event.event_date|date:"%-d" }}</span>
             </time>
@@ -20,22 +20,22 @@ layout: layout
         <div class="small-12 medium-10 columns">
             <div class="row">
                 <div class="small-12 columns">
-                    <h3 class="event-name" itemprop="name">{{ event.title }}</h3>
+                    <h3 class="summary event-name" itemprop="name">{{ event.title }}</h3>
                 </div>
             </div>
 
             <div class="row">
                 <div class="small-12 columns">
-                    <div class="event-date-small">
+                    <div class="dtstart event-date-small">
                         {{ event.event_date|date: '%d/%m/%y <strong>%R</strong>' }}
                     </div>
 
-                    <div class="event-description text-justify" itemprop="description">
+                    <div class="description event-description text-justify" itemprop="description">
                         {{ event.description|markdownify }}
                     </div>
 
                     {% if event.location %}
-                    <div class="event-location" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <div class="location event-location" itemprop="location" itemscope itemtype="http://schema.org/Place">
                         <i class="fa fa-map-marker event-meta-icon"></i>
                         {% if event.location.name %}
                         <span itemprop="name">{{ event.location.name }}</span>
@@ -49,7 +49,7 @@ layout: layout
                     {% endif %}
 
                     {% if event.event_url %}
-                    <div class="event-url" itemprop="url">
+                    <div class="url event-url" itemprop="url">
                         <i class="fa fa-external-link event-meta-icon"></i>
                         <a href="{{ event.event_url }}" target="_blank">{{ event.event_url }}</a>
                     </div>
@@ -63,7 +63,7 @@ layout: layout
                         <span class="event-tags-item event-tags-city button radius">{{ event.location.city }}</span>
                         {% endif %}
                         {% for tag in event.tags %}
-                        <span class="event-tags-item button radius success">{{ tag }}</span>
+                        <span class="category event-tags-item button radius success">{{ tag }}</span>
                         {% endfor %}
                     </div>
 

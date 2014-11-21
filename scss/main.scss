@@ -45,9 +45,17 @@ header{
     z-index: 999;
 }
 
-
 hr{
     display: block;
+}
+
+.header-icon-rss{
+    color: $background_color;
+    float: right;
+    margin-right: 12%;
+    margin-top: -25px;
+    padding-right: 16px;
+    display: none;
 }
 
 %h_mother{
@@ -316,6 +324,10 @@ time{
     
     .logo-small .logo-medium{
         display: none;
+    }
+    
+    .header-icon-rss{
+        display: inline-block;
     }
     
     hgroup{
