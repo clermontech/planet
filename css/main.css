@@ -207,8 +207,8 @@ time {
       .top-bar-section li:not(.has-form) a:not(.button) {
         background-color: #151517; }
         .top-bar-section li:not(.has-form) a:not(.button):hover {
-          background-color: #30303f;
-          color: white; }
+          background-color: #151517;
+          color: #008CBA; }
 
   .title-area strong {
     display: none; } }
