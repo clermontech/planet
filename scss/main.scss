@@ -313,8 +313,8 @@ time{
                     &:not(.button){
                         background-color: $header_background_color;
                         &:hover{
-                            background-color: $color_link_hover;
-                            color: $background_color;  
+                            background-color: $header_background_color;
+                            color: #008CBA;
                         }
                     }
                     color: $background_color;
