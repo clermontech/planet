@@ -97,7 +97,7 @@ footer {
 
 .event-date-wrapper {
   display: none;
-  padding-top: 3em;
+  padding-top: 13px;
   text-align: center; }
 
 .event-date {
@@ -165,25 +165,6 @@ time {
 
 .event-tags-city {
   text-transform: uppercase; }
-
-.event-month {
-  background-color: red;
-  border: 1px solid #000;
-  width: 75px;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  display: inline-block;
-  border-radius: 0px 0px 5px 5px;
-  font-size: 1.3em; }
-  .event-month .event-day {
-    background-color: white;
-    color: #000;
-    border-top: 1px solid #000;
-    height: 60px;
-    font-size: 1.7em;
-    font-weight: normal;
-    border-radius: 0px 0px 5px 5px; }
 
 @media only screen and (min-width: 40.063em) {
   header {
