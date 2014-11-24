@@ -17,11 +17,20 @@ body {
 
 header {
   background-color: #151517;
-  margin-bottom: 10px;
-  z-index: 999; }
+  margin-bottom: 10px; }
 
 hr {
   display: block; }
+
+.header-icon-rss {
+  color: white;
+  float: right;
+  margin-right: 12%;
+  margin-top: -25px;
+  padding-right: 16px;
+  display: none; }
+  .header-icon-rss:hover {
+    color: #008CBA; }
 
 h2, h1, .title-area strong, h3, h4, h5, h6 {
   font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif'; }
@@ -76,7 +85,8 @@ li {
   margin: 8px 0px;
   margin-left: 10px;
   height: 25px;
-  float: left; }
+  float: left;
+  z-index: 1; }
 
 /* footer */
 footer {
@@ -208,6 +218,10 @@ time {
   .logo-small .logo-medium {
     display: none; }
 
+  .header-icon-rss {
+    display: block;
+    position: relative; }
+
   hgroup {
     display: block;
     margin: 0; }
@@ -228,3 +242,5 @@ time {
 
   .title-area strong {
     display: none; } }
+
+/*# sourceMappingURL=main.css.map */
