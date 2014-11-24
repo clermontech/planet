@@ -22,7 +22,7 @@ layout: layout
                 <div class="small-12 columns">
                     <h3 class="summary event-name" itemprop="name">{{ event.title }}</h3>
                 </div>
-                <div class="event-date-small">
+                <div class="dtstart event-date-small">
                     <i class="fa fa-clock-o"></i>
                     <div class="event-date-small-date">{{ event.event_date|date: '%d/%m/%y </div><strong>%R</strong>' }}
                 </div>
@@ -30,9 +30,6 @@ layout: layout
 
             <div class="row">
                 <div class="small-12 columns">
-                    <div class="dtstart event-date-small">
-                        {{ event.event_date|date: '%d/%m/%y <strong>%R</strong>' }}
-                    </div>
 
                     <div class="description event-description text-justify" itemprop="description">
                         {{ event.description|markdownify }}
