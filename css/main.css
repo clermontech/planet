@@ -148,9 +148,22 @@ footer {
 time {
   text-align: center; }
 
+.event-name-bloc {
+  padding-right: 0px; }
+
 .event-date-small {
-  margin-bottom: 6px;
-  font-size: 1.7em; }
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #000;
+  border-radius: 0.6em;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 15px; }
+
+.event-date-small-bloc {
+  padding: 0px; }
 
 .event-location,
 .event-url,
@@ -202,7 +215,8 @@ time {
     height: 40px; }
 
   .event-date-small {
-    font-size: 1em; }
+    font-size: 1em;
+    float: left; }
 
   .title-area strong {
     font-size: 2.4em;
@@ -210,7 +224,15 @@ time {
     color: white; } }
 @media only screen and (min-width: 800px) {
   .event-date-wrapper {
-    display: block; } }
+    display: block; }
+
+  .event-date-small {
+    margin-bottom: 6px;
+    margin-top: 0px;
+    padding-left: 15px;
+    border: none;
+    text-align: left;
+    width: 100%; } }
 @media only screen and (min-width: 64.063em) {
   .logo-small {
     display: none; }
