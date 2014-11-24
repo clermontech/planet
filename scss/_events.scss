@@ -19,6 +19,10 @@
     }
 }
 
+.vevent {
+    @include grid-row();
+}
+
 .event-name {
     font-family: $title_font;
     font-size: 3em;
@@ -27,6 +31,7 @@
 }
 
 .event-date-wrapper {
+    @include grid-column(2);
     display: none;
     // padding-top: 13px;
     text-align: center;
@@ -71,8 +76,8 @@ time {
     padding-left: 15px;
 }
 
-.event-location,
-.event-url,
+.location,
+.url,
 .event-tags,
 .event-add-calendar {
     margin-top: 6px;
@@ -81,7 +86,7 @@ time {
     white-space: nowrap;
 }
 
-.event-location,
+.location,
 .event-add-calendar {
     & i {
         padding-left: 2px;

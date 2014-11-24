@@ -9,8 +9,8 @@ layout: layout
 
     <div class="event-wrapper">
 
-        <div class="vevent event row" itemscope itemtype="http://schema.org/Event">
-            <div class="small-2 columns event-date-wrapper">
+        <div class="vevent" itemscope itemtype="http://schema.org/Event">
+            <div class="event-date-wrapper">
                 <time class="dtstart event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}" content="{{ event.event_date|date_to_xmlschema }}">
                     <span class="month">{{ event.event_date|date:"%b" }}</span>
                     <span class="day">{{ event.event_date|date:"%-d" }}</span>
@@ -36,7 +36,7 @@ layout: layout
                         </div>
 
                         {% if event.location %}
-                        <div class="location event-location" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <div class="location" itemprop="location" itemscope itemtype="http://schema.org/Place">
                             <i class="fa fa-map-marker event-meta-icon"></i>
                             {% if event.location.name %}
                             <a itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank">
@@ -52,7 +52,7 @@ layout: layout
                         {% endif %}
 
                         {% if event.event_url %}
-                        <div class="url event-url" itemprop="url">
+                        <div class="url" itemprop="url">
                             <i class="fa fa-external-link event-meta-icon"></i>
                             <a href="{{ event.event_url }}" target="_blank">{{ event.event_url }}</a>
                         </div>
