@@ -309,11 +309,6 @@ time{
 	}
     }
 
-   .logo-small{
-        margin: 0px 0px 0px 5px;
-        height: 40px;
-    }
-
     .event-date-small {
         font-size:1em;
         float : left;
@@ -321,7 +316,6 @@ time{
     
     .title-area{
         strong{
-            font-size: 2.4em;
             text-align: left;
             color: $background_color;
         }

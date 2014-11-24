@@ -210,16 +210,11 @@ time {
   .top-bar-section li:not(.has-form) a {
     font-size: 1.2em; }
 
-  .logo-small {
-    margin: 0px 0px 0px 5px;
-    height: 40px; }
-
   .event-date-small {
     font-size: 1em;
     float: left; }
 
   .title-area strong {
-    font-size: 2.4em;
     text-align: left;
     color: white; } }
 @media only screen and (min-width: 800px) {
