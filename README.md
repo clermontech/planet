@@ -31,6 +31,10 @@ description:
     can be written in multiline, and **Markdown** can be used.
     Please, do not add any images, only plain text with text decoration.
 
+# Is this event free? (optional)
+# Default is false.
+is_free: true|false
+
 # URL of your event, on your own website (optional)
 event_url: http://clermontech.org/api-hours/api-hour-6.html
 

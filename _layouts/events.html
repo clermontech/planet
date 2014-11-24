@@ -27,10 +27,13 @@ layout: layout
                     <div class="small-12 columns">
                         <h3 class="summary" itemprop="name">{{ event.title }}</h3>
                     </div>
-                    <div class="dtstart event-date-small">
+                    <div class="dtstart event-date-small {% unless event.is_free %}small-9{% endunless %}">
                         <i class="fa fa-clock-o"></i>
                         <div class="event-date-small-date">{{ event.event_date|date: '%d/%m/%y </div><strong>%R</strong>' }}
                     </div>
+                    {% unless event.is_free %}<div class="is-event-free right">
+                        <span class="button radius">Payant</span>
+                    </div>{% endunless %}
                     {% if event.location %}
                         <div class="location" itemprop="location" itemscope itemtype="http://schema.org/Place">
                             <i class="fa fa-map-marker event-meta-icon"></i>

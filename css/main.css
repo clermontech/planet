@@ -9077,8 +9077,8 @@ th.hide-for-touch {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1417623652);
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1417623652#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff?1417623652) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1417623652) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1417623652#fontawesomeregular) format("svg");
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1418111014);
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1418111014#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff?1418111014) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1418111014) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1418111014#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -11986,9 +11986,10 @@ footer p {
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 0px;
+  float: left;
 }
 
-/* line 33, ../scss/_events.scss */
+/* line 34, ../scss/_events.scss */
 .event-date-wrapper {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -11998,13 +11999,13 @@ footer p {
   text-align: center;
 }
 
-/* line 40, ../scss/_events.scss */
+/* line 41, ../scss/_events.scss */
 .event-date-small-date {
   display: inline-block;
   padding-right: 10px;
 }
 
-/* line 45, ../scss/_events.scss */
+/* line 46, ../scss/_events.scss */
 .event-information-wrapper {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
@@ -12013,21 +12014,21 @@ footer p {
   padding: 0px;
 }
 
-/* line 50, ../scss/_events.scss */
+/* line 51, ../scss/_events.scss */
 .description {
   text-align: justify;
 }
 
-/* line 54, ../scss/_events.scss */
+/* line 55, ../scss/_events.scss */
 .event-date {
   text-align: center;
 }
-/* line 57, ../scss/_events.scss */
+/* line 58, ../scss/_events.scss */
 .event-date span {
   display: block;
   width: 100%;
 }
-/* line 61, ../scss/_events.scss */
+/* line 62, ../scss/_events.scss */
 .event-date span.month {
   font-size: 4em;
   font-family: "Neutraface Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -12036,25 +12037,25 @@ footer p {
   line-height: 1em;
   border-bottom: 1px solid rgba(34, 34, 34, 0.4);
 }
-/* line 70, ../scss/_events.scss */
+/* line 71, ../scss/_events.scss */
 .event-date span.day {
   font-size: 3em;
   line-height: 1em;
   text-align: right;
 }
 
-/* line 78, ../scss/_events.scss */
+/* line 79, ../scss/_events.scss */
 time {
   text-align: center;
 }
 
-/* line 82, ../scss/_events.scss */
+/* line 83, ../scss/_events.scss */
 .event-date-small {
   font-size: 1.2em;
   padding-left: 15px;
 }
 
-/* line 87, ../scss/_events.scss */
+/* line 88, ../scss/_events.scss */
 .location,
 .url,
 .event-tags,
@@ -12065,36 +12066,36 @@ time {
   white-space: nowrap;
 }
 
-/* line 99, ../scss/_events.scss */
+/* line 100, ../scss/_events.scss */
 .location i,
 .event-add-calendar i {
   padding-left: 2px;
 }
 
-/* line 104, ../scss/_events.scss */
+/* line 105, ../scss/_events.scss */
 .location {
   margin: 0px 0px 6px 0px;
   padding-left: 15px;
 }
 
-/* line 109, ../scss/_events.scss */
+/* line 110, ../scss/_events.scss */
 .event-meta-icon {
   width: 18px;
 }
 
-/* line 113, ../scss/_events.scss */
+/* line 114, ../scss/_events.scss */
 .event-tags-item {
   padding: 0.2rem 0.3rem 0.2rem 0.3rem;
   font-size: 0.6rem;
   margin: 0;
 }
 
-/* line 119, ../scss/_events.scss */
+/* line 120, ../scss/_events.scss */
 .event-tags-city {
   text-transform: uppercase;
 }
 
-/* line 123, ../scss/_events.scss */
+/* line 124, ../scss/_events.scss */
 .fa.fa-external-link.event-meta-icon,
 .fa.fa-tags.event-meta-icon,
 .fa.fa-google.event-meta-icon,
@@ -12102,41 +12103,72 @@ time {
   float: left;
 }
 
-/* line 130, ../scss/_events.scss */
+/* line 131, ../scss/_events.scss */
 .fa.fa-google.event-meta-icon {
   padding: 5px 19px 0px 3px;
 }
 
-/* line 134, ../scss/_events.scss */
+/* line 135, ../scss/_events.scss */
 .fa.fa-tags.event-meta-icon {
   padding: 6px 22px 0px 0px;
 }
 
-/* line 138, ../scss/_events.scss */
+/* line 139, ../scss/_events.scss */
 .fa.fa-external-link.event-meta-icon {
   padding: 5px 23px 0px 0px;
 }
 
-/* line 142, ../scss/_events.scss */
+/* line 144, ../scss/_events.scss */
+.is-event-free {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 25%;
+  float: left;
+  margin: -25px 0 0 0;
+  float: right;
+  text-align: right;
+}
+/* line 146, ../scss/_events.scss */
+.is-event-free span {
+  padding: 0.3em 0.4em;
+  font-size: 0.8em;
+  margin: 0;
+  background-color: yellowgreen;
+}
+/* line 148, ../scss/_events.scss */
+.is-event-free span:hover {
+  background-color: yellowgreen;
+}
+
+/* line 164, ../scss/_events.scss */
 .archive {
   color: rgba(140, 132, 120, 0.5);
 }
-/* line 144, ../scss/_events.scss */
+/* line 166, ../scss/_events.scss */
 .archive h3, .archive a {
   color: rgba(140, 132, 120, 0.5);
 }
-/* line 150, ../scss/_events.scss */
+/* line 172, ../scss/_events.scss */
 .archive .event-date .month {
   color: rgba(140, 132, 120, 0.5);
 }
-/* line 157, ../scss/_events.scss */
+/* line 179, ../scss/_events.scss */
 .archive .event-tags-item:not(:hover) {
   background-color: rgba(140, 132, 120, 0.5);
 }
+/* line 188, ../scss/_events.scss */
+.archive .is-event-free span:not(:hover) {
+  background-color: rgba(140, 132, 120, 0.5);
+}
 
-/* line 165, ../scss/_events.scss */
+/* line 197, ../scss/_events.scss */
 .fa.fa-map-marker.event-meta-icon {
   padding: 4px 18px 0px 3px;
+}
+
+/* line 201, ../scss/_events.scss */
+.fa.fa-dollar.event-meta-icon {
+  margin: 0px -4px;
 }
 
 /*
