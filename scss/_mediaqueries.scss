@@ -82,6 +82,7 @@
             &:not(.has-form) {
 
                 a {
+                    color: $background_color;
 
                     &:not(.button) {
                         background-color: $header_background_color;
@@ -91,7 +92,6 @@
                             color: #008CBA;
                         }
                     }
-                    color: $background_color;
                 }
             }
         }

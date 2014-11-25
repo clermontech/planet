@@ -84,12 +84,20 @@ h1 {
 }
 
 .top-bar-section{
+    z-index: 999;
+    margin: 0px auto;
+    max-width: 62.5rem;
+    width: auto;
 
     li {
 
         &:not(.has-form){
 
             a {
+                font-family: $title_font;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 1.0em;
 
                 &:not(.button) {
                     background-color: $header_background_color;
@@ -98,19 +106,9 @@ h1 {
                         background-color: $color_link_hover;
                     }
                 }
-
-                font-family: $title_font;
-                text-transform: uppercase;
-                font-weight: bold;
-                font-size: 1.0em;
             }
         }
     }
-
-    z-index: 999;
-    margin: 0px auto;
-    max-width: 62.5rem;
-    width: auto;
 }
 
 li {
