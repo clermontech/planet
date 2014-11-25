@@ -12,8 +12,8 @@ layout: layout
         <div class="vevent event row" itemscope itemtype="http://schema.org/Event">
             <div class="small-2 columns event-date-wrapper">
                 <time class="dtstart event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}" content="{{ event.event_date|date_to_xmlschema }}">
-                    <em>{{ event.event_date|date:"%b" }}</em>
-                    <span>{{ event.event_date|date:"%-d" }}</span>
+                    <span class="month">{{ event.event_date|date:"%b" }}</span>
+                    <span class="day">{{ event.event_date|date:"%-d" }}</span>
                 </time>
             </div>
 

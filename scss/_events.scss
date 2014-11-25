@@ -28,7 +28,7 @@
 
 .event-date-wrapper {
     display: none;
-    padding-top: 13px;
+    // padding-top: 13px;
     text-align: center;
 }
 
@@ -39,43 +39,25 @@
 
 .event-date {
     text-align: center;
-    font-family: $title_font;
-    font-size: 1em;
-    display: inline-block;
-    position: relative;
-    width: 6em;
-    height: 7em;
-    background-color: $background_color;
-    border: 1px solid $text_color;
-    border-radius: 0.6em;
-    overflow: hidden;
-
-    em {
-        position: absolute;
-        top: 0;
-        font-size: 2em;
-        padding: 0.1em 0;
-        color: $background_color;
-        background-color: $calendar_background_color;
-        border: 1px $text_color;
-        border-bottom: 1px;
-    }
 
     span {
-        font-size: 3em;
-        letter-spacing: -0.05em;
-        padding-top: 1em;
-        background-color: $background_color;
-        color : $text_color;
-    }
-
-    * {
         display: block;
         width: 100%;
-        font-size: 1em;
-        font-weight: bold;
-        font-style: normal;
-        text-align: center;
+
+        &.month {
+            font-size: 4em;
+            font-family: $title_font;
+            color: rgba($text_color, 0.8);
+            text-align: left;
+            line-height: 1em;
+            border-bottom: 1px solid rgba($text_color, 0.4);
+        }
+
+        &.day {
+            font-size: 3em;
+            line-height: 1em;
+            text-align: right;
+        }
     }
 }
 
