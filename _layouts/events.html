@@ -7,8 +7,6 @@ layout: layout
 <section class="vcalendar talks small-12 columns">
 {% for event in site.posts %}
 
-    {% if forloop.first == false %}<hr>{% endif %}
-
     <div class="vevent event row" itemscope itemtype="http://schema.org/Event">
         <div class="small-2 columns event-date-wrapper">
             <time class="dtstart event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}" content="{{ event.event_date|date_to_xmlschema }}">
