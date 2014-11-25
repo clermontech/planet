@@ -22,8 +22,9 @@ layout: layout
                 <div class="small-12 columns">
                     <h3 class="summary event-name" itemprop="name">{{ event.title }}</h3>
                 </div>
-                <div class="event-date-small small-5 medium-12 columns">
-                    <div class="event-date-small-bloc small-12 medium-4 columns end">{{ event.event_date|date: '<div class="small-12 medium-4 columns">%d/%m/%y </div><strong class="small-12 medium-6 columns end">%R</strong>' }}</div>
+                <div class="event-date-small">
+                    <i class="fa fa-clock-o"></i>
+                    <div class="event-date-small-date">{{ event.event_date|date: '%d/%m/%y </div><strong>%R</strong>' }}
                 </div>
             </div>
 
