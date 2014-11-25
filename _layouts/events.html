@@ -4,110 +4,113 @@ layout: layout
 
 {{content}}
 
-<section class="vcalendar talks small-12 columns">
+<section class="vcalendar talks">
 {% for event in site.posts %}
 
-    <div class="vevent event row" itemscope itemtype="http://schema.org/Event">
-        <div class="small-2 columns event-date-wrapper">
-            <time class="dtstart event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}" content="{{ event.event_date|date_to_xmlschema }}">
-                <em>{{ event.event_date|date:"%b" }}</em>
-                <span>{{ event.event_date|date:"%-d" }}</span>
-            </time>
-        </div>
+    <div class="event-wrapper">
 
-        <div class="small-12 medium-10 columns">
-            <div class="row">
-                <div class="small-12 columns">
-                    <h3 class="summary event-name" itemprop="name">{{ event.title }}</h3>
-                </div>
-                <div class="dtstart event-date-small">
-                    <i class="fa fa-clock-o"></i>
-                    <div class="event-date-small-date">{{ event.event_date|date: '%d/%m/%y </div><strong>%R</strong>' }}
-                </div>
+        <div class="vevent event row" itemscope itemtype="http://schema.org/Event">
+            <div class="small-2 columns event-date-wrapper">
+                <time class="dtstart event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}" content="{{ event.event_date|date_to_xmlschema }}">
+                    <em>{{ event.event_date|date:"%b" }}</em>
+                    <span>{{ event.event_date|date:"%-d" }}</span>
+                </time>
             </div>
 
-            <div class="row">
-                <div class="small-12 columns">
-
-                    <div class="description event-description text-justify" itemprop="description">
-                        {{ event.description|markdownify }}
+            <div class="small-12 medium-10 columns">
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h3 class="summary event-name" itemprop="name">{{ event.title }}</h3>
                     </div>
-
-                    {% if event.location %}
-                    <div class="location event-location" itemprop="location" itemscope itemtype="http://schema.org/Place">
-                        <i class="fa fa-map-marker event-meta-icon"></i>
-                        {% if event.location.name %}
-                        <a itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank">
-                            <span itemprop="name">{{ event.location.name }}</span>
-                        </a>
-                        {% endif %}
-                        <a itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank">
-                            <span itemprop="streetAddress">{{ event.location.street_address }}</span>
-                            <span itemprop="postalCode">{{ event.location.postal_code }}</span>
-                            <span itemprop="addressLocality">{{ event.location.city }}</span>
-                        </a>
+                    <div class="dtstart event-date-small">
+                        <i class="fa fa-clock-o"></i>
+                        <div class="event-date-small-date">{{ event.event_date|date: '%d/%m/%y </div><strong>%R</strong>' }}
                     </div>
-                    {% endif %}
+                </div>
 
-                    {% if event.event_url %}
-                    <div class="url event-url" itemprop="url">
-                        <i class="fa fa-external-link event-meta-icon"></i>
-                        <a href="{{ event.event_url }}" target="_blank">{{ event.event_url }}</a>
-                    </div>
-                    {% endif %}
+                <div class="row">
+                    <div class="small-12 columns">
 
-                    <div class="event-tags">
-                        {% if event.location or event.tags.size > 0 %}
-                        <i class="fa fa-tags event-meta-icon"></i>
-                        {% endif %}
+                        <div class="description event-description text-justify" itemprop="description">
+                            {{ event.description|markdownify }}
+                        </div>
+
                         {% if event.location %}
-                        <span class="event-tags-item event-tags-city button radius">{{ event.location.city }}</span>
+                        <div class="location event-location" itemprop="location" itemscope itemtype="http://schema.org/Place">
+                            <i class="fa fa-map-marker event-meta-icon"></i>
+                            {% if event.location.name %}
+                            <a itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank">
+                                <span itemprop="name">{{ event.location.name }}</span>
+                            </a>
+                            {% endif %}
+                            <a itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" href="https://www.google.fr/maps/place/{{ event.location.street_address | replace: ' ','+' }}+{{ event.location.postal_code | replace: ' ','+' }}+{{ event.location.city | replace: ' ','+' }}" target="_blank">
+                                <span itemprop="streetAddress">{{ event.location.street_address }}</span>
+                                <span itemprop="postalCode">{{ event.location.postal_code }}</span>
+                                <span itemprop="addressLocality">{{ event.location.city }}</span>
+                            </a>
+                        </div>
                         {% endif %}
-                        {% for tag in event.tags %}
-                        <span class="category event-tags-item button radius success">{{ tag }}</span>
-                        {% endfor %}
-                    </div>
 
-                    {% capture url_google_calendar  %}https://www.google.com/calendar/render?action=TEMPLATE
-{% if event.title %}&text={{ event.title|uri_escape }}{% endif %}
-&dates={{ event.event_date|date: '%Y%m%dT%H%M00'}}/{{ event.event_date|date: '%Y%m%dT%H%M00'}}
-{% if event.description %}
-&details={{ event.description|markdownify|strip_html|uri_escape }}
-{% endif %}
-{% if event.location %}
-&location={{ event.location.name|append:''|uri_escape }}+{{ event.location.street_address|uri_escape }}+{{ event.location.postal_code }}+{{ event.location.city|uri_escape }}{% endif %}
-&sf=true{% endcapture %}
+                        {% if event.event_url %}
+                        <div class="url event-url" itemprop="url">
+                            <i class="fa fa-external-link event-meta-icon"></i>
+                            <a href="{{ event.event_url }}" target="_blank">{{ event.event_url }}</a>
+                        </div>
+                        {% endif %}
 
-                    <div class="event-add-calendar">
-                        <i class="fa fa-google event-meta-icon"></i>
-                        <a target="_blank" href="{{ url_google_calendar|strip_newlines }}">
-                            <span>{{ site.insert.google-calendar }}</span>
-                        </a>
-                    </div>
+                        <div class="event-tags">
+                            {% if event.location or event.tags.size > 0 %}
+                            <i class="fa fa-tags event-meta-icon"></i>
+                            {% endif %}
+                            {% if event.location %}
+                            <span class="event-tags-item event-tags-city button radius">{{ event.location.city }}</span>
+                            {% endif %}
+                            {% for tag in event.tags %}
+                            <span class="category event-tags-item button radius success">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
 
-                    {% capture icalendar_data %}BEGIN:VCALENDAR\r\n
-PRODID:planet.clermontech.org\r\n
-VERSION:2.0\r\n
-BEGIN:VEVENT\r\n
-UID:{{ event.id|remove_first:'/'|replace:'/','-' }}\r\n
-DTSTART:{{ event.event_date|date: '%Y%m%dT%H%M00' }}\r\n
-{% if event.title %}
-SUMMARY:{{ event.title }}\r\n{% endif %}
-{% if event.location %}
-LOCATION:{{ event.location.name }} {{ event.location.street_address }} {{ event.location.postal_code }} {{ event.location.city }}\r\n
-{% endif %}
-{% if event.description %}
-DESCRIPTION:{{ event.description|markdownify|replace:'<br>':'\\\n'|strip_html|replace:',','\\,' }}\r\n
-{% endif %}
-CATEGORIES:{{ event.tags|join:','|replace: "'","\\'" }}\r\n
-END:VEVENT\r\n
-END:VCALENDAR{% endcapture %}
+                        {% capture url_google_calendar  %}https://www.google.com/calendar/render?action=TEMPLATE
+    {% if event.title %}&text={{ event.title|uri_escape }}{% endif %}
+    &dates={{ event.event_date|date: '%Y%m%dT%H%M00'}}/{{ event.event_date|date: '%Y%m%dT%H%M00'}}
+    {% if event.description %}
+    &details={{ event.description|markdownify|strip_html|uri_escape }}
+    {% endif %}
+    {% if event.location %}
+    &location={{ event.location.name|append:''|uri_escape }}+{{ event.location.street_address|uri_escape }}+{{ event.location.postal_code }}+{{ event.location.city|uri_escape }}{% endif %}
+    &sf=true{% endcapture %}
 
-                    <div class="event-add-calendar">
-                        <i class="fa fa-calendar event-meta-icon"></i>
-                        <a target="_blank" href="javascript:window.open('data:text/calendar;charset=utf8,' + encodeURIComponent('{{ icalendar_data|strip_newlines }}'));">
-                            <span>{{ site.insert.icalendar}}</span>
-                        </a>
+                        <div class="event-add-calendar">
+                            <i class="fa fa-google event-meta-icon"></i>
+                            <a target="_blank" href="{{ url_google_calendar|strip_newlines }}">
+                                <span>{{ site.insert.google-calendar }}</span>
+                            </a>
+                        </div>
+
+                        {% capture icalendar_data %}BEGIN:VCALENDAR\r\n
+    PRODID:planet.clermontech.org\r\n
+    VERSION:2.0\r\n
+    BEGIN:VEVENT\r\n
+    UID:{{ event.id|remove_first:'/'|replace:'/','-' }}\r\n
+    DTSTART:{{ event.event_date|date: '%Y%m%dT%H%M00' }}\r\n
+    {% if event.title %}
+    SUMMARY:{{ event.title }}\r\n{% endif %}
+    {% if event.location %}
+    LOCATION:{{ event.location.name }} {{ event.location.street_address }} {{ event.location.postal_code }} {{ event.location.city }}\r\n
+    {% endif %}
+    {% if event.description %}
+    DESCRIPTION:{{ event.description|markdownify|replace:'<br>':'\\\n'|strip_html|replace:',','\\,' }}\r\n
+    {% endif %}
+    CATEGORIES:{{ event.tags|join:','|replace: "'","\\'" }}\r\n
+    END:VEVENT\r\n
+    END:VCALENDAR{% endcapture %}
+
+                        <div class="event-add-calendar">
+                            <i class="fa fa-calendar event-meta-icon"></i>
+                            <a target="_blank" href="javascript:window.open('data:text/calendar;charset=utf8,' + encodeURIComponent('{{ icalendar_data|strip_newlines }}'));">
+                                <span>{{ site.insert.icalendar}}</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
