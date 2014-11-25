@@ -1,0 +1,151 @@
+/*
+    Clermont'ech Planet
+
+    Page layout and default tag styles.
+ */
+
+img{
+    display: inline-block;
+}
+
+hgroup{
+    display: none;
+}
+
+body {
+    font-family: $default_font;
+    background-color: $background_color;
+}
+
+header{
+    background-color: $header_background_color;
+    margin-bottom: 10px;
+}
+
+hr{
+    display: block;
+}
+
+.rss-link{
+   display: none;
+   max-width: 62.5rem;
+   margin: 0px auto;
+   text-align: right;
+   height: 0px;
+   .fa-rss{
+        color: $background_color;
+        bottom: 29px;
+        padding-right: 15px;
+        position: relative;
+        &:hover{
+          color: #008CBA;
+        }
+    }
+}
+
+
+%h_mother{
+    font-family: $title_font;
+}
+
+%h_main{
+    @extend %h_mother;
+    font-weight: bold;
+}
+
+h2{
+    @extend %h_main;
+    color: $background_color;
+    text-align: left;
+
+}
+
+h1{
+    @extend h2;
+    text-transform: uppercase;
+}
+
+.top-bar{
+    height: 40px;
+    background-color: $header_background_color;
+    .toggle-topbar.menu-icon{
+        margin: 0;
+        top: 0%;
+        a{
+            height: 40px;
+        }
+    }
+}
+
+.top-bar.expanded{
+    background-color: $header_background_color;
+}
+
+.top-bar-section{
+        li{
+            &:not(.has-form){
+                a{
+                    &:not(.button){
+
+                        background-color: $header_background_color;
+
+                        &:hover{
+                            background-color: $color_link_hover;
+                        }
+                    }
+                    font-family: $title_font;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1.0em;
+                }
+            }
+        }
+        z-index: 999;
+        margin: 0px auto;
+        max-width: 62.5rem;
+        width: auto;
+    }
+
+li{
+    text-align: center;
+    background-color: $header_background_color;
+}
+
+h3, h4, h5, h6 {
+    @extend %h_mother;
+}
+
+.title-area{
+    strong{
+        @extend h1;
+        display: block;
+        font-weight: bold;
+        margin-left: 10px;
+        line-height: 40px;
+        float: left;
+        font-size: 1.5em;
+    }
+}
+
+.logo-small {
+    margin: 8px 0px;
+    margin-left: 10px;
+    height: 25px;
+    float: left;
+    z-index: 1;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background: $footer_background_color;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: $background_color;
+    margin-top: 20px;
+
+    p {
+        text-align: justify;
+        font-size: 0.9em;
+    }
+}

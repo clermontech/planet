@@ -1,3 +1,21 @@
+/*
+    Clermont'ech Planet styles
+ */
+/*
+    Clermont'ech Planet
+
+    Define your settings here.
+ */
+/*
+    Clermont'ech Planet
+
+    Mixins.
+ */
+/*
+    Clermont'ech Planet
+
+    Fonts.
+ */
 @font-face {
   font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
   src: url("../fonts/neutraface-condensed-light.otf"); }
@@ -5,6 +23,11 @@
   font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
   font-weight: bold;
   src: url("../fonts/neutraface-condensed-medium.otf"); }
+/*
+    Clermont'ech Planet
+
+    Page layout and default tag styles.
+ */
 img {
   display: inline-block; }
 
@@ -107,7 +130,11 @@ footer {
     text-align: justify;
     font-size: 0.9em; }
 
-/* events */
+/*
+    Clermont'ech Planet
+
+    Events.
+ */
 .event-name {
   font-family: '"Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
   font-size: 1.5em;
@@ -203,6 +230,11 @@ time {
 .fa.fa-external-link.event-meta-icon {
   padding: 5px 23px 0px 0px; }
 
+/*
+    Clermont'ech Planet
+
+    Mediaqueries.
+ */
 @media only screen and (min-width: 40.063em) {
   header {
     margin-bottom: 20px; }
