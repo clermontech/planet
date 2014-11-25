@@ -4,17 +4,34 @@
     Page layout and default tag styles.
  */
 
-img {
-    display: inline-block;
-}
-
-hgroup {
-    display: none;
-}
 
 body {
     font-family: $default_font;
     background-color: $background_color;
+}
+
+%h_mother {
+    font-family: $title_font;
+}
+
+%h_main {
+    @extend %h_mother;
+    font-weight: bold;
+}
+
+h1 {
+    @extend h2;
+    text-transform: uppercase;
+}
+
+h2 {
+    @extend %h_main;
+    color: $background_color;
+    text-align: left;
+}
+
+h3, h4, h5, h6 {
+    @extend %h_mother;
 }
 
 header {
@@ -22,8 +39,21 @@ header {
     margin-bottom: 10px;
 }
 
+hgroup {
+    display: none;
+}
+
 hr {
     display: block;
+}
+
+img {
+    display: inline-block;
+}
+
+li {
+    text-align: center;
+    background-color: $header_background_color;
 }
 
 .rss-link {
@@ -45,26 +75,6 @@ hr {
     }
 }
 
-%h_mother {
-    font-family: $title_font;
-}
-
-%h_main {
-    @extend %h_mother;
-    font-weight: bold;
-}
-
-h2 {
-    @extend %h_main;
-    color: $background_color;
-    text-align: left;
-}
-
-h1 {
-    @extend h2;
-    text-transform: uppercase;
-}
-
 .top-bar {
     height: 40px;
     background-color: $header_background_color;
@@ -79,11 +89,11 @@ h1 {
     }
 }
 
-.top-bar.expanded{
+.top-bar.expanded {
     background-color: $header_background_color;
 }
 
-.top-bar-section{
+.top-bar-section {
     z-index: 999;
     margin: 0px auto;
     max-width: 62.5rem;
@@ -111,15 +121,6 @@ h1 {
     }
 }
 
-li {
-    text-align: center;
-    background-color: $header_background_color;
-}
-
-h3, h4, h5, h6 {
-    @extend %h_mother;
-}
-
 .title-area {
 
     strong {
@@ -141,7 +142,6 @@ h3, h4, h5, h6 {
     z-index: 1;
 }
 
-/* footer */
 footer {
     width: 100%;
     background: $footer_background_color;
