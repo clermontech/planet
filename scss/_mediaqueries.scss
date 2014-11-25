@@ -5,38 +5,44 @@
  */
 
 @media only screen and (min-width: 40.063em) {
-    header{
-    margin-bottom: 20px;
+
+    header {
+        margin-bottom: 20px;
     }
 
-    .top-bar-section{
-        li{
-            &:not(.has-form){
-                a{
+    .top-bar-section {
+
+        li {
+
+            &:not(.has-form) {
+
+                a {
                     font-size: 1.2em;
                 }
             }
-    }
+        }
     }
 
-    .title-area{
-        strong{
+    .title-area {
+
+        strong {
             text-align: left;
             color: $background_color;
         }
     }
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 800px) {
+
     .event-date-wrapper {
         display: block;
     }
 
     .event-date-small {
-        font-size:1em;
+        font-size: 1em;
     }
 
-    .event-date-small-date{
+    .event-date-small-date {
         display : none;
     }
 }
@@ -44,36 +50,43 @@
 
 @media only screen and (min-width: 64.063em ){
 
-    .logo-small{
+    .logo-small {
         display: none;
     }
 
-    .logo-small .logo-medium{
+    .logo-small .logo-medium {
         display: none;
     }
 
-    .rss-link{
+    .rss-link {
         display: block;
     }
 
-    hgroup{
+    hgroup {
         display: block;
         margin: 0;
-        div{
+
+        div {
             margin-top: -40px;
         }
-        h1{
+
+        h1 {
             margin-top: 42px;
         }
     }
 
-    .top-bar-section{
-        li{
-            &:not(.has-form){
-                a{
-                    &:not(.button){
+    .top-bar-section {
+
+        li {
+
+            &:not(.has-form) {
+
+                a {
+
+                    &:not(.button) {
                         background-color: $header_background_color;
-                        &:hover{
+
+                        &:hover {
                             background-color: $header_background_color;
                             color: #008CBA;
                         }
@@ -84,8 +97,9 @@
         }
     }
 
-    .title-area{
-        strong{
+    .title-area {
+
+        strong {
             display: none;
         }
     }
