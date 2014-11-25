@@ -110,6 +110,10 @@ footer {
   padding-top: 13px;
   text-align: center; }
 
+.event-date-small-date {
+  display: inline-block;
+  padding-right: 10px; }
+
 .event-date {
   text-align: center;
   font-family: '"Neutraface", "Helvetica Neue", fantasy, "Helvetica", Arial, sans-serif';
@@ -150,7 +154,8 @@ time {
 
 .event-date-small {
   margin-bottom: 6px;
-  font-size: 1.7em; }
+  font-size: 1.2em;
+  padding-left: 15px; }
 
 .event-location,
 .event-url,
@@ -197,20 +202,18 @@ time {
   .top-bar-section li:not(.has-form) a {
     font-size: 1.2em; }
 
-  .logo-small {
-    margin: 0px 0px 0px 5px;
-    height: 40px; }
-
-  .event-date-small {
-    font-size: 1em; }
-
   .title-area strong {
-    font-size: 2.4em;
     text-align: left;
     color: white; } }
 @media only screen and (min-width: 800px) {
   .event-date-wrapper {
-    display: block; } }
+    display: block; }
+
+  .event-date-small {
+    font-size: 1em; }
+
+  .event-date-small-date {
+    display: none; } }
 @media only screen and (min-width: 64.063em) {
   .logo-small {
     display: none; }
