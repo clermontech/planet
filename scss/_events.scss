@@ -1,0 +1,123 @@
+/*
+    Clermont'ech Planet
+
+    Events.
+ */
+
+.event-name {
+    font-family: $default_font;
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+.event-date-wrapper {
+    display: none;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.event-date-small-date {
+    display : inline-block;
+    padding-right: 10px;
+}
+
+.event-date {
+    text-align: center;
+    font-family: $title_font;
+    font-size: 1em;
+    display: inline-block;
+    position: relative;
+    width: 6em;
+    height: 7em;
+    background-color: $background_color;
+    border: 1px solid $text_color;
+    border-radius: 0.6em;
+    overflow: hidden;
+
+    em {
+        position: absolute;
+        top: 0;
+        font-size: 2em;
+        padding: 0.1em 0;
+        color: $background_color;
+        background-color: $calendar_background_color;
+        border: 1px $text_color;
+        border-bottom: 1px;
+    }
+
+    span {
+        font-size: 3em;
+        letter-spacing: -0.05em;
+        padding-top: 1em;
+        background-color: $background_color;
+        color : $text_color;
+    }
+
+    * {
+        display: block;
+        width: 100%;
+        font-size: 1em;
+        font-weight: bold;
+        font-style: normal;
+        text-align: center;
+    }
+}
+
+time {
+    text-align: center;
+}
+
+.event-date-small {
+    margin-bottom: 6px;
+    font-size: 1.2em;
+    padding-left: 15px;
+}
+
+.event-location,
+.event-url,
+.event-tags,
+.event-add-calendar {
+    margin-top: 6px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.event-location,
+.event-add-calendar {
+    & i {
+        padding-left: 2px;
+    }
+}
+
+.event-meta-icon {
+    width: 18px;
+}
+
+.event-tags-item {
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+.event-tags-city {
+    text-transform: uppercase;
+}
+
+.fa.fa-external-link.event-meta-icon,
+.fa.fa-tags.event-meta-icon,
+.fa.fa-google.event-meta-icon {
+    float: left;
+}
+
+.fa.fa-google.event-meta-icon {
+    padding: 5px 19px 0px 3px;
+}
+
+.fa.fa-tags.event-meta-icon {
+    padding: 6px 22px 0px 0px;
+}
+
+.fa.fa-external-link.event-meta-icon {
+    padding: 5px 23px 0px 0px;
+}
