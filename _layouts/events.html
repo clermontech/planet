@@ -32,16 +32,7 @@ layout: layout
                         <i class="fa fa-clock-o"></i>
                         <div class="event-date-small-date">{{ event.event_date|date: '%d/%m/%y </div><strong>%R</strong>' }}
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="small-12 columns">
-
-                        <div class="description event-description text-justify" itemprop="description">
-                            {{ event.description|markdownify }}
-                        </div>
-
-                        {% if event.location %}
+                    {% if event.location %}
                         <div class="location event-location" itemprop="location" itemscope itemtype="http://schema.org/Place">
                             <i class="fa fa-map-marker event-meta-icon"></i>
                             {% if event.location.name %}
@@ -55,7 +46,15 @@ layout: layout
                                 <span itemprop="addressLocality">{{ event.location.city }}</span>
                             </a>
                         </div>
-                        {% endif %}
+                    {% endif %}
+                </div>
+                
+                <div class="row">
+                    <div class="small-12 columns">
+
+                        <div class="description event-description text-justify" itemprop="description">
+                            {{ event.description|markdownify }}
+                        </div>
 
                         {% if event.event_url %}
                         <div class="url event-url" itemprop="url">

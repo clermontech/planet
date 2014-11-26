@@ -66,7 +66,6 @@ time {
 }
 
 .event-date-small {
-    margin-bottom: 6px;
     font-size: 1.2em;
     padding-left: 15px;
 }
@@ -88,6 +87,11 @@ time {
     }
 }
 
+.event-location{
+    margin: 0px 0px 6px 0px;
+    padding-left: 15px;
+}
+
 .event-meta-icon {
     width: 18px;
 }
@@ -104,7 +108,8 @@ time {
 
 .fa.fa-external-link.event-meta-icon,
 .fa.fa-tags.event-meta-icon,
-.fa.fa-google.event-meta-icon {
+.fa.fa-google.event-meta-icon,
+.fa.fa-map-marker.event-meta-icon {
     float: left;
 }
 
@@ -134,4 +139,8 @@ time {
     
     background-color: rgba(236,230,102,0.2);
     color: $archive_text_color;
+}
+
+.fa.fa-map-marker.event-meta-icon{
+    padding: 4px 18px 0px 3px;
 }
