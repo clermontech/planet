@@ -4,7 +4,6 @@ branches:
     - gh-pages
 
 before_script:
-    - "bundle install"
     - "bower install"
 
 script:
