@@ -76,6 +76,7 @@ You must have [bower](http://bower.io/) installed:
 Install dependencies:
 
     $ bundle install
+    $ bower install
 
 Compile CSS:
 
