@@ -64,3 +64,23 @@ We use [Bundler](http://bundler.io/) to manage dependencies:
     $ bundle exec jekyll serve
 
 Browse [`http://localhost:4000`](http://localhost:4000).
+
+
+Development
+-----------
+
+You must have [bower](http://bower.io/) installed:
+
+    $ npm install -g bower
+
+Install dependencies:
+
+    $ bundle install
+
+Compile CSS:
+
+    $ bundle exec compass compile
+
+Watcher:
+
+    $ bundle exec compass watch
