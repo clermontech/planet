@@ -3,4 +3,6 @@ branches:
   only:
     - gh-pages
 
-script: "bundle exec jekyll build"
+script:
+    - "bundle exec jekyll build"
+    - "bundle exec compass compile"
