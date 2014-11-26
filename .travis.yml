@@ -3,6 +3,10 @@ branches:
   only:
     - gh-pages
 
+before_script:
+    - "bundle install"
+    - "bower install"
+
 script:
     - "bundle exec jekyll build"
     - "bundle exec compass compile"
