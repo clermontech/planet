@@ -142,6 +142,10 @@ li {
     z-index: 1;
 }
 
+.logo-medium {
+    @include grid-column(3);
+}
+
 footer {
     width: 100%;
     background: $footer_background_color;
