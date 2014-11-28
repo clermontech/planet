@@ -9,25 +9,43 @@
     header {
         margin-bottom: 20px;
     }
+    
+    .top-bar{
+        
+        .title-area {
+
+            strong {
+                text-align: left;
+                color: $background_color;
+            }
+            
+            float: none;
+        }
+        
+        .toggle-topbar{
+            display: block;
+        }
+        
+        overflow: hidden;
+    }
 
     .top-bar-section {
 
-        li {
+        ul{
+            
+            li {
 
-            &:not(.has-form) {
+                &:not(.has-form) {
 
-                a {
-                    font-size: 1.2em;
+                    a {
+                        font-size: 1.2em;
+                    }
                 }
+                
+                float: none;
             }
-        }
-    }
-
-    .title-area {
-
-        strong {
-            text-align: left;
-            color: $background_color;
+            
+            width: 100%;
         }
     }
 }
@@ -75,27 +93,42 @@
             margin-top: 42px;
         }
     }
-
+    .top-bar{
+        
+        .toggle-topbar{
+            display: none;
+        }
+    }
     .top-bar-section {
+        
+        ul{
+            
+            li {
 
-        li {
+                &:not(.has-form) {
 
-            &:not(.has-form) {
+                    a {
 
-                a {
-                    color: $background_color;
-
-                    &:not(.button) {
-                        background-color: $header_background_color;
-
-                        &:hover {
+                        &:not(.button) {
                             background-color: $header_background_color;
-                            color: #008CBA;
+
+                            &:hover {
+                                background-color: $header_background_color;
+                                color: #008CBA;
+                            }
                         }
+                        
+                        color: $background_color;
                     }
                 }
-            }
+                
+                float: left;
+            } 
+            
+            width: auto;
         }
+
+        
     }
 
     .title-area {

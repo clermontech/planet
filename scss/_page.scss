@@ -4,7 +4,11 @@
     Page layout and default tag styles.
  */
 
-
+meta.foundation-mq-topbar {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em;
+}
+ 
 body {
     font-family: $default_font;
     background-color: $background_color;
