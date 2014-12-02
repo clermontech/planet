@@ -119,3 +119,19 @@ time {
 .fa.fa-external-link.event-meta-icon {
     padding: 5px 23px 0px 0px;
 }
+
+.archive{
+
+    h3, a{
+        color: $archive_text_color;
+    }
+    
+    .event-date{
+        .month{
+           color: $archive_text_color; 
+        }
+    }
+    
+    background-color: rgba(236,230,102,0.2);
+    color: $archive_text_color;
+}
