@@ -19,7 +19,11 @@
     }
 }
 
-.event-name {
+.vevent {
+    @include grid-row();
+}
+
+.summary {
     font-family: $title_font;
     font-size: 3em;
     font-weight: bold;
@@ -27,6 +31,7 @@
 }
 
 .event-date-wrapper {
+    @include grid-column(2);
     display: none;
     // padding-top: 13px;
     text-align: center;
@@ -35,6 +40,10 @@
 .event-date-small-date {
     display : inline-block;
     padding-right: 10px;
+}
+
+.description {
+    text-align: justify;
 }
 
 .event-date {
@@ -70,8 +79,8 @@ time {
     padding-left: 15px;
 }
 
-.event-location,
-.event-url,
+.location,
+.url,
 .event-tags,
 .event-add-calendar {
     margin-top: 6px;
@@ -80,14 +89,14 @@ time {
     white-space: nowrap;
 }
 
-.event-location,
+.location,
 .event-add-calendar {
     & i {
         padding-left: 2px;
     }
 }
 
-.event-location{
+.location{
     margin: 0px 0px 6px 0px;
     padding-left: 15px;
 }
