@@ -141,12 +141,19 @@ time {
     }
     
     .event-date{
+        
         .month{
            color: $archive_text_color; 
         }
     }
     
-    background-color: rgba(236,230,102,0.2);
+    .event-tags-item {
+        
+        &:not(:hover){
+            background-color: $archive_text_color;  
+        }
+    }
+    
     color: $archive_text_color;
 }
 

@@ -12103,19 +12103,22 @@ time {
 
 /* line 137, ../scss/_events.scss */
 .archive {
-  background-color: rgba(236, 230, 102, 0.2);
-  color: #828179;
+  color: rgba(140, 132, 120, 0.5);
 }
 /* line 139, ../scss/_events.scss */
 .archive h3, .archive a {
-  color: #828179;
+  color: rgba(140, 132, 120, 0.5);
 }
-/* line 144, ../scss/_events.scss */
+/* line 145, ../scss/_events.scss */
 .archive .event-date .month {
-  color: #828179;
+  color: rgba(140, 132, 120, 0.5);
+}
+/* line 152, ../scss/_events.scss */
+.archive .event-tags-item:not(:hover) {
+  background-color: rgba(140, 132, 120, 0.5);
 }
 
-/* line 153, ../scss/_events.scss */
+/* line 160, ../scss/_events.scss */
 .fa.fa-map-marker.event-meta-icon {
   padding: 4px 18px 0px 3px;
 }
