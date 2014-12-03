@@ -9077,8 +9077,8 @@ th.hide-for-touch {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1417166890);
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1417166890#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff?1417166890) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1417166890) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1417166890#fontawesomeregular) format("svg");
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1417083710);
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1417083710#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff?1417083710) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1417083710) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1417083710#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -11905,6 +11905,7 @@ li {
 
 /* line 126, ../scss/_page.scss */
 .title-area strong {
+  margin-top: 0px;
   display: block;
   font-weight: bold;
   margin-left: 10px;
@@ -11913,7 +11914,7 @@ li {
   font-size: 1.5em;
 }
 
-/* line 137, ../scss/_page.scss */
+/* line 138, ../scss/_page.scss */
 .logo-small {
   margin: 8px 0px;
   margin-left: 10px;
@@ -11922,7 +11923,7 @@ li {
   z-index: 1;
 }
 
-/* line 145, ../scss/_page.scss */
+/* line 146, ../scss/_page.scss */
 footer {
   width: 100%;
   background: #222222;
@@ -11930,7 +11931,7 @@ footer {
   padding-bottom: 10px;
   color: white;
 }
-/* line 152, ../scss/_page.scss */
+/* line 153, ../scss/_page.scss */
 footer p {
   text-align: justify;
   font-size: 0.9em;
