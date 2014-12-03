@@ -6,16 +6,15 @@ layout: layout
 
 <section class="vcalendar talks">
 {% for event in site.posts %}
+    {% capture now %}{{'now' |date:'%s'|minus:86400}}{% endcapture %}
 
-    <div class="event-wrapper">
+    {% capture eventdate %}{{event.event_date |date:'%s'}}{% endcapture %}
 
-        {% capture now %}{{'now' |date:'%s'|minus:86400}}{% endcapture %}
+    {% capture archive %}{% if now > eventdate %}archive{% endif %}{% endcapture %}
 
-        {% capture eventdate %}{{event.event_date |date:'%s'}}{% endcapture %}
+    <div class="event-wrapper {{archive}}">
 
-        {% capture archive %}{% if now > eventdate %}archive{% endif %}{% endcapture %}
-
-        <div class="vevent {{archive}}" itemscope itemtype="http://schema.org/Event">
+        <div class="vevent" itemscope itemtype="http://schema.org/Event">
             <div class="event-date-wrapper">
                 <time class="dtstart event-date" itemprop="startDate" datetime="{{ event.event_date|date_to_xmlschema }}" content="{{ event.event_date|date_to_xmlschema }}">
                     <span class="month">{{ event.event_date|date:"%b" }}</span>
