@@ -11999,20 +11999,29 @@ footer p {
 }
 
 /* line 45, ../scss/_events.scss */
+.event-information-wrapper {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  padding: 0px;
+}
+
+/* line 50, ../scss/_events.scss */
 .description {
   text-align: justify;
 }
 
-/* line 49, ../scss/_events.scss */
+/* line 54, ../scss/_events.scss */
 .event-date {
   text-align: center;
 }
-/* line 52, ../scss/_events.scss */
+/* line 57, ../scss/_events.scss */
 .event-date span {
   display: block;
   width: 100%;
 }
-/* line 56, ../scss/_events.scss */
+/* line 61, ../scss/_events.scss */
 .event-date span.month {
   font-size: 4em;
   font-family: "Neutraface Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -12021,25 +12030,25 @@ footer p {
   line-height: 1em;
   border-bottom: 1px solid rgba(34, 34, 34, 0.4);
 }
-/* line 65, ../scss/_events.scss */
+/* line 70, ../scss/_events.scss */
 .event-date span.day {
   font-size: 3em;
   line-height: 1em;
   text-align: right;
 }
 
-/* line 73, ../scss/_events.scss */
+/* line 78, ../scss/_events.scss */
 time {
   text-align: center;
 }
 
-/* line 77, ../scss/_events.scss */
+/* line 82, ../scss/_events.scss */
 .event-date-small {
   font-size: 1.2em;
   padding-left: 15px;
 }
 
-/* line 82, ../scss/_events.scss */
+/* line 87, ../scss/_events.scss */
 .location,
 .url,
 .event-tags,
@@ -12050,36 +12059,36 @@ time {
   white-space: nowrap;
 }
 
-/* line 94, ../scss/_events.scss */
+/* line 99, ../scss/_events.scss */
 .location i,
 .event-add-calendar i {
   padding-left: 2px;
 }
 
-/* line 99, ../scss/_events.scss */
+/* line 104, ../scss/_events.scss */
 .location {
   margin: 0px 0px 6px 0px;
   padding-left: 15px;
 }
 
-/* line 104, ../scss/_events.scss */
+/* line 109, ../scss/_events.scss */
 .event-meta-icon {
   width: 18px;
 }
 
-/* line 108, ../scss/_events.scss */
+/* line 113, ../scss/_events.scss */
 .event-tags-item {
   padding: 0.2rem 0.3rem 0.2rem 0.3rem;
   font-size: 0.6rem;
   margin: 0;
 }
 
-/* line 114, ../scss/_events.scss */
+/* line 119, ../scss/_events.scss */
 .event-tags-city {
   text-transform: uppercase;
 }
 
-/* line 118, ../scss/_events.scss */
+/* line 123, ../scss/_events.scss */
 .fa.fa-external-link.event-meta-icon,
 .fa.fa-tags.event-meta-icon,
 .fa.fa-google.event-meta-icon,
@@ -12087,39 +12096,39 @@ time {
   float: left;
 }
 
-/* line 125, ../scss/_events.scss */
+/* line 130, ../scss/_events.scss */
 .fa.fa-google.event-meta-icon {
   padding: 5px 19px 0px 3px;
 }
 
-/* line 129, ../scss/_events.scss */
+/* line 134, ../scss/_events.scss */
 .fa.fa-tags.event-meta-icon {
   padding: 6px 22px 0px 0px;
 }
 
-/* line 133, ../scss/_events.scss */
+/* line 138, ../scss/_events.scss */
 .fa.fa-external-link.event-meta-icon {
   padding: 5px 23px 0px 0px;
 }
 
-/* line 137, ../scss/_events.scss */
+/* line 142, ../scss/_events.scss */
 .archive {
   color: rgba(140, 132, 120, 0.5);
 }
-/* line 139, ../scss/_events.scss */
+/* line 144, ../scss/_events.scss */
 .archive h3, .archive a {
   color: rgba(140, 132, 120, 0.5);
 }
-/* line 145, ../scss/_events.scss */
+/* line 150, ../scss/_events.scss */
 .archive .event-date .month {
   color: rgba(140, 132, 120, 0.5);
 }
-/* line 152, ../scss/_events.scss */
+/* line 157, ../scss/_events.scss */
 .archive .event-tags-item:not(:hover) {
   background-color: rgba(140, 132, 120, 0.5);
 }
 
-/* line 160, ../scss/_events.scss */
+/* line 165, ../scss/_events.scss */
 .fa.fa-map-marker.event-meta-icon {
   padding: 4px 18px 0px 3px;
 }
@@ -12152,64 +12161,65 @@ time {
   padding-right: 0.9375rem;
   width: 83.33333%;
   float: left;
+  padding: 0px;
 }
 
 @media only screen and (min-width: 800px) {
-  /* line 41, ../scss/_mediaqueries.scss */
+  /* line 42, ../scss/_mediaqueries.scss */
   .event-date-wrapper {
     display: block;
   }
 
-  /* line 45, ../scss/_mediaqueries.scss */
+  /* line 46, ../scss/_mediaqueries.scss */
   .event-date-small {
     font-size: 1em;
   }
 
-  /* line 49, ../scss/_mediaqueries.scss */
+  /* line 50, ../scss/_mediaqueries.scss */
   .event-date-small-date {
     display: none;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 57, ../scss/_mediaqueries.scss */
+  /* line 58, ../scss/_mediaqueries.scss */
   .logo-small {
     display: none;
   }
 
-  /* line 61, ../scss/_mediaqueries.scss */
+  /* line 62, ../scss/_mediaqueries.scss */
   .rss-link {
     display: block;
   }
 
-  /* line 65, ../scss/_mediaqueries.scss */
+  /* line 66, ../scss/_mediaqueries.scss */
   hgroup {
     display: block;
     margin: 0;
   }
-  /* line 69, ../scss/_mediaqueries.scss */
+  /* line 70, ../scss/_mediaqueries.scss */
   hgroup div {
     margin-top: -40px;
   }
-  /* line 73, ../scss/_mediaqueries.scss */
+  /* line 74, ../scss/_mediaqueries.scss */
   hgroup h1, hgroup .title-area strong, .title-area hgroup strong {
     margin-top: 42px;
   }
 
-  /* line 84, ../scss/_mediaqueries.scss */
+  /* line 85, ../scss/_mediaqueries.scss */
   .top-bar-section li:not(.has-form) a {
     color: white;
   }
-  /* line 87, ../scss/_mediaqueries.scss */
+  /* line 88, ../scss/_mediaqueries.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #222222;
   }
-  /* line 90, ../scss/_mediaqueries.scss */
+  /* line 91, ../scss/_mediaqueries.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #222222;
     color: #008CBA;
   }
 
-  /* line 102, ../scss/_mediaqueries.scss */
+  /* line 103, ../scss/_mediaqueries.scss */
   .title-area strong {
     display: none;
   }

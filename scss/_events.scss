@@ -44,6 +44,7 @@
 
 .event-information-wrapper{
     @include grid-column(12);
+    padding : 0px;
 }
 
 .description {
