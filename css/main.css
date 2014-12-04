@@ -12146,62 +12146,70 @@ time {
     color: white;
   }
 }
+/* line 35, ../scss/_mediaqueries.scss */
+.event-information-wrapper {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 83.33333%;
+  float: left;
+}
+
 @media only screen and (min-width: 800px) {
-  /* line 37, ../scss/_mediaqueries.scss */
+  /* line 41, ../scss/_mediaqueries.scss */
   .event-date-wrapper {
     display: block;
   }
 
-  /* line 41, ../scss/_mediaqueries.scss */
+  /* line 45, ../scss/_mediaqueries.scss */
   .event-date-small {
     font-size: 1em;
   }
 
-  /* line 45, ../scss/_mediaqueries.scss */
+  /* line 49, ../scss/_mediaqueries.scss */
   .event-date-small-date {
     display: none;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 53, ../scss/_mediaqueries.scss */
+  /* line 57, ../scss/_mediaqueries.scss */
   .logo-small {
     display: none;
   }
 
-  /* line 57, ../scss/_mediaqueries.scss */
+  /* line 61, ../scss/_mediaqueries.scss */
   .rss-link {
     display: block;
   }
 
-  /* line 61, ../scss/_mediaqueries.scss */
+  /* line 65, ../scss/_mediaqueries.scss */
   hgroup {
     display: block;
     margin: 0;
   }
-  /* line 65, ../scss/_mediaqueries.scss */
+  /* line 69, ../scss/_mediaqueries.scss */
   hgroup div {
     margin-top: -40px;
   }
-  /* line 69, ../scss/_mediaqueries.scss */
+  /* line 73, ../scss/_mediaqueries.scss */
   hgroup h1, hgroup .title-area strong, .title-area hgroup strong {
     margin-top: 42px;
   }
 
-  /* line 80, ../scss/_mediaqueries.scss */
+  /* line 84, ../scss/_mediaqueries.scss */
   .top-bar-section li:not(.has-form) a {
     color: white;
   }
-  /* line 83, ../scss/_mediaqueries.scss */
+  /* line 87, ../scss/_mediaqueries.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #222222;
   }
-  /* line 86, ../scss/_mediaqueries.scss */
+  /* line 90, ../scss/_mediaqueries.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #222222;
     color: #008CBA;
   }
 
-  /* line 98, ../scss/_mediaqueries.scss */
+  /* line 102, ../scss/_mediaqueries.scss */
   .title-area strong {
     display: none;
   }

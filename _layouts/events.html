@@ -22,7 +22,7 @@ layout: layout
                 </time>
             </div>
 
-            <div class="small-12 medium-10 columns">
+            <div class="event-information-wrapper">
                 <div class="row">
                     <div class="small-12 columns">
                         <h3 class="summary" itemprop="name">{{ event.title }}</h3>
@@ -51,7 +51,7 @@ layout: layout
                 <div class="row">
                     <div class="small-12 columns">
 
-                        <div class="description event-description text-justify" itemprop="description">
+                        <div class="description" itemprop="description">
                             {{ event.description|markdownify }}
                         </div>
 

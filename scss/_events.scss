@@ -42,6 +42,10 @@
     padding-right: 10px;
 }
 
+.event-information-wrapper{
+    @include grid-column(12);
+}
+
 .description {
     text-align: justify;
 }
