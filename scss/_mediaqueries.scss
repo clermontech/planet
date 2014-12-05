@@ -32,11 +32,6 @@
     }
 }
 
-.event-information-wrapper{
-    @include grid-column(10);
-    padding : 0px;
-}
-
 @media only screen and (min-width: 800px) {
 
     .event-date-wrapper {
@@ -49,6 +44,11 @@
 
     .event-date-small-date {
         display : none;
+    }
+    
+    .event-information-wrapper{
+        @include grid-column(10);
+        padding : 0px;
     }
 }
 

@@ -12155,29 +12155,29 @@ time {
     color: white;
   }
 }
-/* line 35, ../scss/_mediaqueries.scss */
-.event-information-wrapper {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-  width: 83.33333%;
-  float: left;
-  padding: 0px;
-}
-
 @media only screen and (min-width: 800px) {
-  /* line 42, ../scss/_mediaqueries.scss */
+  /* line 37, ../scss/_mediaqueries.scss */
   .event-date-wrapper {
     display: block;
   }
 
-  /* line 46, ../scss/_mediaqueries.scss */
+  /* line 41, ../scss/_mediaqueries.scss */
   .event-date-small {
     font-size: 1em;
   }
 
-  /* line 50, ../scss/_mediaqueries.scss */
+  /* line 45, ../scss/_mediaqueries.scss */
   .event-date-small-date {
     display: none;
+  }
+
+  /* line 49, ../scss/_mediaqueries.scss */
+  .event-information-wrapper {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 83.33333%;
+    float: left;
+    padding: 0px;
   }
 }
 @media only screen and (min-width: 64.063em) {
