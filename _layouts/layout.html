@@ -11,25 +11,25 @@
     <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.meta.default_author }}{% endif %}">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.meta.default_description }}{% endif %}">
 
-    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-iphone.png">
-    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-ipad.png" sizes="72x72">
-    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-iphone4.png" sizes="114x114">
-    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-ipad3.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="{{page.baseurl}}/images/icons/apple-touch-icon-iphone.png">
+    <link rel="apple-touch-icon" href="{{page.baseurl}}/images/icons/apple-touch-icon-ipad.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="{{page.baseurl}}/images/icons/apple-touch-icon-iphone4.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="{{page.baseurl}}/images/icons/apple-touch-icon-ipad3.png" sizes="144x144">
 
-    <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{page.baseurl}}/css/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="{{page.baseurl}}/css/main.css">
 
     <link rel="profile" href="http://microformats.org/profile/hcalendar">
 
-    <script src="js/vendor/modernizr.min.js"></script>
+    <script src="{{page.baseurl}}/js/vendor/modernizr.min.js"></script>
 </head>
 <body>
 
     <nav class="top-bar" data-topbar="">
         <ul class="title-area">
             <li>
-                <a href="">
-                    <img class="logo-small" src="images/clermontech_logo_50px.png" alt="logo clermontech small"/>
+                <a href="{{page.baseurl}}/">
+                    <img class="logo-small" src="{{page.baseurl}}/images/clermontech_logo_50px.png" alt="logo clermontech small"/>
                     <strong>Planet</strong>
                 </a>
             </li>
@@ -41,7 +41,7 @@
         </ul>
         <section class="top-bar-section">
             <ul class="right">
-                <li><a href="" title="Home">Home</a></li>
+                <li><a href="{{page.baseurl}}/" title="Home">Home</a></li>
                 <li><a title="Notre manifesto" href="http://clermontech.org/">Clermont'ech</a></li>
             </ul>
         </section>
@@ -50,15 +50,15 @@
     <header>
         <hgroup class="row">
             <div class="large-12 columns">
-                <a href="">
-                    <img class="small-3 columns" src="images/clermontech_logo.png" alt="Logo Clermontech" />
+                <a href="{{page.baseurl}}/">
+                    <img class="small-3 columns" src="{{page.baseurl}}/images/clermontech_logo.png" alt="Logo Clermontech" />
                     <h1>Planet</h1>
                 </a>
                 <h2>{{ site.headline }}</h2>
             </div>
         </hgroup>
         <div class="rss-link">
-           <a href="atom.xml"><i class="fa fa-rss header-icon-rss"></i></a>
+           <a href="{{page.baseurl}}/atom.xml"><i class="fa fa-rss header-icon-rss"></i></a>
         </div>
     </header>
 
@@ -75,9 +75,9 @@
     </footer>
 
 
-    <script src="js/vendor/jquery.min.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/uservoice.js"></script>
+    <script src="{{page.baseurl}}/js/vendor/jquery.min.js"></script>
+    <script src="{{page.baseurl}}/js/foundation.min.js"></script>
+    <script src="{{page.baseurl}}/js/uservoice.js"></script>
     <script>
       $(document).foundation();
     </script>

@@ -1,0 +1,14 @@
+---
+layout: layout
+---
+
+<section class="vcalendar talks">
+    {% if site.tags.[page.filter_tag] %}
+    {% for event in site.tags.[page.filter_tag] %}
+        {% include event.html event=event %}
+    {% endfor %}
+    {% else %}
+    <h2>No posts to display.</h2>
+    {% endif %}
+</section>
+
