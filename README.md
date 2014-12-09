@@ -32,7 +32,7 @@ description:
     Please, do not add any images, only plain text with text decoration.
 
 # Is this event free? (optional)
-# Default is false.
+# Default is true.
 is_free: true|false
 
 # URL of your event, on your own website (optional)
