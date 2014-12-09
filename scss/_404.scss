@@ -1,0 +1,25 @@
+/*
+    Clermont'ech Planet
+
+    Page 404.
+ */
+
+ .content-404{
+
+     h1{
+         @include grid-column(12);
+         color:$text_color;
+     }
+
+     img{
+         @include grid-column(6);
+         float: right;
+         padding-bottom: 20px;
+     }
+
+     h3{
+         @include grid-column(6);
+     }
+
+     @include grid-row();
+ }

@@ -147,6 +147,10 @@ li {
     z-index: 1;
 }
 
+#content{
+    min-height: 60%;
+}
+
 footer {
     width: 100%;
     background: $footer_background_color;
