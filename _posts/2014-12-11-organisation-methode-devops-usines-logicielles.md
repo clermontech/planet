@@ -3,7 +3,7 @@
 title: "Organisation, Méthode, Devops, Usines logicielles, ..."
 
 # When is it? (required)
-event_date: "2014-12-12 19:00:00"
+event_date: "2014-12-11 19:00:00"
 
 # Tell us more about your event! (optional, but... heavily recommended)
 description:
