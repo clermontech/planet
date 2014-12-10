@@ -170,6 +170,7 @@
 
         img{
             @include grid-column(3);
+            float: right;
         }
 
         h3{

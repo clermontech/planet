@@ -12387,8 +12387,9 @@ time {
     padding-right: 0.9375rem;
     width: 25%;
     float: left;
+    float: right;
   }
-  /* line 175, ../scss/_mediaqueries.scss */
+  /* line 176, ../scss/_mediaqueries.scss */
   .content-404 h3 {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
