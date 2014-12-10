@@ -64,7 +64,7 @@
                         <span class="event-tags-item event-tags-city button radius">{{ event.location.city }}</span>
                         {% endif %}
                         {% for tag in event.tags %}
-                        <a href="{{page.baseurl}}/tags/{{ tag | replace:' ','-'| downcase}}/"><span class="category event-tags-item button radius success">{{ tag }}</span></a>
+                        <a href='{{page.baseurl}}/tags/{{ tag | replace:" ","-"| replace:"'","-"| downcase}}/'><span class="category event-tags-item button radius success">{{ tag }}</span></a>
                         {% endfor %}
                     </div>
 
