@@ -7,6 +7,7 @@ mv _site /tmp/planet
 
 git checkout gh-pages
 git clean -fdx
+git rm -r .
 
 cp -R /tmp/planet/* .
 
