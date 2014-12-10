@@ -1,6 +1,6 @@
 # Jekyll config
 markdown: redcarpet
-exclude:  [ vendor ]
+exclude:  [ Gemfile, Gemfile.lock, scss/, README.md, config.rb, bower.json, bin/ ]
 
 # Website config
 title:      "Planet"

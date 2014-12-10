@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+bundle exec jekyll build
+
+rm -rf /tmp/planet
+mv _site /tmp/planet
+
+git checkout gh-pages
+git clean -fdx
+
+cp -R /tmp/planet/* .
+
+git add .
+git commit -m "Update on: `date`"
+git push origin gh-pages
+
+git checkout -
