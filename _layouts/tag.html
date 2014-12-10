@@ -4,11 +4,41 @@ layout: layout
 
 <section class="vcalendar talks">
     {% if site.tags.[page.filter_tag] %}
-    {% for event in site.tags.[page.filter_tag] %}
-        {% include event.html event=event %}
-    {% endfor %}
+
+        {% capture actual_tag %}{{page.url | remove: '/tags/' | remove: '/index.html'}}{% endcapture %}
+        <div class="tag-presentation">
+        {% for organization in site.data.organizations %}
+            {% capture current_org_tag_name %}{{organization.tag_name| downcase | replace: "'","-" | replace: " ","-"}}{% endcapture %}
+
+            {% if actual_tag == current_org_tag_name %}
+
+                <div class="image-container">
+                    <img src="{{page.baseurl}}/images/organizations/{{organization.logo}}" alt="logo {{organization.name}}" />
+                </div>
+                <h1>{{organization.name}}</h1>
+                <div class="details">
+                    <span>
+                        <i class="fa fa-envelope-o event-meta-icon"></i>
+                        <a href="mailto:{{organization.email}}">{{organization.email}}</a>
+                    </span>
+                    <span>
+                          <i class="fa fa-globe event-meta-icon"></i>
+                          <a href="{{organization.website}}">{{organization.website}}</a>
+                    </span>
+                </div>
+
+                {% assign org_found = true %}
+            {% endif %}
+        {% endfor %}
+
+        {% if org_found != true %}
+            <h1>{{actual_tag}}</h1>
+        {% endif %}
+        </div>
+        {% for event in site.tags.[page.filter_tag] %}
+            {% include event.html event=event %}
+        {% endfor %}
     {% else %}
-    <h2>No posts to display.</h2>
+        <h2>No posts to display.</h2>
     {% endif %}
 </section>
-

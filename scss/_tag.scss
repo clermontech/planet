@@ -1,0 +1,45 @@
+/*
+    Clermont'ech Planet
+
+    Tag.
+ */
+ 
+ .tag-presentation {
+
+    .image-container{
+         float: left;
+         margin: 15px 0px;
+         margin-left: 0.9375rem;
+     }
+
+     img{
+         height:50px;
+         max-width: 50px;
+         border: 4px solid $event_background_color_even;
+     }
+
+     h1{
+         float: left;
+         margin: 0 0.9375rem;
+         color: $text_color;
+         font-size: 61px;
+
+     }
+
+     .details{
+         float: none;
+     }
+
+     span{
+         height: 20px;
+         line-height: 20px;
+         padding-left: 15px;
+         padding-right: 20px;
+         float:left;
+         font-size: 1.2em;
+         display: none;
+     }
+
+     @include grid-row();
+     margin-bottom: 10px;
+ }
