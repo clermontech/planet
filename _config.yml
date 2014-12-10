@@ -25,3 +25,9 @@ google:
 insert:
     google-calendar:        "Ajouter à mon agenda Google"
     icalendar:              "Ajouter à mon agenda (.ics)"
+
+
+tags:
+    url: /tags/
+    title_prefix: ""
+    layout: tag.html
