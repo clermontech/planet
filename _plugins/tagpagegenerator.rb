@@ -25,7 +25,7 @@ module Jekyll
         dir = site.config['tags']['url'] || 'tags/'
         site.tags.keys.each do |tag|
           tag_name = tag.gsub(/\s+/, '-')
-          site.pages << TagPage.new(site, site.source, File.join(dir, tag_name), tag)
+          site.pages << TagPage.new(site, site.source, File.join(dir, tag_name.downcase), tag)
         end
       end
     end
