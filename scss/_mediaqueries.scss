@@ -48,6 +48,22 @@
             width: 100%;
         }
     }
+      
+    #content{
+        min-height: 80%;    
+    }
+    
+    .content-404{
+        
+        img{
+            @include grid-column(4);
+            float:right;
+        }
+        
+        h3{
+            @include grid-column(8);
+        }
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -67,6 +83,10 @@
     .event-information-wrapper{
         @include grid-column(10);
         padding : 0px;
+    }
+
+    #content{
+        min-height: 75%;
     }
 }
 
@@ -135,6 +155,25 @@
 
         strong {
             display: none;
+        }
+    }
+    
+    #content{
+        min-height: 49%;    
+    }
+    
+    .content-404{
+        
+        h1{
+            @include grid-column(9);
+        }
+        
+        img{
+            @include grid-column(3);
+        }
+        
+        h3{
+            @include grid-column(9);
         }
     }
 }
