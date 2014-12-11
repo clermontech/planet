@@ -15,16 +15,20 @@ layout: layout
                 <div class="image-container">
                     <img src="{{page.baseurl}}/images/organizations/{{organization.logo}}" alt="logo {{organization.name}}" />
                 </div>
-                <h1>{{organization.name}}</h1>
-                <div class="details">
-                    <span>
-                        <i class="fa fa-envelope-o event-meta-icon"></i>
-                        <a href="mailto:{{organization.email}}">{{organization.email}}</a>
-                    </span>
-                    <span>
-                          <i class="fa fa-globe event-meta-icon"></i>
-                          <a href="{{organization.website}}">{{organization.website}}</a>
-                    </span>
+                <div class="info-container">
+                    <h1>{{organization.name}}</h1>
+                    <div class="details">
+                        {% if organization.email %}
+                            <span>    
+                                <i class="fa fa-envelope-o event-meta-icon"></i>
+                                <a href="mailto:{{organization.email}}">{{organization.email}}</a>
+                            </span>
+                        {% endif %}
+                        <span>
+                              <i class="fa fa-globe event-meta-icon"></i>
+                              <a href="{{organization.website}}">{{organization.website}}</a>
+                        </span>
+                    </div>
                 </div>
 
                 {% assign org_found = true %}
