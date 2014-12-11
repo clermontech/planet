@@ -6,33 +6,29 @@
 
 @media only screen and (min-width: 40.063em) {
 
-    header {
-        margin-bottom: 20px;
-    }
-    
     .top-bar{
-        
+
         .title-area {
 
             strong {
                 text-align: left;
                 color: $background_color;
             }
-            
+
             float: none;
         }
-        
+
         .toggle-topbar{
             display: block;
         }
-        
+
         overflow: hidden;
     }
 
     .top-bar-section {
 
         ul{
-            
+
             li {
 
                 &:not(.has-form) {
@@ -41,10 +37,10 @@
                         font-size: 1.2em;
                     }
                 }
-                
+
                 float: none;
             }
-            
+
             width: 100%;
         }
     }
@@ -79,7 +75,7 @@
     .event-date-small-date {
         display : none;
     }
-    
+
     .event-information-wrapper{
         @include grid-column(10);
         padding : 0px;
@@ -87,6 +83,33 @@
 
     #content{
         min-height: 75%;
+    }
+
+    .tag-presentation {
+
+        .image-container{
+         @include grid-column(2);
+         margin-left: 0px;
+        }
+
+        .info-container{
+         height: 136px;
+        }
+
+        h1{
+            @include grid-column(8);
+            margin:0px;
+            font-size: 5em;
+        }
+
+        img{
+         height: 128px;
+         max-width: 128px;
+        }
+
+        span{
+            display: inline;
+        }
     }
 }
 
@@ -114,15 +137,15 @@
         }
     }
     .top-bar{
-        
+
         .toggle-topbar{
             display: none;
         }
     }
     .top-bar-section {
-        
+
         ul{
-            
+
             li {
 
                 &:not(.has-form) {
@@ -137,18 +160,18 @@
                                 color: #008CBA;
                             }
                         }
-                        
+
                         color: $background_color;
                     }
                 }
-                
+
                 float: left;
             } 
-            
+
             width: auto;
         }
 
-        
+
     }
 
     .title-area {

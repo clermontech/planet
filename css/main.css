@@ -9077,8 +9077,8 @@ th.hide-for-touch {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1418111014);
-  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1418111014#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff?1418111014) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1418111014) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1418111014#fontawesomeregular) format("svg");
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?1417083710);
+  src: url(/fonts/font-awesome/fontawesome-webfont.eot?&1417083710#iefix) format("embedded-opentype"), url(/fonts/font-awesome/fontawesome-webfont.woff?1417083710) format("woff"), url(/fonts/font-awesome/fontawesome-webfont.ttf?1417083710) format("truetype"), url(/fonts/font-awesome/fontawesome-webfont.svg?1417083710#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -11963,7 +11963,7 @@ footer p {
 }
 /* line 16, ../scss/_events.scss */
 .talks .event-wrapper:nth-child(even) {
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
 }
 
 /* line 22, ../scss/_events.scss */
@@ -12222,51 +12222,104 @@ time {
 /*
     Clermont'ech Planet
 
+    Tag.
+ */
+/* line 7, ../scss/_tag.scss */
+.tag-presentation {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+  margin-bottom: 10px;
+}
+/* line 9, ../scss/_tag.scss */
+.tag-presentation .image-container {
+  float: left;
+  margin: 15px 0px;
+  margin-left: 0.9375rem;
+}
+/* line 15, ../scss/_tag.scss */
+.tag-presentation img {
+  height: 50px;
+  max-width: 50px;
+  border: 4px solid whitesmoke;
+}
+/* line 21, ../scss/_tag.scss */
+.tag-presentation h1, .tag-presentation .title-area strong, .title-area .tag-presentation strong {
+  float: left;
+  margin: 0 0.9375rem;
+  color: #222222;
+  font-size: 61px;
+}
+/* line 29, ../scss/_tag.scss */
+.tag-presentation .details {
+  float: none;
+}
+/* line 33, ../scss/_tag.scss */
+.tag-presentation span {
+  height: 20px;
+  line-height: 20px;
+  padding-left: 15px;
+  padding-right: 20px;
+  float: left;
+  font-size: 1.2em;
+  display: none;
+}
+/* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.tag-presentation:before, .tag-presentation:after {
+  content: " ";
+  display: table;
+}
+/* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.tag-presentation:after {
+  clear: both;
+}
+
+/*
+    Clermont'ech Planet
+
     Mediaqueries.
  */
 @media only screen and (min-width: 40.063em) {
   /* line 9, ../scss/_mediaqueries.scss */
-  header {
-    margin-bottom: 20px;
-  }
-
-  /* line 13, ../scss/_mediaqueries.scss */
   .top-bar {
     overflow: hidden;
   }
-  /* line 15, ../scss/_mediaqueries.scss */
+  /* line 11, ../scss/_mediaqueries.scss */
   .top-bar .title-area {
     float: none;
   }
-  /* line 17, ../scss/_mediaqueries.scss */
+  /* line 13, ../scss/_mediaqueries.scss */
   .top-bar .title-area strong {
     text-align: left;
     color: white;
   }
-  /* line 25, ../scss/_mediaqueries.scss */
+  /* line 21, ../scss/_mediaqueries.scss */
   .top-bar .toggle-topbar {
     display: block;
   }
 
-  /* line 34, ../scss/_mediaqueries.scss */
+  /* line 30, ../scss/_mediaqueries.scss */
   .top-bar-section ul {
     width: 100%;
   }
-  /* line 36, ../scss/_mediaqueries.scss */
+  /* line 32, ../scss/_mediaqueries.scss */
   .top-bar-section ul li {
     float: none;
   }
-  /* line 40, ../scss/_mediaqueries.scss */
+  /* line 36, ../scss/_mediaqueries.scss */
   .top-bar-section ul li:not(.has-form) a {
     font-size: 1.2em;
   }
 
-  /* line 52, ../scss/_mediaqueries.scss */
+  /* line 48, ../scss/_mediaqueries.scss */
   #content {
     min-height: 80%;
   }
 
-  /* line 58, ../scss/_mediaqueries.scss */
+  /* line 54, ../scss/_mediaqueries.scss */
   .content-404 img {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -12274,7 +12327,7 @@ time {
     float: left;
     float: right;
   }
-  /* line 63, ../scss/_mediaqueries.scss */
+  /* line 59, ../scss/_mediaqueries.scss */
   .content-404 h3 {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -12283,22 +12336,22 @@ time {
   }
 }
 @media only screen and (min-width: 800px) {
-  /* line 71, ../scss/_mediaqueries.scss */
+  /* line 67, ../scss/_mediaqueries.scss */
   .event-date-wrapper {
     display: block;
   }
 
-  /* line 75, ../scss/_mediaqueries.scss */
+  /* line 71, ../scss/_mediaqueries.scss */
   .event-date-small {
     font-size: 1em;
   }
 
-  /* line 79, ../scss/_mediaqueries.scss */
+  /* line 75, ../scss/_mediaqueries.scss */
   .event-date-small-date {
     display: none;
   }
 
-  /* line 83, ../scss/_mediaqueries.scss */
+  /* line 79, ../scss/_mediaqueries.scss */
   .event-information-wrapper {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -12307,81 +12360,112 @@ time {
     padding: 0px;
   }
 
-  /* line 88, ../scss/_mediaqueries.scss */
+  /* line 84, ../scss/_mediaqueries.scss */
   #content {
     min-height: 75%;
   }
+
+  /* line 90, ../scss/_mediaqueries.scss */
+  .tag-presentation .image-container {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 16.66667%;
+    float: left;
+    margin-left: 0px;
+  }
+  /* line 95, ../scss/_mediaqueries.scss */
+  .tag-presentation .info-container {
+    height: 136px;
+  }
+  /* line 99, ../scss/_mediaqueries.scss */
+  .tag-presentation h1, .tag-presentation .title-area strong, .title-area .tag-presentation strong {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 66.66667%;
+    float: left;
+    margin: 0px;
+    font-size: 5em;
+  }
+  /* line 105, ../scss/_mediaqueries.scss */
+  .tag-presentation img {
+    height: 128px;
+    max-width: 128px;
+  }
+  /* line 110, ../scss/_mediaqueries.scss */
+  .tag-presentation span {
+    display: inline;
+  }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 96, ../scss/_mediaqueries.scss */
+  /* line 119, ../scss/_mediaqueries.scss */
   .logo-small {
     display: none;
   }
 
-  /* line 100, ../scss/_mediaqueries.scss */
+  /* line 123, ../scss/_mediaqueries.scss */
   .rss-link {
     display: block;
   }
 
-  /* line 104, ../scss/_mediaqueries.scss */
+  /* line 127, ../scss/_mediaqueries.scss */
   hgroup {
     display: block;
     margin: 0;
   }
-  /* line 108, ../scss/_mediaqueries.scss */
+  /* line 131, ../scss/_mediaqueries.scss */
   hgroup div {
     margin-top: -40px;
   }
-  /* line 112, ../scss/_mediaqueries.scss */
+  /* line 135, ../scss/_mediaqueries.scss */
   hgroup h1, hgroup .title-area strong, .title-area hgroup strong {
     margin-top: 42px;
   }
 
-  /* line 118, ../scss/_mediaqueries.scss */
+  /* line 141, ../scss/_mediaqueries.scss */
   .top-bar .toggle-topbar {
     display: none;
   }
 
-  /* line 124, ../scss/_mediaqueries.scss */
+  /* line 147, ../scss/_mediaqueries.scss */
   .top-bar-section ul {
     width: auto;
   }
-  /* line 126, ../scss/_mediaqueries.scss */
+  /* line 149, ../scss/_mediaqueries.scss */
   .top-bar-section ul li {
     float: left;
   }
-  /* line 130, ../scss/_mediaqueries.scss */
+  /* line 153, ../scss/_mediaqueries.scss */
   .top-bar-section ul li:not(.has-form) a {
     color: white;
   }
-  /* line 132, ../scss/_mediaqueries.scss */
+  /* line 155, ../scss/_mediaqueries.scss */
   .top-bar-section ul li:not(.has-form) a:not(.button) {
     background-color: #222222;
   }
-  /* line 135, ../scss/_mediaqueries.scss */
+  /* line 158, ../scss/_mediaqueries.scss */
   .top-bar-section ul li:not(.has-form) a:not(.button):hover {
     background-color: #222222;
     color: #008CBA;
   }
 
-  /* line 156, ../scss/_mediaqueries.scss */
+  /* line 179, ../scss/_mediaqueries.scss */
   .title-area strong {
     display: none;
   }
 
-  /* line 161, ../scss/_mediaqueries.scss */
+  /* line 184, ../scss/_mediaqueries.scss */
   #content {
     min-height: 49%;
   }
 
-  /* line 167, ../scss/_mediaqueries.scss */
+  /* line 190, ../scss/_mediaqueries.scss */
   .content-404 h1, .content-404 .title-area strong, .title-area .content-404 strong {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     width: 75%;
     float: left;
   }
-  /* line 171, ../scss/_mediaqueries.scss */
+  /* line 194, ../scss/_mediaqueries.scss */
   .content-404 img {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -12389,7 +12473,7 @@ time {
     float: left;
     float: right;
   }
-  /* line 176, ../scss/_mediaqueries.scss */
+  /* line 199, ../scss/_mediaqueries.scss */
   .content-404 h3 {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
