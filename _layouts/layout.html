@@ -47,7 +47,7 @@
         </section>
     </nav>
 
-    <header>
+    <header class="page-row">
         <hgroup class="row">
             <div class="large-12 columns">
                 <a href="{{page.baseurl}}/">
@@ -62,11 +62,11 @@
         </div>
     </header>
 
-    <section id="content">
+    <section id="content" class="page-row page-row-expanded">
         {{ content }}
     </section>
 
-    <footer>
+    <footer class="page-row">
         <div class="row">
             <div class="small-12 columns">
                 {{ site.footer|markdownify }}

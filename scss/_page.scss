@@ -8,11 +8,24 @@ meta.foundation-mq-topbar {
   font-family: "/only screen and (min-width:64.063em)/";
   width: 64.063em;
 }
- 
+
+html, body{
+    height: 100%;
+}
+
 body {
     font-family: $default_font;
     background-color: $background_color;
+    display: table;
+    width: 100%;
 }
+
+.page-row {
+display: table-row;
+height: 1px;
+}
+ 
+.page-row-expanded { height: 100%; } 
 
 %h_mother {
     font-family: $title_font;
@@ -154,12 +167,11 @@ li {
 footer {
     width: 100%;
     background: $footer_background_color;
-    padding-top: 30px;
-    padding-bottom: 10px;
     color: $background_color;
 
     p {
         text-align: justify;
         font-size: 0.9em;
+        margin: 20px 0;
     }
 }
