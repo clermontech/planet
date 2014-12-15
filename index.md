@@ -1,4 +1,4 @@
 ---
 layout: events
-title: Les événements
+title:  Les événements en Auvergne
 ---

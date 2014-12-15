@@ -3,17 +3,17 @@ markdown: redcarpet
 exclude:  [ Gemfile, Gemfile.lock, scss/, README.md, config.rb, bower.json, bin/, bower_components/, .sass-cache/ ]
 
 # Website config
-title:      "Planet"
-headline:   "Tout ce qui touche à l'IT dans la région Auvergne !"
+title:      "Planet Clermont'ech"
+headline:   "Retrouvez tous les événements du monde IT Auvergnat !"
 footer:
-    Planet Clermont'ech regroupe l'ensemble des acteurs du monde IT auvergnat à
+    Planet Clermont'ech regroupe l'ensemble des acteurs du monde IT Auvergnat à
     travers un agenda ouvert et accessible, présentant les événements régionaux.
     Vous souhaitez publier votre événement ? Vous pouvez passer par
     [GitHub](https://github.com/clermontech/planet#clermontech-planet) ou
     envoyer un email à [planet@clermontech.org](mailto:planet@clermontech.org).
 
 meta:
-    default_author:         "Clermont'ech"
+    default_author:         "Clermont'ech et al."
     default_description:    ""
     email:                  "planet@clermontech.org"
 
