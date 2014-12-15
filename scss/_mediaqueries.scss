@@ -54,10 +54,17 @@
         img{
             @include grid-column(4);
             float:right;
+            height:50px;
+            max-width: 50px;
         }
 
         h3{
             @include grid-column(8);
+        }
+        
+        h1{
+            margin: 0 0.9375rem;
+            font-size: 61px;
         }
     }
 }

@@ -4,42 +4,45 @@
     Tag.
  */
  
- .tag-presentation {
+.tag-presentation {
 
     .image-container{
-         float: left;
-         margin: 15px 0px;
-         margin-left: 0.9375rem;
-     }
+        float: left;
+        margin: 15px 0px;
+        margin-left: 0.9375rem;
+    }
 
-     img{
-         height:50px;
-         max-width: 50px;
-         border: 4px solid $event_background_color_even;
-     }
+    img{
+       height:40px;
+       max-width: 40px;
+        border: 4px solid $event_background_color_even;
+    }
 
-     h1{
-         float: left;
-         margin: 0 0.9375rem;
-         color: $text_color;
-         font-size: 61px;
+    h1{
+        float: left;
+        margin: 0.5rem 0.3125rem 0 0.3125rem;
+        color: $text_color;
+        font-size: 42px;
+    }
+    
+    & > h1{
+        margin: 0 0.9375rem;
+    }
 
-     }
+    .details{
+        float: none;
+    }
 
-     .details{
-         float: none;
-     }
+    span{
+        height: 20px;
+        line-height: 20px;
+        padding-left: 15px;
+        padding-right: 20px;
+        float:left;
+        font-size: 1.2em;
+        display: none;
+    }
 
-     span{
-         height: 20px;
-         line-height: 20px;
-         padding-left: 15px;
-         padding-right: 20px;
-         float:left;
-         font-size: 1.2em;
-         display: none;
-     }
-
-     @include grid-row();
-     margin-bottom: 10px;
- }
+    @include grid-row();
+    margin-bottom: 10px;
+}
