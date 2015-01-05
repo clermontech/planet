@@ -11,7 +11,7 @@ git rm -r .
 
 cp -R /tmp/planet/* .
 
-git add .
+git add -A .
 git commit -m "Update on: `date`"
 git push origin gh-pages
 
