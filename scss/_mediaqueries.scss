@@ -48,25 +48,6 @@
     #content{
         min-height: 82%;
     }
-
-    .content-404{
-
-        img{
-            @include grid-column(4);
-            float:right;
-            height:50px;
-            max-width: 50px;
-        }
-
-        h3{
-            @include grid-column(8);
-        }
-        
-        h1{
-            margin: 0 0.9375rem;
-            font-size: 61px;
-        }
-    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -122,6 +103,20 @@
 
 
 @media only screen and (min-width: 64.063em ){
+
+    .content-404 {
+        @include grid-row();
+
+        h1 {
+            @include grid-column(8);
+            text-align: left;
+        }
+
+        div {
+            @include grid-column(4);
+            display: block;
+        }
+    }
 
     .logo-small {
         display: none;
@@ -189,22 +184,6 @@
     }
 
     #content{
-        min-height: 65%;
-    }
-
-    .content-404{
-
-        h1{
-            @include grid-column(9);
-        }
-
-        img{
-            @include grid-column(3);
-            float: right;
-        }
-
-        h3{
-            @include grid-column(9);
-        }
+        min-height: 70%;
     }
 }

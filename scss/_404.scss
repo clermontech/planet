@@ -1,27 +1,25 @@
 /*
-    Clermont'ech Planet
-
-    Page 404.
+ * Clermont'ech Planet
+ * Page 404.
  */
 
- .content-404{
+.content-404 {
+    padding: 10% 0;
+    width: 100%;
 
-     h1{
-         @include grid-column(12);
-         color:$text_color;
-     }
+    h1 {
+        color:$text_color;
+        font-size: 3.5em;
+        text-align: center;
+        float: none;
+    }
 
-     img{
-         @include grid-column(6);
-         float: right;
-         padding-bottom: 20px;
-     }
+    div {
+        display: none;
+        text-align: center;
 
-     h3{
-         @include grid-column(6);
-     }
-
-     @include grid-row();
-     height: 80%;
-     padding: 10% 0;
- }
+        img {
+            padding-bottom: 20px;
+        }
+    }
+}
