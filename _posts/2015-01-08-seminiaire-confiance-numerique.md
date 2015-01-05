@@ -12,7 +12,7 @@ location:
     street_address: Campus des Cézeaux - BP86
     postal_code: 63172
     city: Aubière
-tags: [ "confiance numérique" ]
+tags: [ "confiance numerique" ]
 organizer:
     name:
     website:
