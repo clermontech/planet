@@ -1,12 +1,12 @@
 ---
 title: "De la confidentialité des votes: nouvelles métriques et constructions"
 event_date: "2015-03-05 15:00:00"
-description:
-    ###  Olivier Pereira Université catholique de Louvain (UCL), Crypto group 
+description: >
+    ###  Olivier Pereira Université catholique de Louvain (UCL), Crypto group
 
 
     Le secret du vote est une exigence incontournable dans la plupart de
-    nos élections. Ce secret n'est cependant jamais absolu: il va dépendre
+    nos élections. Ce secret n'est cependant jamais absolu \: il va dépendre
     du format des bulletins de vote, des règles de dépouillement, du taux
     de participation des votants, et même de leurs choix. Qui plus est, ce
     secret peut être obtenu par des techniques très différentes, qui
