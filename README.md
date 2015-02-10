@@ -26,7 +26,7 @@ title: "APIHour #6"
 event_date: "2013-12-17 19:00:00"
 
 # Tell us more about your event! (optional, but... heavily recommended)
-description:
+description: >
     The description...
     can be written in multiline, and **Markdown** can be used.
     Please, do not add any images, only plain text with text decoration.
