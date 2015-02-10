@@ -2,6 +2,9 @@
 title: "Des signatures en blanc de toutes les couleurs"
 event_date: "2015-02-05 14:00:00"
 description:
+    ### Olivier Blazy, Xlim
+
+ 
     Les signatures en blanc ont trouvé de nombreuses applications quand de
     l'anonymat est nécessaire, on peut penser par exemple à des systèmes de
     monnaie électronique ou de vote électronique. Elles permettent à un
