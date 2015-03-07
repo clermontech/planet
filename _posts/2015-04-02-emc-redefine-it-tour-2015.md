@@ -8,6 +8,8 @@ event_date: "2015-04-02 09:00:00"
 # Tell us more about your event! (optional, but... heavily recommended)
 description: >
  EMC vient à votre rencontre !
+
+
  Au programme : des sessions de travail & ateliers pratiques interactifs
  sur les thématiques de l'Infrastructure Convergée, le Software-Defined
  Storage, la protection des données et la technologie Flash.
