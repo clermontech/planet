@@ -13,13 +13,15 @@ description:
 
   Les rubyistes de tous niveaux et de tout poils peuvent se joindre à nous, les personnes non rubyistes mais qui veulent découvrir ce beau language sont aussi les bienvenus !
 
+  Inscrivez vous sur la page Eventbrite de l'event (voir ci dessous)
+
 # URL of your event, on your own website (optional)
-# event_url:
+event_url: https://www.eventbrite.fr/e/inscription-apero-ruby-16973300599
 
 # Where is it? (optional, but then again, heavily recommended)
 location:
-  name: Lieu à venir
-  street_address: (dans un bar du centre ville)
+  name: The Still Irish Pub
+  street_address: 7 boulevard Leon Malfreyt
   postal_code: 63000
   city: Clermont-ferrand
 
