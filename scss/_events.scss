@@ -111,14 +111,24 @@ time {
     width: 18px;
 }
 
-.event-tags-item{
+.event-tags-item {
     padding: 0.2rem 0.3rem 0.2rem 0.3rem;
     font-size: 0.6rem;
     margin: 0;
 }
 
-.event-tags-city {
+.event-tags-city,
+.event-tags-not-free {
     text-transform: uppercase;
+}
+
+.event-tags-not-free {
+    background-color: yellowgreen;
+}
+
+.event-tags-not-free:hover,
+.event-tags-not-free:focus {
+    background-color: rgb(138, 184, 44);
 }
 
 .fa.fa-external-link.event-meta-icon,
@@ -140,57 +150,26 @@ time {
     padding: 5px 23px 0px 0px;
 }
 
-
-.is-event-free{
-
-    span{
-        
-        &:hover{
-            background-color: yellowgreen;
-        }
-        
-        padding: 0.3em 0.4em;
-        font-size: 0.8em;
-        margin: 0;
-        background-color: yellowgreen; 
-    }
-    
-    @include grid-column(3);
-    margin: -25px 0 0 0;
-    float: right;
-    text-align: right;
-}
-
 .archive{
 
     h3, a{
         color: $archive_text_color;
     }
-    
-    .event-date{
-        
+
+    .event-date {
+
         .month{
-           color: $archive_text_color; 
+           color: $archive_text_color;
         }
     }
-    
+
     .event-tags-item {
-        
+
         &:not(:hover){
-            background-color: $archive_text_color;  
+            background-color: $archive_text_color;
         }
     }
-    
-    .is-event-free {
-        
-        span{
-            
-            &:not(:hover){
-              background-color: $archive_text_color;  
-            }  
-        }
-    }
-    
+
     color: $archive_text_color;
 }
 

@@ -60,6 +60,9 @@
                         {% if event.location or event.tags.size > 0 %}
                         <i class="fa fa-tags event-meta-icon"></i>
                         {% endif %}
+                        {% if event.is_free == false %}
+                        <span class="event-tags-item event-tags-not-free button radius">Payant</span>
+                        {% endif %}
                         {% if event.location %}
                         <span class="event-tags-item event-tags-city button radius">{{ event.location.city }}</span>
                         {% endif %}
