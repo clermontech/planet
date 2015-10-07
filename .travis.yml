@@ -1,12 +1,23 @@
 language: ruby
 branches:
   only:
-    - master
+  - master
+env:
+  global:
+    secure: tLU0bAdoNAkX/kjQqgzC+z2tULqeJVauMi9m0b3Zs1Nl1MHN1litqJxYlcyeEG6UR+tKmMStLtpNHMSIGflhtu04FGiaBOxyZLNEk+CP2fb/eESaaP/u6VEEoS/byuyS+2zDazQWvQBLLSZLlplb6S6AUhJNyjw3S7Q04AqmxAs=
 
 before_script:
-    - "npm install -g bower"
-    - "bower install"
+  - npm install -g bower
+  - bower install
+  - git config --global user.email "will+git@drnd.me"
+  - git config --global user.name "William Durand"
+  - git remote rm origin
+  - git remote add origin "https://willdurand:$GH_TOKEN@github.com/clermontech/planet.git"
 
 script:
-    - "bundle exec jekyll build"
-    - "bundle exec compass compile"
+  - bundle exec jekyll build
+  - bundle exec compass compile
+
+after_success:
+  - git clean -fdx
+  - bin/publish
