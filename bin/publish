@@ -5,6 +5,7 @@ bundle exec jekyll build
 rm -rf /tmp/planet
 mv _site /tmp/planet
 
+git fetch origin
 git checkout gh-pages
 git clean -fdx
 git rm -r .
