@@ -3,6 +3,8 @@
 rm -rf /tmp/planet
 mv _site /tmp/planet
 
+git checkout -- .
+
 git fetch origin
 git checkout gh-pages
 git clean -fdx
