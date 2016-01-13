@@ -1,6 +1,6 @@
 ---
 # Event title (optional)
-title: "8th International Symposium on Foundations & Practice of Security"
+title: "8th International Symposium on Foundations &amp; Practice of Security"
 
 # When is it? (required)
 event_date: "2015-10-28 10:00:00"
@@ -18,8 +18,8 @@ event_url: http://confiance-numerique.clermont-universite.fr/fps2015/
 
 # Where is it? (optional, but then again, heavily recommended)
 location:
-    name: Université Blaise Pascal, Pole physique - Campus des Cézeaux, auditorium "Recherche" 
-    street_address: Complexe scientifique des Cézeaux 
+    name: Université Blaise Pascal, Pole physique - Campus des Cézeaux, auditorium "Recherche"
+    street_address: Complexe scientifique des Cézeaux
     postal_code: 63173
     city: Aubière
 
