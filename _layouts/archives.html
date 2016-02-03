@@ -1,0 +1,16 @@
+---
+layout: layout
+---
+
+{{content}}
+
+<section class="vcalendar talks">
+{% for event in site.posts %}
+    {% capture now %}{{'now' |date:'%s'|minus:86400}}{% endcapture %}
+    {% capture eventdate %}{{event.event_date |date:'%s'}}{% endcapture %}
+
+    {% if now > eventdate %}
+        {% include event.html event=event %}
+    {% endif %}
+{% endfor %}
+</section>
