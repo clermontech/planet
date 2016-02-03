@@ -4,8 +4,14 @@ layout: layout
 
 {{content}}
 
+{% assign year_now = 'now'|date:'%Y' %}
+
 <section class="vcalendar talks">
 {% for event in site.posts %}
-    {% include event.html event=event %}
+    {% assign year_date = event.event_date|date:'%Y' %}
+
+    {% if year_now == year_date %}
+        {% include event.html event=event %}
+    {% endif %}
 {% endfor %}
 </section>

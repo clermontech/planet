@@ -1,6 +1,7 @@
 # Jekyll config
-markdown: redcarpet
-exclude:  [ Gemfile, Gemfile.lock, scss/, README.md, config.rb, bower.json, bin/, bower_components/, .sass-cache/, vendor/ ]
+exclude: [ Gemfile, Gemfile.lock, scss/, README.md, config.rb, bower.json, bin/, bower_components/, .sass-cache/, vendor/ ]
+
+future: true
 
 # Website config
 title:      "Planet Clermont'ech"
