@@ -10,7 +10,7 @@ description: >
     une conférence retenue pour le [PHP Tour](http://event.afup.org 2017) à Nantes.
 
 
-    ## Synchroniser ses applis simplement avec akeneo/batch
+    ### Synchroniser ses applis simplement avec akeneo/batch
 
 
     [Grégory Planchat](https://twitter.com/gplanchat)
