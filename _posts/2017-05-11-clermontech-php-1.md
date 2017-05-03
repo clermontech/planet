@@ -5,12 +5,16 @@ description: >
     Première soirée de conférences dédiées à un langage, organisée par Clermont'ech.
     Clermontech.php ouvre le bal en partenariat avec l'[AFUP](http://afup.org).
 
+
     Pour cette soirée, nous vous proposons de découvrir en avant première
     une conférence retenue pour le [PHP Tour](http://event.afup.org 2017) à Nantes.
 
+
     ## Synchroniser ses applis simplement avec akeneo/batch
 
+
     [Grégory Planchat](https://twitter.com/gplanchat)
+
 
     On utilise des outils de plus en plus complexes et de plus en plus
     hétérogènes : Full-stack Symfony, Laravel, Zend, Doctrine, Propel, Magento,
