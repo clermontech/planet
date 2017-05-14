@@ -10,8 +10,7 @@ branches:
 
 env:
   global:
-    secure: tLU0bAdoNAkX/kjQqgzC+z2tULqeJVauMi9m0b3Zs1Nl1MHN1litqJxYlcyeEG6UR+tKmMStLtpNHMSIGflhtu04FGiaBOxyZLNEk+CP2fb/eESaaP/u6VEEoS/byuyS+2zDazQWvQBLLSZLlplb6S6AUhJNyjw3S7Q04AqmxAs=
-
+    secure: BPrTAYfL0Nr+F8vPP6IydLE/h5/DOYw8Tviked57VjzTAfGtGJ/Dp63LwpLVhPSU4SVPr90qft8Jp7EMW4iYEq7Tw/1KNjGejADNAU6Dw2uTe9fGkQ5uddj+uI+kPPFI5jeGAAN1t7MUUnhSkRhObhdHnC8r6Wj0J5OthAOh06A=
 before_script:
   - npm install -g bower
   - bower install
