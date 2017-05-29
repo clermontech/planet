@@ -15,6 +15,7 @@
         <title>{{ event.title }}</title>
         <updated>{{ event.date | date_to_xmlschema }}</updated>
         <id>{{ site.base_url }}{{ event.id }}</id>
+        <link href="{{ site.base_url }}{{ event.id }}" />
         <content type="html">{{ event.description | markdownify | xml_escape }}</content>
     </entry>
     {% endfor %}
