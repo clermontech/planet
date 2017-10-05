@@ -3,7 +3,7 @@
 title: "MUG In Clermont - 2"
 
 # When is it? (required)
-event_date: "2017-10-12 18:30:00"
+event_date: "2017-10-10 18:30:00"
 
 # Tell us more about your event! (optional, but... heavily recommended)
 description: >
