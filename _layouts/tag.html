@@ -5,7 +5,7 @@ layout: layout
 <section class="vcalendar talks">
     {% if site.tags.[page.filter_tag] %}
 
-        {% capture actual_tag %}{{page.url | remove: '/tags/' | remove: '/index.html'}}{% endcapture %}
+        {% capture actual_tag %}{{page.url | remove: '/tags/' | remove: '/index.html' | remove: '/' }}{% endcapture %}
         <div class="tag-presentation">
         {% for organization in site.data.organizations %}
             {% capture current_org_tag_name %}{{organization.tag_name| downcase | replace: "'","-" | replace: " ","-"}}{% endcapture %}
