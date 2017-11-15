@@ -9,7 +9,7 @@ event_date: "2017-12-06 15:00:00"
 description: >
     Bonjour à toutes et à tous, 
 
-    Comme nous l'annoncions lors de notre dernière séance, nous sommes invités par Michelin lors de le hackathon AI'nnov à présenter une courte session technique sur le développement dans le monde Microsoft. 
+    Comme nous l'annoncions lors de notre dernière séance, nous sommes invités par Michelin lors du hackathon AI'nnov à présenter une courte session technique sur le développement dans le monde Microsoft. 
 
     Au menu de cette session nous aborderons différentes technologies, Visual Studio, VSCode, Azure, Docker, Rancher, ...
 
