@@ -13,7 +13,7 @@ description: >
 
     Au menu de cette session nous aborderons différentes technologies, Visual Studio, VSCode, Azure, Docker, Rancher, ...
 
-    Le nombre de place est limité et les inscriptions doivent être réalisées à l'avance afin de pouvoir disposer des badges d'accès nécessaires. 
+    Le nombre de places est limité et les inscriptions doivent être réalisées à l'avance afin de pouvoir disposer des badges d'accès nécessaires. 
 
     Pour vous inscrire, merci d'envoyer un mail à jean.damay@michelin.com ou isabelle.asseline@michelin.com.
 
