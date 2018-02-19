@@ -7,14 +7,14 @@ event_date: "2018-03-22 18:30:00"
 
 # Tell us more about your event! (optional, but... heavily recommended)
 description: >
-    RDV le 22 mars 2018 à 18h30 pour la 1ère édition DomRaider DevTalk. Une édition 100% dédiée à la technologie Blockchain avec LiveCoding d’un Smart Contract par [@__etienne](https://twitter.com/__etienne), talks et échanges autour d’un buffet.
+    RDV le 22 mars 2018 à 18h30 pour la 1ère édition DomRaider DevTalk. Une édition 100% dédiée à la technologie Blockchain avec LiveCoding d’un Smart Contract par [@__etienne](https://twitter.com/__etienne), talks et échanges autour d’un buffet. Inscriptions : https://www.weezevent.com/domraider-devtalk-blockchain
 
 # Is this event free? (optional)
 # Default is true.
 is_free: true
 
 # URL of your event, on your own website (optional)
-# event_url: 
+event_url: https://www.weezevent.com/domraider-devtalk-blockchain
 
 # Where is it? (optional, but then again, heavily recommended)
 location:
