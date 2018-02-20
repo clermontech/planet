@@ -2,7 +2,7 @@
 title: "clermontech.php Super Apéro 2018"
 event_date: "2018-03-08 19:00:00"
 description: >
-    L'[AFUP](https://afup.org) et [Clermont'ech](http://clermontech.org] s'associent
+    L'[AFUP](https://afup.org) et [Clermont'ech](http://clermontech.org) s'associent
     cette année encore pour participer au traditionnel super apéro PHP 2018.
 
     Petit rappel du concept: il s'agit d'organiser des apéros le même soir dans les
