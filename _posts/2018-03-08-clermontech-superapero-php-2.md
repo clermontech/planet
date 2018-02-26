@@ -11,6 +11,8 @@ description: >
     les autres antennes !
 
     Pas besoin d'inscription préalable.
+
+    Cette soirée est sponsorisée par [Domraider](https://domraider.io)
 event_url: https://afup.org/news/987-le-retour-du-super-apero
 is_free: true
 location:
