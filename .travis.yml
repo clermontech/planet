@@ -23,5 +23,9 @@ script:
   - bundle exec compass compile
   - bundle exec jekyll build
 
-after_success:
-  - bin/publish
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: bash bin/publish
+  on:
+    branch: master
