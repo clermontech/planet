@@ -1,26 +1,25 @@
----
+﻿---
 # Event title (optional)
-title: "#8 - Les bonnes pratiques CleanCode sont-elles compatibles avec l'IA et l'IoT ?"
+title: "#9 - Journal d'un dev Java dans un monde .Net"
 
 # When is it? (required)
 event_date: "2019-01-22 18:30:00"
 
 # Tell us more about your event! (optional, but... heavily recommended)
 description: >
-    La prochaine session du MUG donnera la parole à Sacha Lhopital. 
+    La prochaine session du MUG donnera la parole à un développeur Java, Mr Daniel Petisme.
+
+    "Il faut avouer que Microsoft a fait un impressionnant changement de culture ces dernières années, au point de devenir...cool ? Et si le coté obscure n'était pas si obscure finalement ?
+    Durant ce talk je vous ferais vivre la découverte du monde .Net Core aux travers des yeux d’un Java"
     
-    Sacha travaille à Lyon pour la société VISEO. Spécialisée en Intelligence Artificielle, elle présentera un projet IA et IoT, appliqué au domaine médical.
-    Sa société voulait challenger les méthodologies de CleanCode, Behavior Diven Development, CI/CD avec du Python, DevOps... sur des sujets IA.
-    Sacha a relevé les différents défis et vous relate ce projet innovant, reposant sur un algorithme d'IA distribuée (DCOP), une branche assez méconnue de l'IA.
-    
-    Comme d'habitude, ce talk se terminera par une collation au cours de laquelle Sacha répondra à toutes les questions.
+    Comme d'habitude, ce talk se terminera par une collation au cours de laquelle Daniel répondra à toutes les questions.
 
 # Is this event free? (optional)
 # Default is true.
 is_free: true
 
 # URL of your event, on your own website (optional)
-event_url: http://meetu.ps/e/Gb9q4/ycK6M/f
+event_url: https://www.meetup.com/fr-FR/MugInClermont/events/258640949/
 
 # Where is it? (optional, but then again, heavily recommended)
 location:
@@ -31,7 +30,7 @@ location:
 
 # Keywords describing your event (optional)
 # Please, do not add too many tags...
-tags: [ "Mug In Clermont", "IA", "CleanCode", "Python"]
+tags: [ "Mug In Clermont", "IA", "Java", ".net", "core"]
 
 # About you!
 # Not used yet...
