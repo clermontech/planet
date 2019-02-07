@@ -3,7 +3,7 @@
 title: "#9 - Journal d'un dev Java dans un monde .Net"
 
 # When is it? (required)
-event_date: "2019-01-22 18:30:00"
+event_date: "2019-02-21 18:30:00"
 
 # Tell us more about your event! (optional, but... heavily recommended)
 description: >
