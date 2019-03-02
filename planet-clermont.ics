@@ -1,0 +1,839 @@
+BEGIN:VCALENDAR
+PRODID:planet.clermontech.org
+X-WR-CALNAME:Planet Clermont'ech
+X-WR-TIMEZONE:Europe/Paris
+X-WR-CALDESC:Retrouvez tous les événements du monde IT Auvergnat !
+VERSION:2.0
+BEGIN:VEVENT
+UID:2013-04-03-APIHour1
+DTSTART:20130403T190000
+SUMMARY:APIHour #1
+LOCATION: 37 Rue Gonod, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2013-05-23-APIHour2
+DTSTART:20130523T190000
+SUMMARY:APIHour #2
+LOCATION: I.U.T. Clermont 1, 63170 Aubière
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2013-07-03-APIHour3
+DTSTART:20130703T190000
+SUMMARY:APIHour #3
+LOCATION: 11 rue Niel, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2013-09-12-APIHour4
+DTSTART:20130912T190000
+SUMMARY:APIHour #4
+LOCATION: 20 rue de la Tour D'Auvergne, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2013-11-29-APIHour5
+DTSTART:20131129T190000
+SUMMARY:APIHour #5
+LOCATION: 138, avenue Edouard Michelin / 133, rue Anatole France, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2013-12-17-APIHour6
+DTSTART:20131217T190000
+SUMMARY:APIHour #6
+LOCATION: 11 rue Niel, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-01-16-LambdaBestiaryavecRémiForax
+DTSTART:20140116T190000
+SUMMARY:Lambda Bestiary avec Rémi Forax
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Les **lambdas** vont changer l'écosystème **Java**, qu'on le veuille ou non, la révolution est en marche. Plutôt qu'un talk sur la syntaxe des lambdas, je vais expliquer pourquoi il y a des lambdas en Java, quelles sont les **concepts** derrière les lambdas, pourquoi les lambdas sont ce qu'elles sont. Puis dans un second temps, je prendrais les principaux **design patterns**, command, factory ou visiteur, je montrerais comment leurs implantations peut être simplifiés en utilisant des lambdas et je m'en servirais pour essayer de **prédire l'avenir de Java**. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-02-26-APIHour7
+DTSTART:20140226T190000
+SUMMARY:APIHour #7
+LOCATION: Place des Bughes, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-03-11-JS101UneintroductionàJavaScript
+DTSTART:20140311T190000
+SUMMARY:JS101: Une introduction à JavaScript
+LOCATION:SUPINFO 37 rue Gonod, 63000 Clermont-Ferrand
+DESCRIPTION:Une introduction au langage, qui s’adresse aux débutants autant qu’aux personnes de niveau intermédiaire. 
+CATEGORIES:ClermontJS
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-03-13-Java8lambdasStreamsetCollectors
+DTSTART:20140313T190000
+SUMMARY:Java 8 : lambdas, Streams et Collectors, ...
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:L’API **la plus utilisée** du JDK est sans aucun doute l’**API Collection**. Brillamment conçue il y a un peu **plus de 15 ans**, elle est encore aujourd’hui **au coeur** de toutes les **applications Java**. En 2004, elle a subi son premier lifting, avec l’introduction des **génériques**. Cette mise à jour, bien qu’importante, n’a cependant pas modifié ses **patterns d’utilisation**. Avec l’introduction des **lambdas** en **Java 8**, l’API Collection est à nouveau **réécrite**, mais cette fois la situation est différente &#58; ses patterns d’utilisation sont **complètement changés**. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-04-08-APIHour8
+DTSTART:20140408T190000
+SUMMARY:APIHour #8
+LOCATION: 138, avenue Edouard Michelin / 133, rue Anatole France, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-04-10-ApacheSolr
+DTSTART:20140410T190000
+SUMMARY:Apache Solr
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Découvrez les outils **open source** de **Search** qui ont déjà **convaincu** de nombreuses **entreprises**, et qui est proposé par la fondation Apache &#58; **Lucene / Solr**. Dans la première partie de soirée, histoire de savoir de quoi on parle, Aurélien vous présentera les projets Lucene et Solr, leurs composants, leur **architecture**, leurs **features**, et on saupoudrera tout ça de **scalabilité** avec **SolrCloud**. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-05-22-Développeurfrontendenmilieuhostile
+DTSTART:20140522T190000
+SUMMARY:Développeur front-end en milieu hostile
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Une présentation des **outils** et **bonnes pratiques** du développement **front-end** pour survire dans un projet **web**. De l'intégration continue à l'environnement de développement, en passant par la gestion de dépendances et la génération d'artifacts, tout y passe. Vous comprendrez pourquoi adopter ces nouveau outils, et comment les intégrer à vos processus actuels. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-05-28-APIHour9
+DTSTART:20140528T190000
+SUMMARY:APIHour #9
+LOCATION: 22, allée Alan Turing, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-06-26-IntroductionàNodeJS
+DTSTART:20140626T190000
+SUMMARY:Introduction à NodeJS
+LOCATION:SUPINFO 37 rue Gonod, 63000 Clermont-Ferrand
+DESCRIPTION:Paypal, LinkedIn, Wallmart… Tout le monde parle de NodeJS et des gains en performances qui ont été permis. Venez découvrir cet outil et apprendre à l’apprivoiser. 
+CATEGORIES:ClermontJS
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-07-10-APIHour10
+DTSTART:20140710T190000
+SUMMARY:APIHour #10
+LOCATION: 20 rue de la Tour D'Auvergne, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-09-11-Lebontesteuriltesteetlemauvaistesteuriltesteaussi
+DTSTART:20140911T190000
+SUMMARY:Le bon testeur il teste.... et le mauvais testeur il teste aussi !
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Plusieurs **règles simples** permettent d'améliorer la **qualité de ses tests**, certains outils ou **librairies** (FestAssert, AssertJ, InfiniTest, DBSetup) vont vous simplifier la vie ! Tour d’horizon des **bonnes pratiques** au programme, le tout en **livecoding** ! Il est toujours bon de refaire un peu d’évangélisation sur les tests &#58; **débutants bienvenus** ! 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-10-02-JavaEE7JbossForgeetlefuturavecJavaEE8
+DTSTART:20141002T190000
+SUMMARY:Java EE 7 , Jboss Forge , et le futur avec Java EE 8
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Au programme &#58; Les **nouveautés dans Java EE 7**, du **développement rapide d'application avec[Jboss Forge](http://forge.jboss.org/)** et le **futur avec Java EE 8** 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-10-15-APIHour11
+DTSTART:20141015T190000
+SUMMARY:APIHour #11
+LOCATION: 11 rue niel, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-11-19-OnThePathToWisdom
+DTSTART:20141119T190000
+SUMMARY:On The Path To Wisdom
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Bon, disons que vous voulez développer une **application web** en **Java**. Au début, tout va bien, c’est assez petit, relativement simple, un peu de **REST**, un peu de **JavaScript**, et puis... et puis ca dérape. Un truc par ci, une feature par la, une nouvelle techno ici. Les applications web sont comme les hamburgers, c’est bon, mais dès que ça devient trop gros, c’est galère à manger. Sans compter les tests, l’intégration continue, la mise en production... <br> **Wisdom** ([http://wisdom-framework.org](http://wisdom-framework.org)) est un framework Web en Java. Et oui, encore un, mais il est **modulaire** et **dynamique**, et ça change les choses. Le serveur et vos applications sont comme un puzzle. Vous pouvez développer une pièce **indépendamment** du reste, la **tester**, l’intégrer, remplacer une pièce... Et ceci, dynamiquement, simplement et **sans magie**. <br> Grace à un watch mode basé sur Maven, le développement est rapide, efficace et fun. Le serveur en lui même est basé sur OSGi sans pour autant en subir les inconvénients. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-12-11-OrganisationMéthodeDevopsUsineslogicielles
+DTSTART:20141211T190000
+SUMMARY:Organisation, Méthode, Devops, Usines logicielles, ...
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Dimitri Baeli ([LesFurets.com](https://www.lesfurets.com)) baigne dans l'univers **Java** depuis plus de 10 ans. Sa passion pour les usines logicielles, l'organisation des développements et les méthodes agiles ne l'empêche pas de mettre les mains dans le cambouis pour créer des outils utiles aux développeurs. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2014-12-16-APIHour12
+DTSTART:20141216T190000
+SUMMARY:APIHour #12
+LOCATION: 22, allée Alan Turing, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-01-08-SéminaireConfianceNumérique
+DTSTART:20150108T140000
+SUMMARY:Séminaire Confiance Numérique
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:Lionel Rivière, SAFRAN Morpho, IDentity and Security Alliance (The Morpho and Télécom ParisTech Research Center) et Télécom ParisTech. Evaluation de la Robustesse des Implémentations Face aux Attaques par Injection de Faute par Simulation de Faute Embarqué. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-01-15-SpringBootetSpring4
+DTSTART:20150115T190000
+SUMMARY:Spring Boot et Spring 4
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-02-05-Dessignaturesenblancdetouteslescouleurs
+DTSTART:20150205T140000
+SUMMARY:Des signatures en blanc de toutes les couleurs
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:### Olivier Blazy, Xlim Les signatures en blanc ont trouvé de nombreuses applications quand de l'anonymat est nécessaire, on peut penser par exemple à des systèmes de monnaie électronique ou de vote électronique. Elles permettent à un utilisateur de faire signer un message à un signataire sans que celui-ci ne puisse obtenir d'information sur ce qu'il signe. Nous verrons comment l'approche autour des signatures en blanc a évolué, et présenterons comment obtenir un schéma à la fois optimal en terme de nombres d'étapes et efficace en terme de communication. Ensuite, nous montrerons comment un tel schéma peut être utiliser en vue d'application comme le vote, le paiement ou des opérations linéaires sur un réseau de senseurs. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-02-26-Alaredécouvertedeslangagesfonctionnels
+DTSTART:20150226T190000
+SUMMARY:A la (re)découverte des langages fonctionnels
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-03-04-APIHour13
+DTSTART:20150304T190000
+SUMMARY:APIHour #13
+LOCATION:Eefficieny 22, allée Alan Turing, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-03-05-Delaconfidentialitédesvotesnouvellesmétriquesetconstructions
+DTSTART:20150305T150000
+SUMMARY:De la confidentialité des votes: nouvelles métriques et constructions
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Olivier Pereira Université catholique de Louvain (UCL), Crypto group Le secret du vote est une exigence incontournable dans la plupart de nos élections. Ce secret n'est cependant jamais absolu \: il va dépendre du format des bulletins de vote, des règles de dépouillement, du taux de participation des votants, et même de leurs choix. Qui plus est, ce secret peut être obtenu par des techniques très différentes, qui amènent généralement à différents compromis, et ce y compris dans les systèmes de vote dits "universellement vérifiables". Dans cet exposé, nous introduisons différentes mesures de la confidentialité du vote, et illustrons leur usage dans des élections réelles. Nous introduirons aussi une nouvelle primitive cryptographique, les systèmes de chiffrement conforme à une mise en gage, et montrerons comment cette primitive peut être utilisée pour rendre des élections universellement vérifiables sans affaiblir le secret des votes, y compris à long terme. Cet exposé est basé sur des travaux réalisés avec David Bernhard, Véronique Cortier, Edouard Cuvelier, Thomas Peters et Bogdan Warinschi. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-03-05-Compromistempsmémoirecryptanalytiquesappliquésauxdistributionsnonuniformes
+DTSTART:20150305T140000
+SUMMARY:Compromis temps-mémoire cryptanalytiques appliqués aux distributions non-uniformes
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Gildas Avoine IRISA INSA Rennes Les compromis temps-mémoire cryptanalytiques ont été introduits par Martin Hellman en 1980 afin de réaliser des recherches exhaustives de clefs. Une avancée majeure a été présentée à Crypto 2003 par Philippe Oechslin, avec les tables arc-en-ciel qui améliorent significativement le travail original de Hellman. Après l'introduction des compromis temps-mémoire cryptanalytiques, nous présenterons durant cet exposé une technique pour améliorer l'efficacité des compromis lorsque l'on considère une distribution non-uniforme des secrets, par exemple pour casser des mots de passe. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-03-12-SéminaireTechniqueSécuritéLogicielleWeb
+DTSTART:20150312T140000
+SUMMARY:Séminaire Technique: Sécurité Logicielle Web
+LOCATION:Département Physique (Salle 9109) Campus des Cézeaux, 63170 Aubière
+DESCRIPTION:> ### Mr. Thomas LALLART (INRA - Avignon), Mr. Vincent MAZENOD (UDA - Clermont) A destination des développeurs-testeurs, des ASR, des chefs de projets et des utilisateurs d'applications Web, l'objectif de ce séminaire est d'échanger sur les notions de sécurité logicielle dans le monde du Web. 
+CATEGORIES:Securite,Web,Seminaire
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-03-19-SoiréeMongoDB
+DTSTART:20150319T190000
+SUMMARY:Soirée MongoDB
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-04-02-EMCRedefineITTour2015
+DTSTART:20150402T090000
+SUMMARY:EMC Redefine IT Tour 2015
+LOCATION:Circuit de Charade Route de Manson, 63122 Saint-Gènes-Champanelle
+DESCRIPTION:> EMC vient à votre rencontre ! Au programme : des sessions de travail & ateliers pratiques interactifs sur les thématiques de l'Infrastructure Convergée, le Software-Defined Storage, la protection des données et la technologie Flash. 
+CATEGORIES:Stockage
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-04-02-Sécurisationducloudschémasderecherchessurdonnéeschiffréesavancés
+DTSTART:20150402T140000
+SUMMARY:Sécurisation du cloud, schémas de recherches sur données chiffrées avancés
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Alexandre Anzala-Yamajako Thales Communication & Security, Thales Paris, France L'augmentation des débits de connexion a permis l'avènement du stockage de données dans le cloud qui offre de nouvelles perspectives aux utilisateurs tout en créant des problématiques complexes de sécurité liées à l'hébergement de données sensibles sur un serveur distant qui n'est pas nécessairement de confiance. Un schéma de recherche sur données chiffrées propose à un client de stocker ses données sur un serveur en dehors de son périmètre de confiance tout en conservant la possibilité d'effectuer des recherches sur ces données. La propriété de sécurité que l'on cherche à atteindre est que le serveur distant opère sans découvrir ni les requêtes ni leurs réponses. On se propose dans cet exposé de présenter les différentes techniques permettant d'atteindre ces objectifs ainsi que la gageure que représente leur mise en œuvre efficace. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-04-16-APIHour14
+DTSTART:20150416T190000
+SUMMARY:APIHour #14
+LOCATION:Centre J. Richepin (Salle Numéro 7) 21, Rue J. Richepin, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-04-23-Bigdataetintégrationenentreprise
+DTSTART:20150423T190000
+SUMMARY:Bigdata et intégration en entreprise
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Au programme &#58; Jean-Baptiste, membre et leader de nombreux projets Apache, viendra nous présenter cet écosystème et sa fondation. Leader sur le projet, il nous présentera Apache Karaf, conteneur OSGi léger de renom, qui sors en version 3.0.x avec comme objectif l'intégration en entreprise. Il abordera également Apache Falcon, système de gestion de flux Big Data sur Hadoop. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-05-20-ApéroRubyClermontrb
+DTSTART:20150520T183000
+SUMMARY:Apéro Ruby Clermont.rb
+LOCATION:The Still Irish Pub 7 boulevard Leon Malfreyt, 63000 Clermont-ferrand
+DESCRIPTION:Un apéro Ruby est une rencontre informelle autour d'une bière pour échanger sur ruby et tout ce qui en fait un language si passionnant. Ce premier apéro n'a pas de thème en particulier, l'idée est de surtout faire connaissance, de monter une communauté ruby, et de trouver un thème pour la prochaine fois. Venez avec votre laptop ou non, un sujet à présenter ou non. Les rubyistes de tous niveaux et de tout poils peuvent se joindre à nous, les personnes non rubyistes mais qui veulent découvrir ce beau language sont aussi les bienvenus ! Inscrivez vous sur la page Eventbrite de l'event (voir ci dessous) 
+CATEGORIES:Ruby,Beer
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-05-21-DesapplicationswebpolyglottesavecVertx
+DTSTART:20150521T190000
+SUMMARY:Des applications web polyglottes avec Vert.x
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Au programme &#58; Vert.x est une plateforme pour créer des applications concurrentes, performantes et polyglottes sur la JVM. Cette session parlera des choix faits par Vert.x, de son modèle de concurrence et explique comment écrire des applications concurrentes et performantes de manière très simple. Nous aborderons quelques aspects clés de Vert.x comme le bus d'évènement distribué ou la haute disponibilité. La présentation parlera de Vert.x 3.0, de ses nouvelles fonctionnalités et montrera des exemples dans plusieurs languages tels que Java, Javascript, Python ou Ruby. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-06-04-Misèresdesantivirusetsplendeursdesmalwares
+DTSTART:20150604T150000
+SUMMARY:Misères des antivirus et splendeurs des malwares.
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Guillaume Bonfante, LORIA, Nancy, France Ecrire un logiciel de détection de malware est une vraie gageure, de type indécidable. Mais ce qui rend les choses encore plus compliquées, c'est que les écrivains de virus emploient des techniques contre des heuristiques que pourraient employer des logiciels de détection. Je présenterai au travers de cas concrêts qui ont fait les titres des journaux des observations que nous avons faites au laboratoire. Et puis, pour garder le moral, je discute de quelques expériences amusantes sur les malware. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-06-04-GoogleSafeBrowsingSecurityandPrivacy
+DTSTART:20150604T150000
+SUMMARY:Google Safe Browsing: Security and Privacy
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Amirit Kumar INRIA Privatics team, Grenoble, France Phishing and malware websites are still duping unwary targets by infecting private computers or by committing cybercrimes such as fraud and identity theft. Safe Browsing is a defensive technology which identifies unsafe websites and notifies users in real-time of any potential harm of visiting a URL. All the established web service providers such as Google, Microsoft and Yandex offer Safe Browsing as feature in their software solutions and products. Hence, knowingly or unknowingly, you are certainly one of its users. The goal of this talk is to analyze the prevalent Safe Browsing architectures through a security and privacy point of view. While, some of these services such as Microsoft Smart Screen Filter are privacy unfriendly by design, i.e. without any effort, the backend server may track a user's activity over the web. Other players such as Google and Yandex advert in their privacy policy that their Safe Browsing architecuture does allow them to track users. This talk would prove that their privacy policy is incorrect. On the security front, our findings are rather opposite. Microsoft Smart Screen Filter is a secure solution, while Google and Yandex Safe Browsing are insecure by design. We propose several denial-of-service attacks that simultaneously affect both the Safe Browsing servers and its clients. One of our attacks allows an adversary to force Google and Yandex to "blacklist" any target benign URL 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-06-04-CitizenfourProjectionetdébatàClermontFerrand
+DTSTART:20150604T200000
+SUMMARY:Citizenfour : Projection et débat à Clermont-Ferrand.
+LOCATION:Cinéma le Rio 178, rue Sous Les Vignes, 63100 Clermont-Ferrand
+DESCRIPTION:> Les révélations d'Edward Snowden ont démontré que l'écoute massive de la population n'est plus de l'ordre du fantasme. Parce que nous pensons qu'être informé sur ce sujet est important, nous avons décidé d'organiser, en collaboration avec le cinéma Le Rio, une projection suivie d'un débat avec plusieurs invités dont Vincent Mazenod et Laurent Chemla. Après avoir recueilli les réactions qui feront suite au film, nous discuterons de la surveillance de masse, de la vie privée et, également, de l'actualité à l'étranger mais surtout en France. 
+CATEGORIES:Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-06-10-APIHour15
+DTSTART:20150610T190000
+SUMMARY:APIHour #15
+LOCATION:Restaurant Le Celtill 11 rue Niel, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-09-03-ARPKIAttackResilientPublicKeyInfrastructure
+DTSTART:20150903T140000
+SUMMARY:ARPKI: Attack Resilient Public-Key Infrastructure.
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Ralf Sasse Institute of Information Security, Department of Computer Science, ETH Zurich We present ARPKI, a public-key infrastructure that ensures that certificate-related operations, such as certificate issuance, update, revocation, and validation, are transparent and accountable. ARPKI is the first such infrastructure that systematically takes into account requirements identified by previous research. Moreover, ARPKI is co-designed with a formal model, and we verify its core security property using the Tamarin prover. We present a proof-of-concept implementation providing all features required for deployment. ARPKI efficiently handles the certification process with low overhead and without incurring additional latency to TLS. ARPKI offers extremely strong security guarantees, where compromising n-1 trusted signing and verifying entities is insufficient to launch an impersonation attack. Moreover, it deters misbehavior as all its operations are publicly visible. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-09-03-Plateformepourlexécutioncontrôléedelogicielsmalveillants
+DTSTART:20150903T150000
+SUMMARY:Plateforme pour l’exécution contrôlée de logiciels malveillants.
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Philippe Owezarski, LAAS L’Internet, fort de son succès populaire, n’est pas un environnement sûr. Il pèse sur l’Internet et ses utilisateurs un risque qui augmente au fur et à mesure que l’économie numérique se développe. Ce risque se présente souvent sous la forme de botnets, de larges ensembles de machines corrompues par des pirates qui peuvent les utiliser à dessein pour lancer des attaques massives, des campagnes de spam, etc. Pour lutter de façon proactive contre ces menaces, il est essentiel d’analyser le trafic malveillant dans l’Internet correspondant à la diffusion et au mode d’action des virus, vers ou autres maliciels qui servent à la constitution des botnets. Cet exposé décrit donc une plateforme de collecte et d’exécution de ces maliciels qui permet d’observer et analyser l’activité illégitime de l’Internet. Toutefois, la législation en vigueur rend responsable le propriétaire d’une machine de tout le trafic généré. Aussi, cette plateforme doit contrôler le trafic qu’elle génère. Un élément essentiel de cette plateforme est donc un nouveau type de pare-feu adapté à l’analyse de toutes les formes de communications, et qui ne va laisser passer que les paquets ne présentant aucun danger. L’exposé présentera les composants de la plateforme et détaillera le pare-feu. Il illustrera également son fonctionnement et proposera une évaluation de ses performances. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-09-17-APIHour16
+DTSTART:20150917T190000
+SUMMARY:APIHour #16
+LOCATION:Centre J. Richepin (Salle Numéro 4) 21, Rue J. Richepin, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-09-23-ConventionoverconfigurationtheGradleway
+DTSTART:20150923T190000
+SUMMARY:Convention over configuration: the Gradle way
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:Au programme &#58; On entend souvent dire que Gradle est un système de build impératif. S'il est correct de dire que Gradle permet de faire de l'impératif dans une build, ça n'est certainement pas le point clé. Au contraire, nous expliquerons comment Gradle hérite des bons aspects de Maven tout en généralisant le concept, et en vous offrant la possibilité de définir vos propres conventions, particulièrement utile en mode corporate. Plugins, tâches, séparation des aspects, wrapper, autant de concepts qui vous seront expliqués et vous aideront à bien démarrer et concevoir des builds idiomatiques, propres et bénéficiant des avantages d'un outil de build moderne. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-10-06-22èmejournéethématiquedelOzSSISudEst
+DTSTART:20151006T083000
+SUMMARY:22ème journée thématique de l'OzSSI Sud-Est
+LOCATION:Maison des Sciences de l'Homme 4 rue Ledru, 63057 Clermont-Ferrand
+DESCRIPTION:> Conférence animée par des experts SSI. Programme : * Actualité ANSSI * La problématique USB * Simplification des achats des prestations intellectuelles en sécurité des SI * Architecture PKI et communications sécurisées * IT/OT, mariez-les en toute sécurité * Etat de la menace * Retour d'expérience d'un industriel sur la cybersécurité et solutions mises en oeuvre * Malware, phishing, APT, fuite de données : comment anticiper et faire face à ces menaces ? Inscription avant le 30/09 par e-mail : ozssi-zdse@interieur.gouv.fr 
+CATEGORIES:Sécurité
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-10-15-DockerampChangingthewheelofamovingcarfaireévoluerlinfrasansinterruption
+DTSTART:20151015T190000
+SUMMARY:Docker &amp; Changing the wheel of a moving car - faire évoluer l'infra sans interruption
+LOCATION:Campus Universitaire des Cézeaux 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:> Chez **CloudBees** nous avons muté au cours des quatre dernières années de l'état de startup décousue à celui d'un système bien rôdé. Certaines décisions techniques initiales ont été amèrement regrettées, d'autres souffrent simplement d'obsolescence. Dans les deux cas, nous avons du gérer l'évolution du système sans que l'utilisateur n'en souffre : avec une couverture mondiale, il n'y a **aucune downtime possible**. Pour illustrer ce challenge avec quelques exemples je vais présenter la migration de l'infrastructure de **build-on-demand** vers une solution **multi-tenant**, ainsi que le passage d'une solution conçue sur mesure avec LXC à des conteneurs **Docker** - dans les deux cas une transition en douceur sur plusieurs mois sans que les utilisateurs n'aient à s'en soucier. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-10-26-8thInternationalSymposiumonFoundationsampPracticeofSecurity
+DTSTART:20151026T100000
+SUMMARY:8th International Symposium on Foundations &amp; Practice of Security
+LOCATION:Université Blaise Pascal, Pole physique - Campus des Cézeaux, auditorium "Recherche" Complexe scientifique des Cézeaux, 63173 Aubière
+DESCRIPTION:> Protecting the communication and data infrastructure of an increasingly inter-connected world has become vital to the normal functioning of all aspects of our world. Security has emerged as an important scientific discipline whose many multifaceted complexities deserve the attention and synergy of the mathematical, computer science and engineering communities. After the previous meetings held in La Rochelle, Montréal, Grenoble, Toronto and Paris, this 8th edition of the FPS symposium will be held in Clermont-Ferrand, France. The aim of FPS is to discuss and exchange theoretical and practical ideas that address security issues in inter-connected systems. It aims to provide scientific presentations as well as to establish links, promote scientific collaboration, joint research programs, and student exchanges between institutions involved in this important and fast moving research field. 
+CATEGORIES:Sécurité
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-10-27-8thInternationalSymposiumonFoundationsampPracticeofSecurity
+DTSTART:20151027T083000
+SUMMARY:8th International Symposium on Foundations &amp; Practice of Security
+LOCATION:Université Blaise Pascal, Pole physique - Campus des Cézeaux, auditorium "Recherche" Complexe scientifique des Cézeaux, 63173 Aubière
+DESCRIPTION:> Protecting the communication and data infrastructure of an increasingly inter-connected world has become vital to the normal functioning of all aspects of our world. Security has emerged as an important scientific discipline whose many multifaceted complexities deserve the attention and synergy of the mathematical, computer science and engineering communities. After the previous meetings held in La Rochelle, Montréal, Grenoble, Toronto and Paris, this 8th edition of the FPS symposium will be held in Clermont-Ferrand, France. The aim of FPS is to discuss and exchange theoretical and practical ideas that address security issues in inter-connected systems. It aims to provide scientific presentations as well as to establish links, promote scientific collaboration, joint research programs, and student exchanges between institutions involved in this important and fast moving research field. 
+CATEGORIES:Sécurité
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-10-28-8thInternationalSymposiumonFoundationsampPracticeofSecurity
+DTSTART:20151028T100000
+SUMMARY:8th International Symposium on Foundations &amp; Practice of Security
+LOCATION:Université Blaise Pascal, Pole physique - Campus des Cézeaux, auditorium "Recherche" Complexe scientifique des Cézeaux, 63173 Aubière
+DESCRIPTION:> Protecting the communication and data infrastructure of an increasingly inter-connected world has become vital to the normal functioning of all aspects of our world. Security has emerged as an important scientific discipline whose many multifaceted complexities deserve the attention and synergy of the mathematical, computer science and engineering communities. After the previous meetings held in La Rochelle, Montréal, Grenoble, Toronto and Paris, this 8th edition of the FPS symposium will be held in Clermont-Ferrand, France. The aim of FPS is to discuss and exchange theoretical and practical ideas that address security issues in inter-connected systems. It aims to provide scientific presentations as well as to establish links, promote scientific collaboration, joint research programs, and student exchanges between institutions involved in this important and fast moving research field. 
+CATEGORIES:Sécurité
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-11-05-SMSspamaholisticview
+DTSTART:20151105T150000
+SUMMARY:SMS spam: a holistic view.
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Slawomir Grzonkowski, Symantec Dublin Spam has been infesting our emails and Web experience for decades; distributing phishing scams, adult/dating scams, rogue security software, ransomware, money laundering and banking scams... the list goes on. Fortunately, in the last few years, user awareness has increased and email spam filters have become more effective, catching over 99% of spam. The downside is that spammers are constantly changing their techniques as well as looking for new target platforms and means of delivery, and as the world is going mobile so too are the spammers. Indeed, mobile messaging spam has become a real problem and is steadily increasing year-over-year. We have been analyzing SMS spam data from a large US carrier for over six months, and we have observed all these threats, and more, indiscriminately targeting large numbers of subscribers. In this paper, we touch on such questions as what is driving SMS spam, how do the spammers operate, what are their activity patterns and how have they evolved over time. We also discuss what types of challenges SMS spam has created in terms of filtering, as well as security. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-11-05-MenacessurRSAetDiffieHellmannouveauxalgorithmesetnouveauxrecords
+DTSTART:20151105T140000
+SUMMARY:Menaces sur RSA et Diffie-Hellman: nouveaux algorithmes et nouveaux records.
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Emmanuel Thomé, INRIA Equipe Caramel Le cryptosystème RSA repose sur la difficulté de la factorisation d'entiers. De nombreuses instances du protocole de Diffie-Hellman s'appuient sur la difficulté du logarithme discret dans les corps finis. Nous reviendrons sur les évolutions récentes de l'état de l'art de la cryptanalyse pour ces deux problèmes. Nous verrons comment l'hypothèse de leur difficulté se confronte à la réalité. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2015-11-10-APIHour17
+DTSTART:20151110T190000
+SUMMARY:APIHour #17
+LOCATION:Restaurant Le Celtill 11 rue Niel, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-01-19-APIHour18
+DTSTART:20160119T190000
+SUMMARY:APIHour #18
+LOCATION:Centre J. Richepin (Salle Numéro 4) 21, Rue J. Richepin, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-02-04-Verificationofcryptographicprotocolsfromauthenticationtoprivacy
+DTSTART:20160204T140000
+SUMMARY:Verification of cryptographic protocols : from authentication to privacy.
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Steve Kremer, Inria Nancy Grand-Est & Loria, Cassis team Formal, symbolic techniques for modelling and automatically analyzing security protocols are extremely successful and were able to discover many security flaws. Initially, these techniques were mainly developed to analyze authentication and confidentiality properties. Both these properties are trace properties and efficient tools for their verification exist. In more recent years anonymity-like properties have received increasing interest. Many flavors of anonymity properties are naturally expressed in terms of indistinguishability and modeled as an observational equivalence in process calculi. We will present recent advances in the verification of such indistinguishability properties and illustrate their usefulness on examples from electronic voting. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-02-04-Assurerlacybersécuritédesonorganisationparlagestiondesrisques
+DTSTART:20160204T140000
+SUMMARY:Assurer la cybersécurité de son organisation par la gestion des risques.
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### Mathieu CHARBOIS, Directeur d'agence Fidens « Toute bonne mesure de sécurisation doit être proportionnée au risque encouru ». « Toute démarche de cybersécurité doit être systématiquement précédée ou accompagnée d’une analyse des risques ». La communauté de la cybersécurité française comme internationale s’accorde sur ces points. Cependant et malgré cette convergence de points de vue, encore peu d’organisations du secteur privé comme du public ont réussi à mettre en place une démarche réellement opérationnelle de cybersécurité qui soit fondée sur ces principes de gestion des risques et de leur arbitrage dans la durée. Dans cette présentation, nous vous montrerons comment, avec un peu d’outillage et de méthode, il est possible de répondre aux vrais besoins de pilotage de la cybersécurité et comment il est possible d’impliquer la Direction Générale dans cette démarche de façon efficace et pragmatique. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-02-10-Apérobot30
+DTSTART:20160210T190000
+SUMMARY:Apérobot 3.0
+LOCATION:Le Rimbaud place Louis Aragon, 63000 Clermont-Ferrand
+DESCRIPTION:> L'association Robotips début l'année 2016 en organisant pour la troisième fois une soirée dediée aux passionnés et aux curieux de la robotique. Venez découvrir leur projets et partager les votres. Au cours de cette soirée, nous accueillerons Radio Campus, la radio associative de Clermont-Ferrand, pour l'enregistrement de l'émission mensuelle Système Co dédiée à la robotique et à l'intelligence artificielle. 
+CATEGORIES:Aperobot,Robotips
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-03-01-APIHour19
+DTSTART:20160301T190000
+SUMMARY:APIHour #19
+LOCATION:Le Bivouac 22, allée Alan Turing, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-03-19-LibreenFête2016
+DTSTART:20160319T100000
+SUMMARY:Libre en Fête 2016
+LOCATION:SUPINFO Clermont-Ferrand 9 Rue de Catarou, 63100 Clermont-Ferrand
+DESCRIPTION:> La journée **Libre en Fête** est un journée de conférences et d'activités dédiée à la découverte du logiciel libre. Durant toute la journée, des utilisateurs de **logiciels libres** seront là pour vous les faire découvrir, utiliser, installer, partager et pour répondre à toutes vos questions. N'hésitez pas à venir franchir le pas avec nous. Les sessions précédentes ayant été un réel succès, nous espérons vous voir nombreux cette année encore. L'accueil des participants se fera à partir de 9H30 et le programme des conférences et des activités sera mis à jour dans très peu de temps. Vous pouvez aussi suivre l'événement sur l'agenda du libre : [http://www.agendadulibre.org/events/10865](http://www.agendadulibre.org/events/10865) et accéder aux vidéos des conférences précédentes sur la page YouTube du Laboratoire Linux de SUPINFO : [https://www.youtube.com/user/LaboLinux](https://www.youtube.com/user/LaboLinux) 
+CATEGORIES:Libre-en-Fete,Libre
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-05-12-ControlFlowRecoverythroughBinaryCodeAnalysis
+DTSTART:20160512T140000
+SUMMARY:Control-Flow Recovery through Binary Code Analysis
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### [Emmanuel Fleury](http://www.labri.fr/perso/fleury/), [Labri](http://www.labri.fr/) Binary code analysis is required when you only have access to program's binary code, or when you do not trust the compile chain that you use. In the last two decades, this field has made big progress but, still, it remains confidential and most of the people will just consider it as classical program analysis. In fact, binary analysis induces a lot of practical and theoritical problems which are specific to binary code analysis. I will present the context of binary analysis and develop the specific problems that are linked to this topic (dynamic jumps, loop unwinding, self-modifying code, ...). Then, I will introduce our intermediate representation (microcode) and explain our main algorithm to rebuild the control flow of a binary program. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-05-12-SecureTestandDebugForLifetimeSecurityofSoCs
+DTSTART:20160512T150000
+SUMMARY:Secure Test and Debug For Lifetime Security of SoCs
+LOCATION:IUT Amphi B Campus des Cézeaux - BP86, 63172 Aubière
+DESCRIPTION:> ### [David Hely](http://lcis.grenoble-inp.fr/membres-+/david-hely--285755.kjsp?RH=LCIS2_CTSYS-MEM), [LCSI](http://lcis.grenoble-inp.fr/le-laboratoire/) Lifetime security of modern system on chip can be jeopardized by instruments dedicated to test and debug. On one hand, security objectives require that assets (third party IP, secure boot, DRM key…) remain confidential throughout the SoC life-cycle. On the other hand, the test circuitry and the SoC trace-based debug architecture expose values of internal signals that can leak the assets to third-parties. The inherent capability of test and debug instruments to observe the operating state of the SoC can be leveraged as a backdoor for attacks. In this talk, we show the different kinds of attacks which can be mounted based on these features through the whole SoC life cycle (from production to software application debug). We then present different countermeasures which aims at protecting assets belonging to the different stakeholders (IC designer, SoC integrator, Software developers…). Finally, we show how this circuitry dedicated to test and debug can be leverage on purpose during mission mode to offer security services to the software developers. 
+CATEGORIES:confiance,numerique
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-05-17-APIHour20
+DTSTART:20160517T190000
+SUMMARY:APIHour #20
+LOCATION:Restaurant Le Celtill 11 rue Niel, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-05-22-PHPTourClermontFerrand20162324mai2016
+DTSTART:20160522T080000
+SUMMARY:PHP Tour Clermont-Ferrand 2016, 23-24 mai 2016
+LOCATION:Polydôme Place Du Premier Mai, 63100 Clermont-Ferrand
+DESCRIPTION:Deux jours pour réunir toute la communauté PHP en plein coeur de la France, deux jours pour échanger, se perfectionner, découvrir de nouvelles fonctionnalités ou approfondir ses connaissances PHP. La performance sera le sujet de prédilection du PHP Tour Clermont-Ferrand 2016. Au coeur de PHP7, la performance est devenue un besoin pour tous les développeurs face à la complexité grandissante des applications développées en PHP. 
+CATEGORIES:PHPTour,AFUP,PHP
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-05-31-Rencontre2016AuDACES
+DTSTART:20160531T133000
+SUMMARY:Rencontre 2016 AuDACES
+LOCATION:Campus des Cézeaux - Pôle Physique - Amphi Recherche 24 Avenue des Landais, 63170 Aubière
+DESCRIPTION:| Cette rencontre entre les acteurs des organismes de recherche scientifique (INRA, IRSTEA, CNRS, Universités, grandes écoles, MICHELIN, Limagrain, ...) est une journée d’échange et de partage dont le but est de créer des synergies en Auvergne. Sécurité, PKI, Bitcoin | Pascal Lafourcade (LIMOS/UdA) Docker et rkt containerization linux et applications en astro/HEP | Sébastien Binet (LPC/CNRS) NBIC Nanotechnologies, biotechnologies, informatique et sciences cognitives | David Hill (LIMOS/UBP) Fat&MuscleDB intégration de données "omics" provenant du tissu adipeux ou musculaire | Jérémy Tournayre (UMRH/INRA) CRRI, Infrastructure mise en œuvre | Antoine Mahul (CRRI/Clermont université) How Braincube build Braincube | Pierre Colomb (Braincube) 
+CATEGORIES:AuDACES
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-07-07-APIHour21
+DTSTART:20160707T190000
+SUMMARY:APIHour #21
+LOCATION:Centre J. Richepin (Salle Numéro 5) 21, Rue J. Richepin, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-09-15-APIHour22
+DTSTART:20160915T190000
+SUMMARY:APIHour #22
+LOCATION:Celtill 11 rue Niel, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-11-07-APIHour23
+DTSTART:20161107T190000
+SUMMARY:APIHour #23
+LOCATION:IUT clemront-ferrand 5 avenue Blaise Pascal, 63170 Aubière
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2016-12-14-APIHour24
+DTSTART:20161214T190000
+SUMMARY:APIHour #24
+LOCATION:Centre J. Richepin (Salle Numéro 4) 21, Rue J. Richepin, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-02-01-APIHour25
+DTSTART:20170201T190000
+SUMMARY:APIHour #25
+LOCATION: ,  
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. Le lieu sera annoncé deux semaines avant la soirée 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-03-27-APIHour26
+DTSTART:20170327T190000
+SUMMARY:APIHour #26
+LOCATION: ,  
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. Le lieu sera annoncé deux semaines avant la soirée 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-05-04-APIHour27
+DTSTART:20170504T190000
+SUMMARY:APIHour #27
+LOCATION:Celtill 11 rue Niel, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-05-11-clermontechphp1
+DTSTART:20170511T190000
+SUMMARY:clermontech.php #1
+LOCATION:Centre J. Richepin (Salle Numéro 5) 21, Rue J. Richepin, 63000 Clermont-Ferrand
+DESCRIPTION:> Première soirée de conférences dédiées à un langage, organisée par Clermont'ech. Clermontech.php ouvre le bal en partenariat avec l'[AFUP](http://afup.org). Pour cette soirée, nous vous proposons de découvrir en avant première une conférence retenue pour le [PHP Tour](http://event.afup.org 2017) à Nantes. ### Synchroniser ses applis simplement avec akeneo/batch [Grégory Planchat](https://twitter.com/gplanchat) On utilise des outils de plus en plus complexes et de plus en plus hétérogènes : Full-stack Symfony, Laravel, Zend, Doctrine, Propel, Magento, Wordpress, Drupal, etc... Et si en plus je pouvais réutiliser mes modèles, mes sérialiseurs, mes clients d'API ? Je simplifierais mon appli et je gagnerais sûrement du temps ! Je vais vous présenter le composant akeneo/batch, un portage léger du composant Batch de Spring en PHP. Il s'intègre en quelques lignes dans vos outils et permet de découper en étapes simples des processus complexes. 
+CATEGORIES:clermontech.php,Clermont'ech,AFUP
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-06-28-APIHour28
+DTSTART:20170628T190000
+SUMMARY:APIHour #28
+LOCATION: ,  
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. Le lieu sera annoncé deux semaines avant la soirée 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-07-21-APIHour29
+DTSTART:20170721T190000
+SUMMARY:APIHour #29
+LOCATION: ,  
+DESCRIPTION:API Hour particulier. Pour une fois nous allons organiser un API Hour pendant l'été et pour cette soirée nous voulons trouver un lieu en plein air, que chacun puisse venir accompagner avec ses amis ou famille et que des présentations en mode lightning talk (5 à 7 min) soient réalisées. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-09-14-APIHour30
+DTSTART:20170914T190000
+SUMMARY:APIHour #30
+LOCATION:Centre J. Richepin (Salle Numéro 4) 21, Rue J. Richepin, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-10-10-MUGInClermont2
+DTSTART:20171010T183000
+SUMMARY:MUG In Clermont - 2
+LOCATION:Amphi Modis 22 Allée Alan Turing, 63000 Clermont-Ferrand
+DESCRIPTION:> Bonjour à tous et à toutes, C'est la rentrée et nous reprenons nous aussi du service. Pour commencer ce nouveau cycle, nous vous proposons une conférence autour de la technologie .NET Core et l'open-source chez Microsoft. Cette session sera animée par Thomas Bailly Artiste-Développeur indépendant et Microsoft fan-boy. Début des inscriptions : Maintenant ! Attention, places limitées... 
+CATEGORIES:Mug,In,Clermont,.Net,Core
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-10-12-LavaJUGS07E01
+DTSTART:20171012T190000
+SUMMARY:LavaJUG S07E01
+LOCATION:Amphi Modis 22 Allée Alan Turing, 63000 Clermont-Ferrand
+DESCRIPTION:> Une entreprise sans bons développeurs, c’est comme du code sans test unitaire : à un moment ou à un autre, ça ne fonctionnera plus. Aussi devient-il impératif, sinon vital, d’attirer les meilleurs d’entre eux, mais également de savoir les garder au sein de son entreprise. Si cela est simple à dire, réussir à le faire correctement et à maintenir un tel contexte attractif n’est pas chose facile. Vous vous interrogez sur la façon de créer un environnement de développement qui incite les développeurs à donner le meilleur d’eux-mêmes et à progresser chaque jour ? Vous voulez également vous assurer de la cohérence des évolutions technologiques tout en permettant aux équipes de tester les dernières nouveautés et en ayant une roadmap technologique à suivre ? Au sein de nos entreprises respectives, nous avons pu prendre une part active à l’animation des communautés de développeurs et à la mise en mouvement de leur environnement de travail. Nous souhaitons partager nos découvertes, nos expériences et nos convictions. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-10-30-APIHour31
+DTSTART:20171030T190000
+SUMMARY:APIHour #31
+LOCATION:Pôle 22 bis 22 bis impasse Bonnabaud, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-12-06-MUGInClermont3
+DTSTART:20171206T150000
+SUMMARY:MUG In Clermont - 3
+LOCATION:Forum Michelin 23 Place des Carmes Dechaux, 63000 Clermont-Ferrand
+DESCRIPTION:> Bonjour à toutes et à tous, Comme nous l'annoncions lors de notre dernière séance, nous sommes invités par Michelin lors du hackathon AI'nnov à présenter une courte session technique sur le développement dans le monde Microsoft. Au menu de cette session nous aborderons différentes technologies, Visual Studio, VSCode, Azure, Docker, Rancher, ... Le nombre de places est limité et les inscriptions doivent être réalisées à l'avance afin de pouvoir disposer des badges d'accès nécessaires. Pour vous inscrire, merci d'envoyer un mail à jean.damay@michelin.com ou isabelle.asseline@michelin.com. 
+CATEGORIES:Mug,In,Clermont,.Net,Core,Azure,Docker
+END:VEVENT
+BEGIN:VEVENT
+UID:2017-12-13-APIHour32
+DTSTART:20171213T190000
+SUMMARY:APIHour #32
+LOCATION:Celtill 11 Rue Niel, 63100 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-01-23-APIHour33
+DTSTART:20180123T190000
+SUMMARY:APIHour #33
+LOCATION: ,  
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-03-06-MUGInClermont4
+DTSTART:20180306T183000
+SUMMARY:MUG In Clermont - 4
+LOCATION:Salle de conférence du Bivouac 22 Allée Alan Turing, 63000 Clermont-Ferrand
+DESCRIPTION:> Bonjour à toutes et à tous, Lors de notre dernière séance, nous étions invités à présenter une courte session technique sur le développement dans le monde Microsoft, par Michelin lors du hackathon AI'nnov. Au menu de cette session nous abordions différentes technologies, Visual Studio, VSCode, Azure, Docker, Rancher, ReactJs, .NET Core, ... Pour cette première session de l'année nous allons ré-itérer cette présentation en réalisant l'intégralité (ou presque) de notre présentation en live. Les places sont limitées, merci de vous inscrire au préalable sur notre meetup! @ très vite, même endroit, même heure (18H30 à la salle de conférence "Modis") 
+CATEGORIES:Mug,In,Clermont,.Net,Core,Azure,Docker
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-03-08-clermontechphpSuperApéro2018
+DTSTART:20180308T190000
+SUMMARY:clermontech.php Super Apéro 2018
+LOCATION:Delirium cafe 20 rue de la Tour d'Auvergne, 63000 Clermont-Ferrand
+DESCRIPTION:> L'[AFUP](https://afup.org) et [Clermont'ech](http://clermontech.org) s'associent cette année encore pour participer au traditionnel super apéro PHP 2018. Petit rappel du concept: il s'agit d'organiser des apéros le même soir dans les différentes villes de France où des antennes AFUP sont présentes. Au programme donc de l'échange dans la joie et la bonne humeur ainsi qu'un challenge avec les autres antennes ! Pas besoin d'inscription préalable. Cette soirée est sponsorisée par [Domraider](https://domraider.io) 
+CATEGORIES:clermontech.php,Clermont'ech,AFUP
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-03-15-APIHour34
+DTSTART:20180315T190000
+SUMMARY:APIHour #34
+LOCATION:Hôtel de région 59 Boulevard Léon Jouhaux, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-03-22-DomRaiderDevTalk1
+DTSTART:20180322T183000
+SUMMARY:DomRaider DevTalk #1
+LOCATION:Auditorium Turing 22 22 allée Alan Turing, 63000 Clermont-Ferrand
+DESCRIPTION:> RDV le 22 mars 2018 à 18h30 pour la 1ère édition DomRaider DevTalk. Une édition 100% dédiée à la technologie Blockchain avec LiveCoding d’un Smart Contract par [@__etienne](https://twitter.com/__etienne), talks et échanges autour d’un buffet. Inscriptions : https://www.weezevent.com/domraider-devtalk-blockchain 
+CATEGORIES:
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-06-05-MUGInClermont5
+DTSTART:20180605T183000
+SUMMARY:MUG In Clermont - 5
+LOCATION:Salle de conférence du Bivouac 22 Allée Alan Turing, 63000 Clermont-Ferrand
+DESCRIPTION:> Hello les artistes, Nous sommes prêts pour une nouvelle session. Pour faire suite à notre dernière présentation, nous allons aborder un peu plus en profondeur les possibilités de Team Foundation Services au travers de Visual Studio Online (VSO pour les intimes). Ce talk sera animé par Johann Levesque artiste développeur passionné ;) Une fois n'est pas coutume, nous changeons aussi de lieux, nous vous proposons de nous retrouver au Loft, 28 Rue Henri Barbusse, 63000 Clermont-Ferrand. Attention le nombre de places est limité, nous vous conseillons de vous inscrire très rapidement! 
+CATEGORIES:Mug,In,Clermont,VSO,TFS,VSTS
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-06-19-APIHour36
+DTSTART:20180619T190000
+SUMMARY:APIHour #36
+LOCATION:centre jean richepin - salle 4 21, Rue J. Richepin, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-06-22-MUGInClermont6
+DTSTART:20180622T190000
+SUMMARY:MUG In Clermont - 6
+LOCATION:Le Ballainvilliers 18 rue Ballainvilliers, 63000 Clermont-Ferrand
+DESCRIPTION:> Hello les artistes, Nous vous proposons une soirée avec un format différent des autres fois. Les étudiants de l'IUT Info de Clermont-Ferrand se proposent de venir nous parler de leurs projets informatiques au sein du Club Informatique, animé par Marc Chevaldonné, Maître de Conférences à l'IUT. Les étudiants nous parlerons de leur projet de l'année dernière, développé en Xamarin. Leur objectif est de réaliser une application de programmation de robot à destination des enfants. A soirée spéciale, lieu spécial ! Nous changeons d'endroit pour nous retrouver au café Ballainvilliers. Le nombre de places sera très limité. A très vite. 
+CATEGORIES:Mug,In,Clermont,IUT,ClubInfo
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-07-04-Atelierdocker
+DTSTART:20180704T173000
+SUMMARY:Atelier docker
+LOCATION:Hôtel de région 59 Boulevard Léon Jouhaux, 63000 Clermont-Ferrand
+DESCRIPTION:Atelier durant lequel vous pourrez découvrir ou bien vous perfectionner sur Docker. 
+CATEGORIES:workshop,docker,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-10-09-MarkdownOrgmodeLaTeXFaireunbeaurapport
+DTSTART:20181009T190000
+SUMMARY:Markdown/Org-mode/LaTeX : Faire un beau rapport
+LOCATION:IUT Informatique 7 Avenue Blaise Pascal, 63170 Aubière
+DESCRIPTION:> La Code Week c'est deux semaines dédiées au code et à la programmation numérique pour célébrer l’apprentissage du code. Cette cinquième édition se déroulera du 6 au 21 octobre 2018. Cette première soirée propose une conférence sur les languages de balisage Markdown, Org-mode et LaTex présentée par Evrard Van Espen 
+CATEGORIES:Code,Week
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-10-10-AtelierDockerRancher
+DTSTART:20181010T190000
+SUMMARY:Atelier Docker/Rancher
+LOCATION:IUT Informatique 7 Avenue Blaise Pascal, 63170 Aubière
+DESCRIPTION:> La Code Week c'est deux semaines dédiées au code et à la programmation numérique pour célébrer l’apprentissage du code. Cette cinquième édition se déroulera du 6 au 21 octobre 2018. Cette deuxième soirée de la Code Week propose une atelier autour de Docker et Rancher organisé par le MUG. 20 places sur inscription. Pour s'inscrire contacter Marc Chevaldonné (marc.chevaldonne at uca.fr). 
+CATEGORIES:Code,Week,Club,Info,Mug,In,Clermont
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-10-12-CodingNight
+DTSTART:20181012T183000
+SUMMARY:Coding Night
+LOCATION:IUT Informatique 7 Avenue Blaise Pascal, 63170 Aubière
+DESCRIPTION:> La Code Week c'est deux semaines dédiées au code et à la programmation numérique pour célébrer l’apprentissage du code. Cette cinquième édition se déroulera du 6 au 21 octobre 2018. Cette troisième soirée propose un nuit entière de jeux de code (Défis, Robots ... ). Cette soirée est ouverte à tous. 
+CATEGORIES:Code,Week,Club,Info,Mug,In,Clermont
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-10-16-MUGInClermont7
+DTSTART:20181016T183000
+SUMMARY:MUG In Clermont - 7
+LOCATION:Le Bivouac - Hôtel de Région 59 Boulevard Léon Jouhaux, 63000 Clermont-Ferrand
+DESCRIPTION:> Bonjour les artistes, Pour notre prochaine session du MUG, nous sommes heureux d'accueillir M. Mitsu FURUTA. Ancien évangeliste technique de Microsoft, il est actuellement membre du Microsoft Regional Director Program et à la tête de la société Sensorit qu'il a fondée. Sensorit édite une solution collaborative numérique pour les grands écrans interatifs (Yellow). Il nous fera le plaisir de nous faire un retour d'expérience des développements qu'il réalise pour sa solution, basée sur WPF. Comme d'habitude, ce talk se terminera par une petite collation. A très vite les artistes... 
+CATEGORIES:Mug,In,Clermont,MS,WPF
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-10-18-AtelierUXUI
+DTSTART:20181018T180000
+SUMMARY:Atelier UX/UI
+LOCATION:IUT Informatique 7 Avenue Blaise Pascal, 63170 Aubière
+DESCRIPTION:> La Code Week c'est deux semaines dédiées au code et à la programmation numérique pour célébrer l’apprentissage du code. Cette cinquième édition se déroulera du 6 au 21 octobre 2018. Cette quatrième soirée de la Code Week propose une atelier autour de l'UX/UI. Cet atelier est animé par C.Bernimont et M. Gourdet 20 places sur inscription. Pour s'inscrire contacter Marc Chevaldonné (marc.chevaldonne at uca.fr). 
+CATEGORIES:Code,Week,Club,Info
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-10-18-SoiréeHacktoberfest
+DTSTART:20181018T190000
+SUMMARY:Soirée Hacktoberfest
+LOCATION:L'Institut de la PME 6 Avenue Michel Ange, 63000 Clermont-Ferrand
+DESCRIPTION:> L’Hacktoberfest est un évènement qui promeut le logiciel libre et invite tous les développeurs à contribuer à ces logiciels durant le mois d’octobre. À l’image de nombreuses villes en France et à travers le monde, nous organisons une soirée pour nous réunir et contribuer à des projets open source. 
+CATEGORIES:Clermont'ech,Hacktoberfest
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-10-24-IstiowehaveaproblemUnderstandingandfixingbugswithaservicemesh
+DTSTART:20181024T190000
+SUMMARY:Istio, we have a problem! Understanding and fixing bugs with a service-mesh
+LOCATION:Almerys 46 rue du Ressort, 63100 Clermont Ferrand
+DESCRIPTION:We’ve just deployed a shinny new set of micro-services and it behaves in a strange manner. Hard to say why with so many moving parts… Let’s leverage the newly installed service mesh to understand what we’ve deployed, find the root problem, fix it with a bandaid and then do a proper, non trivial, blue-green deployment of a v2. That will involve the Service Graph, Prometheus monitoring, Grafana Dashboards, Traffic mirroring, all orchestrated in a simple manner by Istio. 
+CATEGORIES:Lava,JUG
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-10-30-APIHour38
+DTSTART:20181030T190000
+SUMMARY:APIHour #38
+LOCATION:Celtill 11, rue Niel, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2018-12-13-APIHour39
+DTSTART:20181213T190000
+SUMMARY:APIHour #39
+LOCATION: ,  
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2019-01-15-APIHour40
+DTSTART:20190115T190000
+SUMMARY:APIHour #40
+LOCATION: ,  
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2019-01-22-8LesbonnespratiquesCleanCodesontellescompatiblesaveclIAetlIoT
+DTSTART:20190122T183000
+SUMMARY:#8 - Les bonnes pratiques CleanCode sont-elles compatibles avec l'IA et l'IoT ?
+LOCATION:IUT Informatique, Campus des Cézeaux, Amphi A ou B 5 avenue Blaise Pascal, 63170 Aubière
+DESCRIPTION:> La prochaine session du MUG donnera la parole à Sacha Lhopital. Sacha travaille à Lyon pour la société VISEO. Spécialisée en Intelligence Artificielle, elle présentera un projet IA et IoT, appliqué au domaine médical. Sa société voulait challenger les méthodologies de CleanCode, Behavior Diven Development, CI/CD avec du Python, DevOps... sur des sujets IA. Sacha a relevé les différents défis et vous relate ce projet innovant, reposant sur un algorithme d'IA distribuée (DCOP), une branche assez méconnue de l'IA. Comme d'habitude, ce talk se terminera par une collation au cours de laquelle Sacha répondra à toutes les questions. 
+CATEGORIES:Mug,In,Clermont,IA,CleanCode,Python
+END:VEVENT
+BEGIN:VEVENT
+UID:2019-02-21-9JournaldundevJavadansunmondeNet
+DTSTART:20190221T183000
+SUMMARY:#9 - Journal d'un dev Java dans un monde .Net
+LOCATION:IUT Informatique, Campus des Cézeaux, Amphi A ou B 5 avenue Blaise Pascal, 63170 Aubière
+DESCRIPTION:> La prochaine session du MUG donnera la parole à un développeur Java, Mr Daniel Petisme. "Il faut avouer que Microsoft a fait un impressionnant changement de culture ces dernières années, au point de devenir...cool ? Et si le coté obscure n'était pas si obscure finalement ? Durant ce talk je vous ferais vivre la découverte du monde .Net Core aux travers des yeux d’un Java" Comme d'habitude, ce talk se terminera par une collation au cours de laquelle Daniel répondra à toutes les questions. 
+CATEGORIES:Mug,In,Clermont,IA,Java,.net,core
+END:VEVENT
+BEGIN:VEVENT
+UID:2019-02-28-7conseilspourdémarreravecSpark
+DTSTART:20190228T183000
+SUMMARY:7 conseils pour démarrer avec Spark
+LOCATION:L'hôtel de région 59 Boulevard Léon Jouhaux, 63100 Clermont-Ferrand
+DESCRIPTION:| Je suis entrée dans le monde de la data avec Spark. Il y a eu des moments clairement plus ou moins compliqués. Au début, c’était le Far West : un monde inconnu et dangereux (il ne fallait pas casser la production). Avec ce retour d’expérience, je vous propose de vous dire ce que j’aurais aimé qu’on me dise avant de me lancer. Je promets aussi de vous parler de ce que bien heureusement mes camarades plus expérimentés m’ont aussi donné comme astuces pour m’aider dans ce grand saut. Ce sera donc une entrée en matière dans le monde de Spark au travers de 7 conseils qui m’ont été ou m’auraient été bien pratiques pour démarrer. **Nastasia Saby** Nastasia Saby est développeuse à Zenika Lyon et passionnée de programmation en général. Elle est fan de Software Craftsmanship et de Big Data. Son parcours a commencé dans le monde PHP avant d’embrasser celui exaltant de la Big Data. Intervenante régulière dans les meetups et les conférences elle s’intéresse particulièrement à Apache Spark ces derniers temps. 
+CATEGORIES:Lava,JUG,Spark
+END:VEVENT
+BEGIN:VEVENT
+UID:2019-03-07-APIHour41
+DTSTART:20190307T190000
+SUMMARY:APIHour #41
+LOCATION:Celtill 11, rue Niel, 63000 Clermont-Ferrand
+DESCRIPTION:Quatre conférences courtes (10 minutes + 5 minutes de questions) pour introduire une technologie, un concept ou un outils et en débattre ensuite autour d’un verre. 
+CATEGORIES:APIHour,Clermont'ech
+END:VEVENT
+BEGIN:VEVENT
+UID:2019-03-14-clermontechphpSuperApéro2019
+DTSTART:20190314T190000
+SUMMARY:clermontech.php Super Apéro 2019
+LOCATION:Delirium cafe 20 rue de la Tour d'Auvergne, 63000 Clermont-Ferrand
+DESCRIPTION:> L'[AFUP](https://afup.org) et [Clermont'ech](http://clermontech.org) s'associent cette année encore pour participer au traditionnel super apéro PHP 2019. Petit rappel du concept: il s'agit d'organiser des apéros le même soir dans les différentes villes de France où des antennes AFUP sont présentes. Au programme donc de l'échange dans la joie et la bonne humeur ainsi qu'un challenge avec les autres antennes ! Pas besoin d'inscription préalable. 
+CATEGORIES:clermontech.php,Clermont'ech,AFUP
+END:VEVENT
+END:VCALENDAR
