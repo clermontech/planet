@@ -1,6 +1,6 @@
 ---
 # Event title (optional)
-title: "MUG In Clermont - 12"
+title: "MUG In Clermont - 12 - From ground to Azure !"
 
 # When is it? (required)
 event_date: "2019-05-21 18:30:00"
@@ -21,10 +21,10 @@ event_url: https://www.meetup.com/fr-FR/MugInClermont/events/260855488/
 
 # Where is it? (optional, but then again, heavily recommended)
 location:
-    name: IUT Informatique, Campus des Cézeaux
-    street_address: 5 avenue Blaise Pascal 
-    postal_code: 63000
-    city: Clermont-Ferrand
+    name: IUT Informatique, Campus des Cézeaux, Amphi A ou B
+    street_address: 5 avenue Blaise Pascal
+    postal_code: 63170
+    city: Aubière
 
 # Keywords describing your event (optional)
 # Please, do not add too many tags...
