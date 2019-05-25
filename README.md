@@ -98,5 +98,5 @@ docker build --rm -t planet-clermontech .
 ```
 
 ```
-$ docker run --rm -ti -p 4000:4000 -v $PWD:/srv planet-clermontech exec jekyll serve --host=0.0.0.0
+$ docker run --rm -ti -p 4000:4000 -v $PWD:/srv planet-clermontech jekyll serve --host=0.0.0.0
 ```
