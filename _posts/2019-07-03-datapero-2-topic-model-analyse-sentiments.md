@@ -24,7 +24,7 @@ description: |
 
     Cette soirée est organisée en partenariat avec Michelin.
 
-event_url: https://www.meetup.com/fr-FR/DataFerrand/events/262288348/
+event_url: http://bit.ly/DatApero2
 
 # Where is it? (optional, but then again, heavily recommended)
 location:
