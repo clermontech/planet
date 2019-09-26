@@ -13,7 +13,7 @@ description: |
     
     Un goûter sera fourni sur place.
 
-    **Audrey Neveu, Kajin Raschid et Emmanuel Feller **
+    **Audrey Neveu, Kajin Rashid et Emmanuel Feller **
 
     La team Devoxx4kids France debarque à Clermont.
 
