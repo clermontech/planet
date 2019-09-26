@@ -15,7 +15,7 @@ description: |
 
     **Audrey Neveu, Kajin Rashid et Emmanuel Feller **
 
-    La team Devoxx4kids France debarque à Clermont.
+    La team Devoxx4kids France débarque à Clermont.
 
 event_url: https://ticket.devoxx4kids.fr/event/d4k-clermont-ferrand-2019
 
