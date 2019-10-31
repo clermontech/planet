@@ -7,7 +7,9 @@ event_date: "2019-11-12 19:00:00"
 
 # Tell us more about your event! (optional, but... heavily recommended)
 description: |
-  Eric BLANCHARD, Architecte .NET chez Modis à Clermont-Ferrand nous présentera les usages autours de Microsoft Azure Databricks, DataFactory et PowerBI.
+  De la PME au Grand Compte, Power BI c’est fun… Mais attention, sans ces alliés du moment, l’outils peut vite devenir une galère sans nom, avec une vitesse d’affichage digne d’un escargot. Comment traiter toutes ces données en un minimum de temps ? Petit tour d’horizon avec les outils d’aujourd’hui, Azure Databricks, Azure Datafactory, Azure Data Lake, Azure Analysis Services.
+  
+  Eric BLANCHARD, Architecte .NET chez Modis à Clermont-Ferrand nous présentera les usages autours de ces outils.
 
   L'Hacienda Café, nous hébergera gracieusement pour cette soirée qui se clôturera par planches et cocktails pour poursuivre les échanges/débats.
 
