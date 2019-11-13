@@ -18,7 +18,7 @@ description: |
     Le gars qui joue à domicile :-)
     Expert technique chez Michelin le jour, contributeur Open-Source la nuit (principalement sur Vert.X, JHipster, Quarkus).
 
-event_url: https://www.lavajug.org/2019/09/26/deus-ex-machina.html
+event_url: https://www.lavajug.org/2019/11/21/quarkus.html
 
 # Where is it? (optional, but then again, heavily recommended)
 location:
