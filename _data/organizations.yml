@@ -20,7 +20,7 @@
     email: hello@clermontech.org
     website: http://www.clermontech.org/
     logo: clermontech.jpg
-    youtube:
+    youtube: https://www.youtube.com/c/clermontech
 
 -
     name: ClermontJS
