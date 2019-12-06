@@ -2,8 +2,9 @@
     name: Lava JUG
     tag_name: Lava JUG
     email: crew@lavajug.org
-    website: http://www.lavajug.org/
+    website: https://www.lavajug.org/
     logo: lavajug.png
+    youtube: https://www.youtube.com/c/lavajug
 
 -
     name: Clermontech.php
@@ -11,6 +12,7 @@
     email: hello@clermontech.org
     website: http://www.clermontech.org/
     logo: clermontech.jpg
+    youtube:
 
 -
     name: Clermont'ech
@@ -18,6 +20,7 @@
     email: hello@clermontech.org
     website: http://www.clermontech.org/
     logo: clermontech.jpg
+    youtube: https://www.youtube.com/c/clermontech
 
 -
     name: ClermontJS
@@ -25,6 +28,7 @@
     email:
     website: http://clermontjs.francejs.org/
     logo: clermontjs.png
+    youtube:
 
 -
     name: Robotips
@@ -32,6 +36,7 @@
     email: contact@robotips.fr
     website: https://www.robotips.fr/
     logo: robotips.png
+    youtube:
 
 -
     name: "Mug In Clermont"
@@ -39,8 +44,10 @@
     email: muginclermont@outlook.com
     website: https://muginclermont.azurewebsites.net/
     logo: mug.svg
+    youtube:
 
 -
     name: "Dataverne"
     tag_name: "Dataverne"
     logo: dataverne.jpg
+    youtube:

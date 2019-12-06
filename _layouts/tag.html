@@ -28,6 +28,12 @@ layout: layout
                               <i class="fa fa-globe event-meta-icon"></i>
                               <a href="{{organization.website}}">{{organization.website}}</a>
                         </span>
+                        {% if organization.youtube %}
+                            <span>
+                                <i class="fa fa-youtube event-meta-icon"></i>
+                                <a href="{{organization.youtube}}">{{organization.youtube}}</a>
+                            </span>
+                        {% endif %}
                     </div>
                 </div>
 

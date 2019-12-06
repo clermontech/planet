@@ -58,6 +58,6 @@ tags: [ "Lava JUG" ]
 # Not used yet...
 organizer:
     name: "Lava JUG"
-    website: http://www.lavajug.org/
+    website: https://www.lavajug.org/
     twitter: lavajug
 ---
