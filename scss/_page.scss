@@ -77,6 +77,17 @@ img {
             color: #008CBA;
         }
     }
+
+    .fa-calendar {
+        color: $background_color;
+        bottom: 29px;
+        padding-right: 15px;
+        position: relative;
+
+        &:hover {
+            color: #008CBA;
+        }
+    }
 }
 
 .top-bar {
