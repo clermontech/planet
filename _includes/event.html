@@ -21,6 +21,12 @@
                 <div class="small-12 columns">
                     <h3 class="summary" itemprop="name">{{ event.title }}</h3>
                 </div>
+                {% if event.announcement %}
+                    <div class="location event-annoucement">
+                        <i class="fa fa-warning"></i>
+                        {{event.announcement}}
+                    </div>
+                {% endif %}
                 <div class="dtstart event-date-small">
                     <i class="fa fa-clock-o"></i>
                     <div class="event-date-small-date">{{ event.event_date|date: '%d/%m/%y </div><strong>%R</strong>' }}

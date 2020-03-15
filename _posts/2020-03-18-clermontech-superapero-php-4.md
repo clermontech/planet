@@ -1,5 +1,6 @@
 ---
-title: "clermontech.php Super Apéro 2020"
+title: "clermontech.php Super Apéro 2020 - Annulé"
+announcement: Suite aux restrictions liées à l'épidémie de COVID-19, l'évènement est annulé.
 event_date: "2020-03-18 19:00:00"
 description: >
     L'[AFUP](https://afup.org) et [Clermont'ech](http://clermontech.org) s'associent
