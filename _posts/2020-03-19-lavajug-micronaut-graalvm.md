@@ -1,6 +1,7 @@
 ---
 # Event title (optional)
-title: "Micronaut et GraalVM"
+title: "Micronaut et GraalVM - Annulé"
+announcement: Suite aux restrictions liées à l'épidémie de COVID-19, l'évènement est annulé.
 
 # When is it? (required)
 event_date: "2020-03-19 19:00:00"
