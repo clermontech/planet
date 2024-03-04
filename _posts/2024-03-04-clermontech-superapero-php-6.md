@@ -1,5 +1,5 @@
 ---
-title: "clermontech.php Super Apéro 2018"
+title: "clermontech.php Super Apéro 2024"
 event_date: "2024-03-13 19:00:00"
 description: >
     L'[AFUP](https://afup.org) et [Clermont'ech](http://clermontech.org) s'associent
