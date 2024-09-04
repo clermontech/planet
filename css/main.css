@@ -12459,15 +12459,6 @@ th.hide-for-touch {
 
     Fonts.
  */
-@font-face {
-  font-family: "Neutraface";
-  src: url("../fonts/neutraface-condensed-light.otf");
-}
-@font-face {
-  font-family: "Neutraface Bold";
-  font-weight: bold;
-  src: url("../fonts/neutraface-condensed-medium.otf");
-}
 /*
     Clermont'ech Planet
 
@@ -12487,7 +12478,7 @@ body {
 
 /* line 17, ../scss/_page.scss */
 h2, h1, .title-area strong, h3, h4, h5, h6 {
-  font-family: "Neutraface Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 21, ../scss/_page.scss */
