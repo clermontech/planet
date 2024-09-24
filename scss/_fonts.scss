@@ -3,4 +3,16 @@
 
     Fonts.
  */
+
+@font-face {
+    font-family: "Nanum";
+    src: url('../fonts/NanumGothic-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Nanum Bold";
+    font-weight: bold;
+    src: url('../fonts/NanumGothic-Regular.ttf');
+}
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,200,600);

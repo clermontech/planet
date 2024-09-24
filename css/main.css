@@ -12459,6 +12459,15 @@ th.hide-for-touch {
 
     Fonts.
  */
+@font-face {
+  font-family: "Nanum";
+  src: url("../fonts/NanumGothic-Regular.ttf");
+}
+@font-face {
+  font-family: "Nanum Bold";
+  font-weight: bold;
+  src: url("../fonts/NanumGothic-Regular.ttf");
+}
 /*
     Clermont'ech Planet
 
@@ -12478,7 +12487,7 @@ body {
 
 /* line 17, ../scss/_page.scss */
 h2, h1, .title-area strong, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nanum Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 21, ../scss/_page.scss */
@@ -12573,7 +12582,7 @@ img {
 }
 /* line 110, ../scss/_page.scss */
 .top-bar-section li:not(.has-form) a {
-  font-family: "Neutraface Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nanum Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.0em;
@@ -12662,7 +12671,7 @@ footer p {
 
 /* line 26, ../scss/_events.scss */
 .summary {
-  font-family: "Neutraface Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nanum Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 0px;
@@ -12711,7 +12720,7 @@ footer p {
 /* line 62, ../scss/_events.scss */
 .event-date span.month {
   font-size: 4em;
-  font-family: "Neutraface Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nanum Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgba(34, 34, 34, 0.8);
   text-align: left;
   line-height: 1em;
