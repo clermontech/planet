@@ -1,0 +1,10 @@
+{{ partial "head.html" . }}
+<body class="{{ .Site.Params.themeColor }}">
+  {{ partial "top.html" . }}
+  <main>
+    {{ block "main" . -}}{{- end }}
+  </main>
+</body>
+{{ partial "footer.html" . }}
+
+</html>

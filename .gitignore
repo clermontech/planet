@@ -1,5 +1,2 @@
-/_site/
-/.sass-cache/
-*.map
-/bower_components/
-/.jekyll-metadata
+public/
+.hugo_build.lock
