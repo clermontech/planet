@@ -1,0 +1,27 @@
+<article class="post flex {{ if (lt ((time.AsTime .Params.event.date).Unix)  time.Now.Unix) }}passed-event{{ end }}">
+    <div class="stylized-date">
+      <h1>{{ .Params.event.date | time.Format "Jan" }}</h1>
+      <h2>{{ .Params.event.date | time.Format "02" }}</h2>
+    </div>
+    <div>
+      <h1 class="post-title">
+        {{ .Params.event.name }}
+      </h1>
+      <p>
+        <span class="fas fa-clock"></span> {{ .Params.event.date | time.Format "15:04"}}<br />
+        <span class="fas fa-location"></span> <a href="https://www.google.fr/maps/place/{{ urlquery .Params.event.location.full_address }}" target="_blank">{{ .Params.event.location.friendly_name }} - {{ .Params.event.location.full_address }} </a> <br />
+        <span class="fas fa-people-group"></span> Organisé par <a href="{{ .Params.organizer.website }}" target="_blank">{{ .Params.organizer.name }}</a>
+      </p>
+      {{ .Content }}
+      <p>
+        <span class="fas fa-link"></span> <a href="{{ .Params.event.event_url}}" target="_blank">Lien vers l'événement</a> <br />
+        <span class="fas fa-google"></span>
+        <a target="_blank" href='https://www.google.com/calendar/render?action=TEMPLATE&text={{ urlquery .Params.event.name }}&dates={{ .Params.event.date | time.Format "20060102T150405" }}/{{ .Params.event.date | time.Format "20060102T150405" }}&details={{ urlquery .Content}}&location={{ urlquery .Params.event.location.full_address}}&sf=true'>
+            Ajouter à mon agenda Google </a><br />
+        <span class="fas fa-calendar"></span> <a href="#" onclick="downloadIcs({{ .Params }}, {{ .RawContent }})" >Ajouter à mon agenda (.ics)</a><br /><br />
+        {{ range (.GetTerms "tags") }}
+        <a href="{{ .Site.BaseURL }}tags/{{ urlize (lower .LinkTitle) }}"><span class="badge">{{ .LinkTitle }}</span></a>
+        {{ end }}
+      </p>
+    </div>
+  </article>

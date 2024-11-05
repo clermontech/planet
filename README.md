@@ -1,102 +1,57 @@
-Clermont'ech Planet
-===================
+# Clermont'ech Planet
 
-[![Build
-Status](https://travis-ci.org/clermontech/planet.svg?branch=master)](https://travis-ci.org/clermontech/planet)
+Le Planet de Clermont'ech a pour but d'aggréger l'ensemble des événements IT en Auvergne !
 
+## Ajouter un événement sur le Planet
 
-Clermont'ech Planet aggregates all IT-related events all around Auvergne!
-
-
-Ajouter un événement sur le Planet
-----------------------------------
-
-Pour ajouter un événement dans le Planet, créer un nouveau fichier dans le
-dossier `_posts/` avec le nom suivant : `_posts/YYYY-MM-DD-a-title.md` où
-`YYYY-MM-DD` est la date de l'événement et `a-title` son titre.
+Pour ajouter un événement dans le Planet, créer un nouveau fichier dans le dossier `content/posts` avec le nom suivant : `content/posts/YYYY-MM-DD-title.md`,  où `YYYY-MM-DD` est la date de l'événement et `title` son titre.
 
 Ce fichier doit contenir la configuration suivante :
 
-```yaml
----
-# Event title (optional)
-title: "APIHour #6"
+```md
++++
+tags = ["APIHour", "Clermont'ech"]
 
-# When is it? (required)
-event_date: "2013-12-17 19:00:00"
+[params]
+[params.event]
+name = "APIHour #63"
+date = "2006-01-02 15:04:05"
+is_free = true|false
+event_url = "https://clermontech.org/"
 
-# Tell us more about your event! (optional, but... heavily recommended)
-description: >
-    The description...
-    can be written in multiline, and **Markdown** can be used.
-    Please, do not add any images, only plain text with text decoration.
+[params.event.location]
+friendly_name = "Le Celtill"
+full_address = "11 Rue Niel, 63100 Clermont-Ferrand"
 
-# Is this event free? (optional)
-# Default is true.
-is_free: true|false
+[params.organizer]
+name = "Clermont'ech"
+website = "https://clermontech.org/"
++++
 
-# URL of your event, on your own website (optional)
-event_url: http://clermontech.org/api-hours/api-hour-6.html
+Bienvenue dans ce 63ème API Hour !
 
-# Where is it? (optional, but then again, heavily recommended)
-location:
-    name: Le Celtill
-    street_address: 11 rue Niel
-    postal_code: 63100
-    city: Clermont-Ferrand
-
-# Keywords describing your event (optional)
-# Please, do not add too many tags...
-tags: [ APIHour, "Clermont'ech" ]
-
-# About you!
-# Not used yet...
-organizer:
-    name: "Clermont'ech"
-    website: http://clermontech.org/
-    twitter: clermontech
----
+Au menu du jour :
+* Super Speaker 1 - Super Sujet 1
+* Super Speaker 2 - Super Sujet 2
+* Super Speaker 3 - Super Sujet 3
 ```
 
+## Installation / Développement
 
-Installation
-------------
+### Standalone
+* Installez [Hugo](https://gohugo.io/installation/)
+* Vous êtes prêt ! Lancez `hugo server`.
 
-We use [Bundler](http://bundler.io/) to manage dependencies:
+### Docker
+* `docker build --rm -t planet-clermontech . -f Dockerfile_development`
+* `docker run --rm -ti -p 1313:1313 -v $PWD:/srv planet-clermontech`
 
-    $ bundle install
-    $ bundle exec jekyll serve
+## Deploy
 
-Browse [`http://localhost:4000`](http://localhost:4000).
+* `docker build --rm -t planet-clermontech-prod . -f Dockerfile`
+* `docker run --rm -ti -p 8000:80 planet-clermontech-prod`
 
+## Remerciements
 
-Development
------------
-
-You must have [bower](http://bower.io/) installed:
-
-    $ npm install -g bower
-
-Install dependencies:
-
-    $ bundle install
-    $ bower install
-
-Compile CSS:
-
-    $ bundle exec compass compile
-
-Watcher:
-
-    $ bundle exec compass watch
-
-Docker
-------
-
-```
-docker build --rm -t planet-clermontech .
-```
-
-```
-$ docker run --rm -ti -p 4000:4000 -v $PWD:/srv planet-clermontech jekyll serve --host=0.0.0.0
-```
+* [Hyde Theme par spf13](https://github.com/spf13/hyde)
+* [Hugo](https://gohugo.io)

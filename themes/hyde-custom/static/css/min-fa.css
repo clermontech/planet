@@ -1,0 +1,35 @@
+.fas {
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.fa-clock {
+    background-image: url("../fontawesome/clock.svg");
+}
+
+.fa-calendar {
+    background-image: url("../fontawesome/calendar-days.svg");
+}
+
+.fa-google {
+    background-image: url("../fontawesome/google.svg");
+}
+
+.fa-link {
+    background-image: url("../fontawesome/link.svg");
+}
+
+.fa-location {
+    background-image: url("../fontawesome/location-dot.svg");
+}
+
+.fa-tags {
+    background-image: url("../fontawesome/tags.svg");
+}
+
+.fa-people-group {
+    background-image: url("../fontawesome/people-group.svg");
+}

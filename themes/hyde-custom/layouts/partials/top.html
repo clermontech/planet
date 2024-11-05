@@ -1,0 +1,23 @@
+<div class="top">
+  <div class="container">
+    <div class="flex main-top">
+        <div>
+          <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/clermontech_logo.png" alt="logo"/></a>
+        </div>
+        <div>
+          <nav>
+            <ul class="sidebar-nav">
+              <li><a href="{{ .Site.BaseURL }}">Accueil</a></li>
+              {{ range .Site.Menus.main }}
+              <li><a href="{{.URL}}">{{ .Name }}</a></li>
+              {{- end }}
+            </ul>
+          </nav>
+          <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+          <p class="lead">
+            {{ with .Site.Params.description }} {{.}} {{ else }}{{end}}
+          </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,4 @@
+FROM hugomods/hugo AS run
+
+WORKDIR /srv
+ENTRYPOINT ["hugo", "serve", "--bind", "0.0.0.0"]

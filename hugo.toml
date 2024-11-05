@@ -1,0 +1,22 @@
+baseURL = 'https://planet.clermontech.org/'
+languageCode = 'fr-FR'
+title = "Planet Clermont'ech"
+theme = 'hyde-custom'
+
+[params]
+description = "Retrouvez tous les événements du monde IT Auvergnat !"
+
+[Menus]
+main = [
+    {Name = "Clermont'ech", URL = "https://clermontech.org/", Weight = 1},
+    {Name = "RSS", URL = "/index.xml", Weight = 2},
+    {Name = "iCal", URL = "/index.ics", Weight = 3},
+]
+
+
+[outputs]
+  home = ['html', 'rss', 'calendar']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+PRODID:planet.clermontech.org
+VERSION:2.0
+{{ range first 5 (sort .Site.RegularPages ".Params.event.date" "desc") }}
+BEGIN:VEVENT
+UID:{{ base64Encode .Params.event.Date }}
+DTSTART;TZID=Europe/Paris:{{ time.Format "20060102T150405" .Params.event.Date }}
+DTEND;TZID=Europe/Paris:{{ time.Format "20060102T150405" ((time.AsTime .Params.event.Date).Add (time.ParseDuration "1h")) }}
+SUMMARY:{{ .Params.event.name }}
+LOCATION:{{ .Params.event.location.full_address }}
+DESCRIPTION: {{ replace .RawContent "\n" "" }}
+CATEGORIES: {{ range .Params.tags }} {{ . }} {{- end}}
+END:VEVENT
+{{- end }}
+END:VCALENDAR

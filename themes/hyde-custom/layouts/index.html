@@ -1,0 +1,12 @@
+{{ define "main" -}}
+
+<div class="posts">
+  {{ range first 5 (sort .Site.RegularPages ".Params.event.date" "desc") }}
+  {{ partial "article.html" . }}
+  {{- end }}
+</div>
+<div class="archives">
+  <a href="{{ .Site.BaseURL }}posts/">Et pour les archivistes, la liste complète des événements passés, c'est par ici !</a>
+</div>
+{{- end }}
+

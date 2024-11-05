@@ -1,0 +1,12 @@
+{{ define "main" -}}
+<div class="flex" style="padding: 80px 0">
+
+    <div>
+        <img src="{{ .Site.BaseURL }}images/platixel.png" width="150"/>
+    </div>
+    <div>
+        <h1>404: Page non trouvée !</h1>
+        <p class="lead">Le contenu demandé n'existe pas.<br/><a href="{{ .Site.BaseURL }}">Retourner à l'accueil</a>.</p>
+    </div>
+</div>
+{{- end }}

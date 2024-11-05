@@ -1,0 +1,10 @@
+{{ define "main" -}}
+
+<div class="posts">
+  {{ range sort .Data.Pages ".Params.event.date" "desc" }}
+  {{ if .Params.event.date }}
+  {{ partial "article.html" . }}
+  {{- end}}
+  {{- end }}
+</div>
+{{- end }}
