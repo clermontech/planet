@@ -21,7 +21,7 @@ DTEND;TZID=Etc/Greenwich:${parsedDate}
 SUMMARY:${eventDetails.event.name}
 LOCATION:${eventDetails.event.location.full_address}
 DESCRIPTION:${content}
-CATEGORIES:${eventDetails.event.tags}
+CATEGORIES:${eventDetails.tags}
 END:VEVENT
 END:VCALENDAR`;
 
