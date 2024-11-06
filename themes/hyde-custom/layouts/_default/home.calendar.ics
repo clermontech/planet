@@ -7,6 +7,7 @@ BEGIN:VEVENT
 UID:{{ base64Encode .Permalink }}
 DTSTART;TZID=Europe/Paris:{{ time.Format "20060102T150405" .Params.event.Date }}
 DTEND;TZID=Europe/Paris:{{ time.Format "20060102T150405" ((time.AsTime .Params.event.Date).Add (time.ParseDuration "1h")) }}
+ORGANIZER:{{ .Params.organizer.name }}
 SUMMARY:{{ .Params.event.name }}
 LOCATION:{{ .Params.event.location.full_address }}
 DESCRIPTION: {{ replace .RawContent "\n" "" }}
