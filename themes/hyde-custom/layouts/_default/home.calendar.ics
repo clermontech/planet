@@ -11,6 +11,7 @@ ORGANIZER:{{ .Params.organizer.name }}
 SUMMARY:{{ .Params.event.name }}
 LOCATION:{{ .Params.event.location.friendly_name }} {{ .Params.event.location.full_address }}
 DESCRIPTION:{{ replace .RawContent "\n" " " | replaceRE " +" " " }}
+URL:{{ .Params.event.event_url}}
 END:VEVENT
 {{- end }}
 END:VCALENDAR
