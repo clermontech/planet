@@ -9,9 +9,8 @@ DTSTART;TZID=Europe/Paris:{{ time.Format "20060102T150405" .Params.event.Date }}
 DTEND;TZID=Europe/Paris:{{ time.Format "20060102T150405" ((time.AsTime .Params.event.Date).Add (time.ParseDuration "1h")) }}
 ORGANIZER:{{ .Params.organizer.name }}
 SUMMARY:{{ .Params.event.name }}
-LOCATION:{{ .Params.event.location.full_address }}
-DESCRIPTION: {{ replace .RawContent "\n" "" }}
-CATEGORIES: {{ range .Params.tags }} {{ . }} {{- end}}
+LOCATION:{{ .Params.event.location.friendly_name }} {{ .Params.event.location.full_address }}
+DESCRIPTION:{{ replace .RawContent "\n" " " | replaceRE " +" " " }}
 END:VEVENT
 {{- end }}
 END:VCALENDAR
