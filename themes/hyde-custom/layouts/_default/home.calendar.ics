@@ -10,7 +10,7 @@ DTEND;TZID=Europe/Paris:{{ time.Format "20060102T150405" ((time.AsTime .Params.e
 ORGANIZER:{{ .Params.organizer.name }}
 SUMMARY:{{ .Params.event.name }}
 LOCATION:{{ .Params.event.location.friendly_name }} {{ .Params.event.location.full_address }}
-DESCRIPTION:{{ replace .RawContent "\n" " " | replaceRE " +" " " }}
+DESCRIPTION:{{ .RawContent | strings.TrimSpace  | replaceRE "\n" "\n " }}
 URL:{{ .Params.event.event_url}}
 END:VEVENT
 {{- end }}
