@@ -21,7 +21,7 @@ Le mardi 17 septembre 2025, Clermont'ech revient pour son 66éme APIHour !
 
 Au menu du jour :
 - Sécurisez vos CI/CD, avec (entre autre), Trivy - Jérémy Babin ;
-- Buffer Overflow - Pascal Lafourcade ;
-- lysia : un cousin d'ExpressJS sous Bun - Sylvain Gougouzian.
+- Cryptographie post-quantique - Pascal Lafourcade ;
+- Elysia : un cousin d'ExpressJS sous Bun - Sylvain Gougouzian.
 
 Pour rappel, l'inscription est gratuite et obligatoire, afin de nous permettre de préparer au mieux la soirée. Vous trouverez toutes les informations et le lien d'inscription dans la page de l'évènement !
