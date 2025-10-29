@@ -22,6 +22,6 @@ Le mardi 18 novembre 2025, Clermont'ech revient pour son 67éme APIHour !
 Au menu du jour :
 - Maman, j'ai recodé Minecraft en Python ;
 - Mais comment fonctionne "Pommes de Lune", l'agenda participatif du Puy-de-Dôme ;
-- Just (Just a command runner).
+- Bruno, le client d'API qui a du chien.
 
 Pour rappel, l'inscription est gratuite et obligatoire, afin de nous permettre de préparer au mieux la soirée. Vous trouverez toutes les informations et le lien d'inscription dans la page de l'évènement !
