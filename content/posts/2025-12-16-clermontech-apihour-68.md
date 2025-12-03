@@ -19,7 +19,7 @@ website = "http://clermontech.org/"
 
 Oyé oyé, Clermont'ech revient pour le dernier APIHour de l'année !
 
-Le mardi 16 décembre 2025, Clermont'ech revient pour son 67éme APIHour !
+Le mardi 16 décembre 2025, Clermont'ech revient pour son 68éme APIHour !
 
 Au menu du jour :
 
