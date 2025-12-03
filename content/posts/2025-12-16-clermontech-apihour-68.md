@@ -4,7 +4,7 @@ tags = ["APIHour", "Clermont'ech"]
 [params]
 
 [params.event]
-name = "Clermont'ech - APIHour #65"
+name = "Clermont'ech - APIHour #68"
 date = "2025-12-16 19:00:00"
 is_free = true
 event_url = "https://www.clermontech.org/api-hours/api-hour-68.html"
