@@ -1,11 +1,22 @@
-+++ tags = ["AuvernIX", "aPEERo"]
++++
+tags = ["AuvernIX", "aPEERo"]
 
 [params]
 
-[params.event] name = "aPEERo #26 par FRNIX♥AuvernIX" date = "2026-07-02 19:00:00" is_free = true event_url = "https://frnix.org/events/apeero-026/" [params.event.location] friendly_name = "Restaurant Le Carnivore" full_address = "20 rue Albert Evaux,
-63119 Châteaugay"
+[params.event]
+name = "aPEERo #26 par FRNIX♥AuvernIX"
+date = "2026-07-02 19:00:00"
+is_free = true
+event_url = "https://frnix.org/events/apeero-026/"
 
-[params.organizer] name = "FRNIX + AuvernIX" website = "https://auvernix.org" +++
+[params.event.location]
+friendly_name = "Restaurant Le Carnivore"
+full_address = "20 rue Albert Evaux, 63119 Châteaugay"
+
+[params.organizer]
+name = "FRNIX + AuvernIX"
+website = "https://auvernix.org"
++++
 
 FRNIX vous convie à ses rendez-vous mensuels incontournables !
 
