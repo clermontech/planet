@@ -1,11 +1,11 @@
 +++
-tags = ["APIHour", "Clermont'ech"]
+tags = ["No-code France"]
 
 [params]
 
 [params.event]
 name = "Soirée no-code à La Bamboche"
-date = "2026-07-03 19:00:00"
+date = "2026-07-03 17:00:00"
 is_free = true
 event_url = "https://www.meetup.com/nocode-france/events/315496450/?utm_medium=referral&utm_campaign=announce_event&utm_source=link&utm_version=v2&member_id=405894640"
 [params.event.location]
